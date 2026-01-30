@@ -213,7 +213,10 @@ def _find_wikipedia_title(name):
     response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
     if not response or response.status_code != 200:
         return ""
-    data = response.json()
+    try:
+        data = response.json()
+    except ValueError:
+        return ""
     results = data.get("query", {}).get("search", [])
     if not results:
         return ""
@@ -230,7 +233,10 @@ def _fetch_wikipedia_html(title):
     response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
     if not response or response.status_code != 200:
         return ""
-    data = response.json()
+    try:
+        data = response.json()
+    except ValueError:
+        return ""
     return data.get("parse", {}).get("text", {}).get("*", "")
 
 
@@ -244,7 +250,10 @@ def _fetch_wikidata_id(title):
     response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
     if not response or response.status_code != 200:
         return ""
-    data = response.json()
+    try:
+        data = response.json()
+    except ValueError:
+        return ""
     pages = data.get("query", {}).get("pages", {})
     for page in pages.values():
         return page.get("pageprops", {}).get("wikibase_item", "")
