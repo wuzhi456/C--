@@ -1,7 +1,14 @@
-import pandas as pd
-from pytrends.request import TrendReq
-import time
+import argparse
 import random
+import time
+from pathlib import Path
+from urllib.parse import urlparse
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import re
+from pytrends.request import TrendReq
 
 # 1. 完整明星名单整理 (去重处理)
 raw_list = [
@@ -75,15 +82,25 @@ raw_list = [
 ]
 
 # 明星去重
-ALL_STARS = sorted(list(set(raw_list)))
+def load_all_stars(data_path: Path):
+    if data_path.exists():
+        df = pd.read_csv(data_path)
+        names = df.get("celebrity_name", pd.Series(dtype=str)).dropna().astype(str)
+        unique_names = sorted(set(name.strip() for name in names if name.strip()))
+        if unique_names:
+            return unique_names
+    return sorted(list(set(raw_list)))
 
-# 2. 初始化 pytrends
-pytrends = TrendReq(hl='en-US', tz=360)
+
+REPO_ROOT = Path(__file__).resolve().parent
+DATA_PATH = REPO_ROOT / "2026_MCM_Problem_C_Data.csv"
+ALL_STARS = load_all_stars(DATA_PATH)
 
 def fetch_all_trends(star_list, output_file="dwts_historical_trends.csv"):
     """
     抓取 2004 至今的所有热度数据，通过 Long-term 趋势定位明星的 Popularity
     """
+    pytrends = TrendReq(hl='en-US', tz=360)
     all_data = pd.DataFrame()
     
     # Google Trends 限制一次 5 个关键词
@@ -126,6 +143,295 @@ def fetch_all_trends(star_list, output_file="dwts_historical_trends.csv"):
     all_data.to_csv(output_file, index=False)
     print(f"✅ 完成！数据已保存至 {output_file}")
 
+
+def _parse_abbrev_number(value):
+    if value is None:
+        return None
+    text = str(value).strip().lower().replace(",", "")
+    if not text:
+        return None
+    multiplier = 1
+    if text.endswith("k"):
+        multiplier = 1_000
+        text = text[:-1]
+    elif text.endswith("m"):
+        multiplier = 1_000_000
+        text = text[:-1]
+    elif text.endswith("b"):
+        multiplier = 1_000_000_000
+        text = text[:-1]
+    try:
+        return int(float(text) * multiplier)
+    except ValueError:
+        return None
+
+
+def _extract_handle(url):
+    if not url:
+        return ""
+    parsed = urlparse(url)
+    path = parsed.path.strip("/")
+    if not path:
+        return ""
+    return path.split("/")[0].lstrip("@")
+
+
+def _find_wikipedia_title(name):
+    params = {
+        "action": "query",
+        "list": "search",
+        "srsearch": name,
+        "format": "json",
+    }
+    response = requests.get("https://en.wikipedia.org/w/api.php", params=params, timeout=20)
+    response.raise_for_status()
+    data = response.json()
+    results = data.get("query", {}).get("search", [])
+    if not results:
+        return ""
+    return results[0].get("title", "")
+
+
+def _fetch_wikipedia_html(title):
+    params = {
+        "action": "parse",
+        "page": title,
+        "prop": "text",
+        "format": "json",
+    }
+    response = requests.get("https://en.wikipedia.org/w/api.php", params=params, timeout=20)
+    response.raise_for_status()
+    data = response.json()
+    return data.get("parse", {}).get("text", {}).get("*", "")
+
+
+def _extract_social_links(html):
+    soup = BeautifulSoup(html, "html.parser")
+    infobox = soup.find("table", class_=lambda x: x and "infobox" in x)
+    if not infobox:
+        return {}
+    links = {}
+    for link in infobox.find_all("a", href=True):
+        href = link["href"]
+        if "instagram.com" in href:
+            links.setdefault("instagram", href)
+        elif "twitter.com" in href or "x.com" in href:
+            links.setdefault("twitter", href)
+        elif "tiktok.com" in href:
+            links.setdefault("tiktok", href)
+        elif "youtube.com" in href or "youtu.be" in href:
+            links.setdefault("youtube", href)
+        elif "facebook.com" in href:
+            links.setdefault("facebook", href)
+    return links
+
+
+def _fetch_instagram_followers(handle):
+    if not handle:
+        return None
+    url = f"https://www.instagram.com/{handle}/?__a=1&__d=dis"
+    response = requests.get(url, timeout=20)
+    if response.status_code != 200:
+        return None
+    data = response.json()
+    count = (
+        data.get("graphql", {})
+        .get("user", {})
+        .get("edge_followed_by", {})
+        .get("count")
+    )
+    return _parse_abbrev_number(count)
+
+
+def _fetch_twitter_followers(handle):
+    if not handle:
+        return None
+    url = "https://cdn.syndication.twimg.com/widgets/followbutton/info.json"
+    response = requests.get(url, params={"screen_names": handle}, timeout=20)
+    if response.status_code != 200:
+        return None
+    data = response.json()
+    if not data:
+        return None
+    return _parse_abbrev_number(data[0].get("followers_count"))
+
+
+def _fetch_tiktok_followers(handle):
+    if not handle:
+        return None
+    url = f"https://www.tiktok.com/@{handle}"
+    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+    if response.status_code != 200:
+        return None
+    match = re.search(r'"followerCount":(\d+)', response.text)
+    if not match:
+        return None
+    return _parse_abbrev_number(match.group(1))
+
+
+def _fetch_youtube_followers(url):
+    if not url:
+        return None
+    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+    if response.status_code != 200:
+        return None
+    match = re.search(
+        r'"subscriberCountText":\{"simpleText":"([^"]+)"', response.text
+    )
+    if not match:
+        return None
+    count_text = match.group(1).split()[0]
+    return _parse_abbrev_number(count_text)
+
+
+def _parse_dance_style(raw_text):
+    text = str(raw_text).strip()
+    if not text:
+        return ""
+    split_match = re.split(r"\s[-–—]\s| / ", text, maxsplit=1)
+    return split_match[0].strip()
+
+
+def fetch_social_followers(star_list, output_file="dwts_social_followers.csv"):
+    """
+    抓取维基百科外链中的社交媒体账号，并提取粉丝量。
+    """
+    results = []
+    for name in star_list:
+        print(f"正在抓取 {name} 的社交媒体粉丝量...")
+        try:
+            title = _find_wikipedia_title(name)
+            if not title:
+                results.append({"celebrity_name": name})
+                continue
+            html = _fetch_wikipedia_html(title)
+            links = _extract_social_links(html)
+            instagram_handle = _extract_handle(links.get("instagram", ""))
+            twitter_handle = _extract_handle(links.get("twitter", ""))
+            tiktok_handle = _extract_handle(links.get("tiktok", ""))
+            youtube_url = links.get("youtube", "")
+
+            results.append({
+                "celebrity_name": name,
+                "wikipedia_title": title,
+                "instagram_handle": instagram_handle,
+                "twitter_handle": twitter_handle,
+                "tiktok_handle": tiktok_handle,
+                "youtube_url": youtube_url,
+                "instagram_followers": _fetch_instagram_followers(instagram_handle),
+                "twitter_followers": _fetch_twitter_followers(twitter_handle),
+                "tiktok_followers": _fetch_tiktok_followers(tiktok_handle),
+                "youtube_subscribers": _fetch_youtube_followers(youtube_url),
+                "facebook_url": links.get("facebook", ""),
+            })
+        except Exception as exc:
+            print(f"抓取 {name} 时发生错误: {exc}")
+            results.append({"celebrity_name": name})
+        time.sleep(random.uniform(1.5, 3.0))
+
+    pd.DataFrame(results).to_csv(output_file, index=False)
+    print(f"✅ 社交媒体粉丝量已保存至 {output_file}")
+
+
+def add_running_order_and_dance_style(
+    order_file="dwts_weekly_details.csv",
+    output_file="dwts_weekly_details_enriched.csv",
+):
+    """
+    补充舞蹈种类字段清洗，统一输出列名。
+    """
+    df = pd.read_csv(order_file)
+    if "Dance_Style" in df.columns:
+        df["Dance_Style"] = df["Dance_Style"].apply(_parse_dance_style)
+    df.to_csv(output_file, index=False)
+    print(f"✅ 周次明细已保存至 {output_file}")
+
+
+def _format_gdelt_datetime(dt_value):
+    return dt_value.strftime("%Y%m%d%H%M%S")
+
+
+def fetch_negative_news_ratio(name, start_dt, end_dt, max_records=250):
+    """
+    使用 GDELT 2.1 获取指定时间段负面新闻占比，用于衡量“黑红”热度。
+    """
+    params = {
+        "query": f'"{name}"',
+        "format": "json",
+        "mode": "ArtList",
+        "maxrecords": max_records,
+        "sort": "DateDesc",
+        "startdatetime": _format_gdelt_datetime(start_dt),
+        "enddatetime": _format_gdelt_datetime(end_dt),
+    }
+    response = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=params, timeout=20)
+    response.raise_for_status()
+    data = response.json()
+    articles = data.get("articles", [])
+    if not articles:
+        return 0.0
+    negative = sum(1 for article in articles if float(article.get("tone", 0)) < 0)
+    return negative / len(articles)
+
+
+def adjust_heat_with_negative_news(
+    trends_path="dwts_historical_trends.csv",
+    output_file="dwts_heat_adjusted.csv",
+    granularity="M",
+):
+    """
+    结合 Google Trends 与 GDELT 负面新闻比例拆分热度。
+    """
+    df = pd.read_csv(trends_path, parse_dates=["date"])
+    df["search_index"] = pd.to_numeric(df["search_index"], errors="coerce")
+    df = df.dropna(subset=["search_index"])
+    df["period_key"] = df["date"].dt.to_period(granularity).astype(str)
+
+    cache = {}
+    negative_ratios = []
+    for _, row in df.iterrows():
+        key = (row["celebrity_name"], row["period_key"])
+        if key not in cache:
+            period_start = row["date"].to_period(granularity).start_time
+            period_end = row["date"].to_period(granularity).end_time
+            cache[key] = fetch_negative_news_ratio(
+                row["celebrity_name"], period_start, period_end
+            )
+            time.sleep(random.uniform(1.0, 2.0))
+        negative_ratios.append(cache[key])
+
+    df["negative_news_ratio"] = negative_ratios
+    df["performance_heat"] = df["search_index"] * (1 - df["negative_news_ratio"])
+    df["black_red_heat"] = df["search_index"] * df["negative_news_ratio"]
+    df.to_csv(output_file, index=False)
+    print(f"✅ 热度拆分结果已保存至 {output_file}")
+
 # 3. 运行抓取
 if __name__ == "__main__":
-    fetch_all_trends(ALL_STARS)
+    parser = argparse.ArgumentParser(description="DWTS 数据抓取工具")
+    parser.add_argument(
+        "--mode",
+        choices=["trends", "social", "heat", "all", "order"],
+        default="trends",
+        help="选择抓取模式：trends=Google Trends，social=社交媒体粉丝量，heat=负面新闻热度拆分，order=整理周次明细",
+    )
+    parser.add_argument(
+        "--order-file",
+        default="dwts_weekly_details.csv",
+        help="周次明细数据路径",
+    )
+    parser.add_argument(
+        "--order-output",
+        default="dwts_weekly_details_enriched.csv",
+        help="清洗后的周次明细输出路径",
+    )
+    args = parser.parse_args()
+
+    if args.mode in {"trends", "all"}:
+        fetch_all_trends(ALL_STARS)
+    if args.mode in {"social", "all"}:
+        fetch_social_followers(ALL_STARS)
+    if args.mode in {"heat", "all"}:
+        adjust_heat_with_negative_news()
+    if args.mode in {"order", "all"}:
+        add_running_order_and_dance_style(args.order_file, args.order_output)
