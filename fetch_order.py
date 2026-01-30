@@ -142,6 +142,7 @@ def scrape_dwts_weekly_details(season_num):
                 last_partner = ""
                 last_couple = ""
                 for row in rows[1:]:
+                    prev_couple = last_couple
                     cols = row.find_all(['td', 'th'])
                     if not cols:
                         continue
@@ -159,8 +160,11 @@ def scrape_dwts_weekly_details(season_num):
                     if not order or order.lower() in {"order", "running order"}:
                         if order_idx == -1:
                             if has_couple_cell and (celebrity or partner or couple):
-                                running_order += 1
-                                order = str(running_order)
+                                if prev_couple and couple == prev_couple and last_order:
+                                    order = last_order
+                                else:
+                                    running_order += 1
+                                    order = str(running_order)
                             else:
                                 order = last_order
                         else:
