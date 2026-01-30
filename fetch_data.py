@@ -234,6 +234,63 @@ def _fetch_wikipedia_html(title):
     return data.get("parse", {}).get("text", {}).get("*", "")
 
 
+def _fetch_wikidata_id(title):
+    params = {
+        "action": "query",
+        "prop": "pageprops",
+        "titles": title,
+        "format": "json",
+    }
+    response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
+    if not response or response.status_code != 200:
+        return ""
+    data = response.json()
+    pages = data.get("query", {}).get("pages", {})
+    for page in pages.values():
+        return page.get("pageprops", {}).get("wikibase_item", "")
+    return ""
+
+
+def _fetch_wikidata_social_links(wikidata_id):
+    if not wikidata_id:
+        return {}
+    url = "https://www.wikidata.org/wiki/Special:EntityData/{}.json".format(wikidata_id)
+    response = _request_with_retry(url)
+    if not response or response.status_code != 200:
+        return {}
+    try:
+        data = response.json()
+    except ValueError:
+        return {}
+    entity = data.get("entities", {}).get(wikidata_id, {})
+    claims = entity.get("claims", {})
+
+    def _get_claim_value(pid):
+        claim_list = claims.get(pid, [])
+        if not claim_list:
+            return ""
+        mainsnak = claim_list[0].get("mainsnak", {})
+        return mainsnak.get("datavalue", {}).get("value", "")
+
+    instagram_handle = _get_claim_value("P2003")  # Instagram username
+    twitter_handle = _get_claim_value("P2002")  # X/Twitter username
+    tiktok_handle = _get_claim_value("P7085")  # TikTok username
+    youtube_channel = _get_claim_value("P2397")  # YouTube channel ID
+    facebook_id = _get_claim_value("P2013")  # Facebook ID
+
+    links = {}
+    if instagram_handle:
+        links["instagram"] = f"https://www.instagram.com/{instagram_handle}/"
+    if twitter_handle:
+        links["twitter"] = f"https://twitter.com/{twitter_handle}"
+    if tiktok_handle:
+        links["tiktok"] = f"https://www.tiktok.com/@{tiktok_handle}"
+    if youtube_channel:
+        links["youtube"] = f"https://www.youtube.com/channel/{youtube_channel}"
+    if facebook_id:
+        links["facebook"] = f"https://www.facebook.com/{facebook_id}"
+    return links
+
 def _match_domain(url, domain):
     parsed = urlparse(url)
     host = parsed.netloc.lower()
@@ -269,7 +326,7 @@ def _fetch_instagram_followers(handle):
     url = f"https://www.instagram.com/{handle}/?__a=1&__d=dis"
     response = _request_with_retry(url)
     if not response or response.status_code != 200:
-        return None
+        return _fetch_instagram_followers_fallback(handle)
     try:
         data = response.json()
     except ValueError:
@@ -282,6 +339,18 @@ def _fetch_instagram_followers(handle):
     )
     return _parse_abbrev_number(count)
 
+
+def _fetch_instagram_followers_fallback(handle):
+    if not handle:
+        return None
+    url = f"https://www.instagram.com/{handle}/"
+    response = _request_with_retry(url)
+    if not response or response.status_code != 200:
+        return None
+    match = re.search(r'"edge_followed_by":\{"count":(\d+)\}', response.text)
+    if not match:
+        return None
+    return _parse_abbrev_number(match.group(1))
 
 def _fetch_twitter_followers(handle):
     if not handle:
@@ -334,7 +403,7 @@ def _parse_dance_style(raw_text):
 
 def fetch_social_followers(star_list, output_file="dwts_social_followers.csv"):
     """
-    抓取维基百科外链中的社交媒体账号，并提取粉丝量。
+    抓取维基百科/维基数据中的社交媒体账号，并提取粉丝量。
     输出字段包含：
     - celebrity_name, wikipedia_title
     - instagram_handle, twitter_handle, tiktok_handle, youtube_url, facebook_url
@@ -351,6 +420,10 @@ def fetch_social_followers(star_list, output_file="dwts_social_followers.csv"):
                 continue
             html = _fetch_wikipedia_html(title)
             links = _extract_social_links(html)
+            wikidata_id = _fetch_wikidata_id(title)
+            wikidata_links = _fetch_wikidata_social_links(wikidata_id)
+            for key, value in wikidata_links.items():
+                links.setdefault(key, value)
             instagram_handle = _extract_handle(links.get("instagram", ""))
             twitter_handle = _extract_handle(links.get("twitter", ""))
             tiktok_handle = _extract_handle(links.get("tiktok", ""))
