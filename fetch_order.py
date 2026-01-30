@@ -113,16 +113,45 @@ def scrape_dwts_weekly_details(season_num):
                 if 'result' in lower_h or 'status' in lower_h:
                     result_idx = idx
 
-            if order_idx != -1 and couple_idx != -1:
+            if couple_idx != -1:
+                running_order = 0
+                last_order = ""
+                last_celebrity = ""
+                last_partner = ""
+                last_couple = ""
                 for row in rows[1:]:
                     cols = row.find_all(['td', 'th'])
-                    if len(cols) <= max(order_idx, couple_idx):
+                    if not cols:
                         continue
-                    order = _clean_text(cols[order_idx])
+                    has_couple_cell = len(cols) > couple_idx
+                    couple_cell = cols[couple_idx] if has_couple_cell else None
+                    celebrity, partner, couple = _parse_couple(couple_cell) if has_couple_cell else ("", "", "")
+                    if has_couple_cell and (celebrity or partner or couple):
+                        last_celebrity = celebrity
+                        last_partner = partner
+                        last_couple = couple
+
+                    order = ""
+                    if order_idx != -1 and len(cols) > order_idx:
+                        order = _clean_text(cols[order_idx])
                     if not order or order.lower() in {"order", "running order"}:
+                        if order_idx == -1:
+                            if has_couple_cell and (celebrity or partner or couple):
+                                running_order += 1
+                                order = str(running_order)
+                            else:
+                                order = last_order
+                        else:
+                            order = last_order
+                    if order:
+                        last_order = order
+
+                    if not (last_celebrity or last_couple) or not order:
                         continue
-                    celebrity, partner, couple = _parse_couple(cols[couple_idx])
+
                     dance_style = _clean_text(cols[dance_idx]) if dance_idx != -1 and len(cols) > dance_idx else ""
+                    if dance_style.lower() in {"group", "no scores received", "no score received"}:
+                        continue
                     result_cell = cols[result_idx] if result_idx != -1 and len(cols) > result_idx else None
                     bottom_status = _parse_bottom_two_status(result_cell, row)
 
@@ -130,9 +159,9 @@ def scrape_dwts_weekly_details(season_num):
                         'Season': season_num,
                         'Week': current_week,
                         'Running_Order': order,
-                        'Celebrity': celebrity,
-                        'Ballroom_Partner': partner,
-                        'Couple': couple,
+                        'Celebrity': last_celebrity,
+                        'Ballroom_Partner': last_partner,
+                        'Couple': last_couple,
                         'Dance_Style': dance_style,
                         'Weekly_Bottom_Two_Status': bottom_status
                     })
