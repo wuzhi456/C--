@@ -1,4 +1,5 @@
 import argparse
+import json
 import random
 import time
 from pathlib import Path
@@ -535,6 +536,9 @@ def adjust_heat_with_negative_news(
     trends_path="dwts_historical_trends.csv",
     output_file="dwts_heat_adjusted.csv",
     granularity="M",
+    cache_path="dwts_heat_cache.json",
+    max_pairs=None,
+    sleep_range=(1.0, 2.0),
 ):
     """
     结合 Google Trends 与 GDELT 负面新闻比例拆分热度。
@@ -552,23 +556,59 @@ def adjust_heat_with_negative_news(
     df = df.dropna(subset=["search_index"])
     df["period_key"] = df["date"].dt.to_period(granularity).astype(str)
 
+    cache_file = Path(cache_path)
     cache = {}
-    negative_ratios = []
-    for _, row in df.iterrows():
-        key = (row["celebrity_name"], row["period_key"])
-        if key not in cache:
-            period_start = row["date"].to_period(granularity).start_time
-            period_end = row["date"].to_period(granularity).end_time
-            cache[key] = fetch_negative_news_ratio(
-                row["celebrity_name"], period_start, period_end
-            )
-            time.sleep(random.uniform(1.0, 2.0))
-        negative_ratios.append(cache[key])
+    if cache_file.exists():
+        try:
+            cache = json.loads(cache_file.read_text(encoding="utf-8"))
+        except Exception:
+            cache = {}
 
-    df["negative_news_ratio"] = negative_ratios
+    def _cache_key(name, period_key):
+        return f"{name}||{period_key}"
+
+    unique_pairs = (
+        df[["celebrity_name", "period_key"]]
+        .drop_duplicates()
+        .itertuples(index=False, name=None)
+    )
+    processed = 0
+    interrupted = False
+    for name, period_key in unique_pairs:
+        key = _cache_key(name, period_key)
+        if key in cache:
+            continue
+        if max_pairs is not None and processed >= max_pairs:
+            break
+        period_start = pd.Period(period_key).start_time
+        period_end = pd.Period(period_key).end_time
+        try:
+            cache[key] = fetch_negative_news_ratio(name, period_start, period_end)
+        except KeyboardInterrupt:
+            interrupted = True
+            break
+        processed += 1
+        cache_file.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+        time.sleep(random.uniform(*sleep_range))
+
+    cache_file.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    df["negative_news_ratio"] = pd.to_numeric(
+        df.apply(
+            lambda row: cache.get(_cache_key(row["celebrity_name"], row["period_key"])),
+            axis=1,
+        ),
+        errors="coerce",
+    )
+    df["negative_news_ratio"] = df["negative_news_ratio"].fillna(0)
+    missing_ratios = df["negative_news_ratio"].isna().sum()
+    if missing_ratios:
+        print(f"⚠️ 仍有 {missing_ratios} 条记录缺少负面新闻比例，可继续运行补全。")
     df["performance_heat"] = df["search_index"] * (1 - df["negative_news_ratio"])
     df["black_red_heat"] = df["search_index"] * df["negative_news_ratio"]
     df.to_csv(output_file, index=False)
+    if interrupted:
+        print(f"⚠️ 中断保存缓存与部分结果至 {output_file}")
+        return
     print(f"✅ 热度拆分结果已保存至 {output_file}")
 
 # 3. 运行抓取
@@ -600,6 +640,29 @@ if __name__ == "__main__":
         default="dwts_heat_adjusted.csv",
         help="热度拆分输出路径",
     )
+    parser.add_argument(
+        "--heat-cache",
+        default="dwts_heat_cache.json",
+        help="负面新闻缓存文件路径（可用于断点续跑）",
+    )
+    parser.add_argument(
+        "--heat-limit",
+        type=int,
+        default=None,
+        help="限制负面新闻抓取的最大组合数（调试用）",
+    )
+    parser.add_argument(
+        "--heat-sleep-min",
+        type=float,
+        default=1.0,
+        help="负面新闻抓取间隔最小秒数",
+    )
+    parser.add_argument(
+        "--heat-sleep-max",
+        type=float,
+        default=2.0,
+        help="负面新闻抓取间隔最大秒数",
+    )
     args = parser.parse_args()
 
     if args.mode in {"trends", "all"}:
@@ -607,6 +670,12 @@ if __name__ == "__main__":
     if args.mode in {"social", "all"}:
         fetch_social_followers(ALL_STARS)
     if args.mode in {"heat", "all"}:
-        adjust_heat_with_negative_news(args.trends_file, args.heat_output)
+        adjust_heat_with_negative_news(
+            args.trends_file,
+            args.heat_output,
+            cache_path=args.heat_cache,
+            max_pairs=args.heat_limit,
+            sleep_range=(args.heat_sleep_min, args.heat_sleep_max),
+        )
     if args.mode in {"order", "all"}:
         add_running_order_and_dance_style(args.order_file, args.order_output)
