@@ -39,7 +39,7 @@ def _parse_bottom_two_status(cell, row):
             return "Safe"
         return status_text.title()
 
-    classes = set((cell.get("class") or []))
+    classes = set((cell.get("class") or [])) if cell else set()
     row_classes = set((row.get("class") or []))
     combined = classes.union(row_classes)
     if any("bottom2" in c or "btm2" in c for c in combined):
