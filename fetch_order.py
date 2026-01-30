@@ -148,6 +148,7 @@ def scrape_dwts_weekly_details(season_num):
                 last_celebrity = ""
                 last_partner = ""
                 last_couple = ""
+                last_status = ""
                 for row in rows[1:]:
                     prev_couple = last_couple
                     cols = row.find_all(['td', 'th'])
@@ -156,10 +157,12 @@ def scrape_dwts_weekly_details(season_num):
                     has_couple_cell = len(cols) > couple_idx
                     couple_cell = cols[couple_idx] if has_couple_cell else None
                     celebrity, partner, couple = _parse_couple(couple_cell) if has_couple_cell else ("", "", "")
+                    shifted = False
                     if has_couple_cell and (celebrity or partner or couple):
                         if _looks_like_score(celebrity):
                             if not last_couple:
                                 continue
+                            shifted = True
                             celebrity = ""
                             partner = ""
                             couple = ""
@@ -189,11 +192,17 @@ def scrape_dwts_weekly_details(season_num):
                     if not (last_celebrity or last_couple) or not order:
                         continue
 
-                    dance_style = _clean_text(cols[dance_idx]) if dance_idx != -1 and len(cols) > dance_idx else ""
+                    dance_idx_effective = dance_idx + 1 if shifted and dance_idx != -1 else dance_idx
+                    result_idx_effective = result_idx + 1 if shifted and result_idx != -1 else result_idx
+                    dance_style = _clean_text(cols[dance_idx_effective]) if dance_idx_effective != -1 and len(cols) > dance_idx_effective else ""
                     if dance_style.lower() in {"group", "no scores received", "no score received"}:
                         continue
-                    result_cell = cols[result_idx] if result_idx != -1 and len(cols) > result_idx else None
+                    result_cell = cols[result_idx_effective] if result_idx_effective != -1 and len(cols) > result_idx_effective else None
                     bottom_status = _parse_bottom_two_status(result_cell, row)
+                    if not bottom_status and last_status:
+                        bottom_status = last_status
+                    if bottom_status:
+                        last_status = bottom_status
 
                     all_data.append({
                         'Season': season_num,
