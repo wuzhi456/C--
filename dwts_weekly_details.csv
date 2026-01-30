@@ -1,0 +1,3710 @@
+Season,Week,Running_Order,Celebrity,Ballroom_Partner,Couple,Dance_Style,Weekly_Bottom_Two_Status
+1,1,1,Joey & Ashly,,Joey & Ashly,Cha-cha-cha,
+1,1,2,Rachel & Jonathan,,Rachel & Jonathan,Waltz,
+1,1,3,Evander & Edyta,,Evander & Edyta,Cha-cha-cha,
+1,1,4,Kelly & Alec,,Kelly & Alec,Waltz,
+1,1,5,John & Charlotte,,John & Charlotte,Cha-cha-cha,
+1,1,6,Trista & Louis,,Trista & Louis,Waltz,
+1,2,1,Rachel & Jonathan,,Rachel & Jonathan,Rumba,Bottom Two
+1,2,2,Joey & Ashly,,Joey & Ashly,Quickstep,Safe
+1,2,3,Trista & Louis,,Trista & Louis,Rumba,Eliminated
+1,2,4,John & Charlotte,,John & Charlotte,Quickstep,Safe
+1,2,5,Kelly & Alec,,Kelly & Alec,Rumba,Safe
+1,2,6,Evander & Edyta,,Evander & Edyta,Quickstep,Safe
+1,3,1,Evander & Edyta,,Evander & Edyta,Jive,Eliminated
+1,3,2,Rachel & Jonathan,,Rachel & Jonathan,Tango,Safe
+1,3,3,Kelly & Alec,,Kelly & Alec,Jive,Safe
+1,3,4,John & Charlotte,,John & Charlotte,Tango,Safe
+1,3,5,Joey & Ashly,,Joey & Ashly,Jive,Bottom Two
+1,4,1,Joey & Ashly,,Joey & Ashly,Samba,Safe
+1,4,2,Rachel & Jonathan,,Rachel & Jonathan,Samba,Eliminated
+1,4,3,John & Charlotte,,John & Charlotte,Samba,Bottom Two
+1,4,4,Kelly & Alec,,Kelly & Alec,Samba,Safe
+1,4,5,Joey & Ashly,John & Charlotte,Joey & Ashly / John & Charlotte / Kelly & Alec / Rachel & Jonathan,Group Viennese waltz,Safe
+1,5,1,John & Charlotte,,John & Charlotte,Foxtrot,Safe
+1,5,1,John & Charlotte,,John & Charlotte,,Safe
+1,5,2,Kelly & Alec,,Kelly & Alec,Foxtrot,Bottom Two
+1,5,2,Kelly & Alec,,Kelly & Alec,,Bottom Two
+1,5,3,Joey & Ashly,,Joey & Ashly,Foxtrot,Eliminated
+1,5,3,Joey & Ashly,,Joey & Ashly,,Eliminated
+1,6,1,John & Charlotte,,John & Charlotte,Quickstep,Runners-Up
+1,6,1,John & Charlotte,,John & Charlotte,,Runners-Up
+1,6,2,Kelly & Alec,,Kelly & Alec,Samba,Winners
+1,6,2,Kelly & Alec,,Kelly & Alec,,Winners
+2,1,1,George & Edyta,,George & Edyta,Cha-cha-cha,Safe
+2,1,2,Lisa & Louis,,Lisa & Louis,Waltz,Safe
+2,1,3,Kenny & Andrea,,Kenny & Andrea,Cha-cha-cha,Eliminated
+2,1,4,Stacy & Tony,,Stacy & Tony,Waltz,Safe
+2,1,5,Drew & Cheryl,,Drew & Cheryl,Cha-cha-cha,Safe
+2,1,6,Tia & Maks,,Tia & Maks,Waltz,Bottom Two
+2,1,7,Master P & Ashly,,Master P & Ashly,Cha-cha-cha,Safe
+2,1,8,Giselle & Jonathan,,Giselle & Jonathan,Waltz,Safe
+2,1,9,Jerry & Anna,,Jerry & Anna,Cha-cha-cha,Safe
+2,1,10,Tatum & Nick,,Tatum & Nick,Waltz,Safe
+2,2,1,Lisa & Louis,,Lisa & Louis,Rumba,Safe
+2,2,2,Drew & Cheryl,,Drew & Cheryl,Quickstep,Safe
+2,2,3,Tia & Maks,,Tia & Maks,Rumba,Safe
+2,2,4,George & Edyta,,George & Edyta,Quickstep,Safe
+2,2,5,Tatum & Nick,,Tatum & Nick,Rumba,Eliminated
+2,2,6,Jerry & Anna,,Jerry & Anna,Quickstep,Safe
+2,2,7,Stacy & Tony,,Stacy & Tony,Rumba,Safe
+2,2,8,Master P & Ashly,,Master P & Ashly,Quickstep,Bottom Two
+2,2,9,Giselle & Jonathan,,Giselle & Jonathan,Rumba,Safe
+2,3,1,Jerry & Anna,,Jerry & Anna,Jive,Safe
+2,3,2,Giselle & Jonathan,,Giselle & Jonathan,Tango,Eliminated
+2,3,3,Drew & Cheryl,,Drew & Cheryl,Jive,Safe
+2,3,4,George & Edyta,,George & Edyta,Tango,Bottom Two
+2,3,5,Lisa & Louis,,Lisa & Louis,Jive,Safe
+2,3,6,Stacy & Tony,,Stacy & Tony,Tango,Safe
+2,3,7,Master P & Ashly,,Master P & Ashly,Jive,Safe
+2,3,8,Tia & Maks,,Tia & Maks,Tango,Safe
+2,4,1,George & Edyta,,George & Edyta,Paso doble,Safe
+2,4,2,Tia & Maks,,Tia & Maks,Foxtrot,Bottom Two
+2,4,3,Master P & Ashly,,Master P & Ashly,Paso doble,Eliminated
+2,4,4,Stacy & Tony,,Stacy & Tony,Foxtrot,Safe
+2,4,5,Drew & Cheryl,,Drew & Cheryl,Paso doble,Safe
+2,4,6,Jerry & Anna,,Jerry & Anna,Foxtrot,Safe
+2,4,7,Lisa & Louis,,Lisa & Louis,Paso doble,Safe
+2,5,1,Stacy & Tony,,Stacy & Tony,Samba,Safe
+2,5,2,George & Edyta,,George & Edyta,Samba,Bottom Two
+2,5,3,Lisa & Louis,,Lisa & Louis,Samba,Safe
+2,5,4,Tia & Maks,,Tia & Maks,Samba,Eliminated
+2,5,5,Jerry & Anna,,Jerry & Anna,Samba,Safe
+2,5,6,Drew & Cheryl,,Drew & Cheryl,Samba,Safe
+2,5,7,Drew & Cheryl,George & Edyta,Drew & Cheryl / George & Edyta / Jerry & Anna / Lisa & Louis / Stacy & Tony / Tia & Maksim,Group Salsa,Safe
+2,6,1,Jerry & Anna,,Jerry & Anna,Paso doble,Safe
+2,6,2,Drew & Cheryl,,Drew & Cheryl,Tango,Safe
+2,6,3,George & Edyta,,George & Edyta,Rumba,Eliminated
+2,6,4,Lisa & Louis,,Lisa & Louis,Quickstep,Bottom Two
+2,6,5,Stacy & Tony,,Stacy & Tony,Jive,Safe
+2,6,6,Drew & Cheryl,George & Edyta,Drew & Cheryl / George & Edyta / Jerry & Anna / Lisa & Louis / Stacy & Tony,Group Viennese waltz,Safe
+2,7,1,Stacy & Tony,,Stacy & Tony,Quickstep,Safe
+2,7,1,Stacy & Tony,,Stacy & Tony,,Safe
+2,7,2,Jerry & Anna,,Jerry & Anna,Tango,Safe
+2,7,2,Jerry & Anna,,Jerry & Anna,,Safe
+2,7,3,Lisa & Louis,,Lisa & Louis,Foxtrot,Eliminated
+2,7,3,Lisa & Louis,,Lisa & Louis,,Eliminated
+2,7,4,Drew & Cheryl,,Drew & Cheryl,Foxtrot,Safe
+2,7,4,Drew & Cheryl,,Drew & Cheryl,,Safe
+2,8,1,Jerry & Anna,,Jerry & Anna,Foxtrot,Runners-Up
+2,8,1,Jerry & Anna,,Jerry & Anna,,Runners-Up
+2,8,1,Jerry & Anna,,Jerry & Anna,,Runners-Up
+2,8,2,Stacy & Tony,,Stacy & Tony,Jive,Third Place
+2,8,2,Stacy & Tony,,Stacy & Tony,,Third Place
+2,8,2,Stacy & Tony,,Stacy & Tony,,Third Place
+2,8,3,Drew & Cheryl,,Drew & Cheryl,Paso doble,Winners
+2,8,3,Drew & Cheryl,,Drew & Cheryl,,Winners
+2,8,3,Drew & Cheryl,,Drew & Cheryl,,Winners
+3,1,1,Joey & Edyta,,Joey & Edyta,Cha-cha-cha,Safe
+3,1,2,Sara & Tony,,Sara & Tony,Foxtrot,Safe
+3,1,3,Tucker & Elena,,Tucker & Elena,Cha-cha-cha,Eliminated
+3,1,4,Monique & Louis,,Monique & Louis,Foxtrot,Safe
+3,1,5,Emmitt & Cheryl,,Emmitt & Cheryl,Cha-cha-cha,Safe
+3,1,6,Willa & Maks,,Willa & Maks,Foxtrot,Bottom Three
+3,1,7,Mario & Karina,,Mario & Karina,Cha-cha-cha,Safe
+3,1,8,Shanna & Jesse,,Shanna & Jesse,Foxtrot,Bottom Three
+3,1,9,Harry & Ashly,,Harry & Ashly,Cha-cha-cha,Safe
+3,1,10,Vivica & Nick,,Vivica & Nick,Foxtrot,Safe
+3,1,11,Jerry & Kym,,Jerry & Kym,Cha-cha-cha,Safe
+3,2,1,Willa & Maks,,Willa & Maks,Mambo,Bottom Two
+3,2,2,Harry & Ashly,,Harry & Ashly,Quickstep,Safe
+3,2,3,Monique & Louis,,Monique & Louis,Mambo,Safe
+3,2,4,Mario & Karina,,Mario & Karina,Quickstep,Safe
+3,2,5,Shanna & Jesse,,Shanna & Jesse,Mambo,Eliminated
+3,2,6,Jerry & Kym,,Jerry & Kym,Quickstep,Safe
+3,2,7,Vivica & Nick,,Vivica & Nick,Mambo,Safe
+3,2,8,Joey & Edyta,,Joey & Edyta,Quickstep,Safe
+3,2,9,Sara & Tony,,Sara & Tony,Mambo,Safe
+3,2,10,Emmitt & Cheryl,,Emmitt & Cheryl,Quickstep,Safe
+3,3,1,Emmitt & Cheryl,,Emmitt & Cheryl,Tango,Safe
+3,3,2,Monique & Louis,,Monique & Louis,Jive,Safe
+3,3,3,Harry & Ashly,,Harry & Ashly,Tango,Eliminated
+3,3,4,Willa & Maks,,Willa & Maks,Jive,Safe
+3,3,5,Jerry & Kym,,Jerry & Kym,Tango,Bottom Two
+3,3,6,Sara & Tony,,Sara & Tony,Jive,Safe
+3,3,7,Mario & Karina,,Mario & Karina,Tango,Safe
+3,3,8,Vivica & Nick,,Vivica & Nick,Tango,Safe
+3,3,9,Joey & Edyta,,Joey & Edyta,Jive,Safe
+3,4,1,Monique & Louis,,Monique & Louis,Waltz,Bottom Two
+3,4,2,Emmitt & Cheryl,,Emmitt & Cheryl,Paso doble,Safe
+3,4,3,Willa & Maks,,Willa & Maks,Waltz,Safe
+3,4,4,Sara & Tony,,Sara & Tony,Paso doble,Safe
+3,4,5,Jerry & Kym,,Jerry & Kym,Waltz,Safe
+3,4,6,Vivica & Nick,,Vivica & Nick,Paso doble,Eliminated
+3,4,7,Joey & Edyta,,Joey & Edyta,Waltz,Safe
+3,4,8,Mario & Karina,,Mario & Karina,Paso doble,Safe
+3,5,1,Joey & Edyta,,Joey & Edyta,Samba,Safe
+3,5,2,Willa & Maks,,Willa & Maks,Rumba,Eliminated
+3,5,3,Sara & Tony,,Sara & Tony,Samba,Safe
+3,5,4,Mario & Karina,,Mario & Karina,Rumba,Safe
+3,5,5,Jerry & Kym,,Jerry & Kym,Samba,Bottom Two
+3,5,6,Monique & Louis,,Monique & Louis,Rumba,Safe
+3,5,7,Emmitt & Cheryl,,Emmitt & Cheryl,Samba,Safe
+3,6,1,Mario & Karina,,Mario & Karina,Mambo,Safe
+3,6,2,Monique & Louis,,Monique & Louis,Samba,Safe
+3,6,3,Joey & Edyta,,Joey & Edyta,Rumba,Bottom Two
+3,6,4,Emmitt & Cheryl,,Emmitt & Cheryl,Jive,Safe
+3,6,5,Jerry & Kym,,Jerry & Kym,Paso doble,Bottom Two
+3,6,6,Emmitt & Cheryl,Jerry & Kym,Emmitt & Cheryl / Jerry & Kym / Joey & Edyta / Mario & Karina / Monique & Louis,Group Disco,Bottom Two
+3,7,1,Jerry & Kym,,Jerry & Kym,Foxtrot,Eliminated
+3,7,1,Jerry & Kym,,Jerry & Kym,,Eliminated
+3,7,2,Monique & Louis,,Monique & Louis,Quickstep,Bottom Two
+3,7,2,Monique & Louis,,Monique & Louis,,Bottom Two
+3,7,3,Emmitt & Cheryl,,Emmitt & Cheryl,Waltz,Safe
+3,7,3,Emmitt & Cheryl,,Emmitt & Cheryl,,Safe
+3,7,4,Mario & Karina,,Mario & Karina,Foxtrot,Safe
+3,7,4,Mario & Karina,,Mario & Karina,,Safe
+3,7,5,Joey & Edyta,,Joey & Edyta,Foxtrot,Safe
+3,7,5,Joey & Edyta,,Joey & Edyta,,Safe
+3,8,1,Joey & Edyta,,Joey & Edyta,Tango,Safe
+3,8,1,Joey & Edyta,,Joey & Edyta,,Safe
+3,8,2,Mario & Karina,,Mario & Karina,Waltz,Safe
+3,8,2,Mario & Karina,,Mario & Karina,,Safe
+3,8,3,Monique & Louis,,Monique & Louis,Tango,Eliminated
+3,8,3,Monique & Louis,,Monique & Louis,,Eliminated
+3,8,4,Emmitt & Cheryl,,Emmitt & Cheryl,Foxtrot,Safe
+3,8,4,Emmitt & Cheryl,,Emmitt & Cheryl,,Safe
+3,9,1,Mario & Karina,,Mario & Karina,Tango,Safe
+3,9,1,Mario & Karina,,Mario & Karina,,Safe
+3,9,2,Emmitt & Cheryl,,Emmitt & Cheryl,Waltz,Safe
+3,9,2,Emmitt & Cheryl,,Emmitt & Cheryl,,Safe
+3,9,3,Joey & Edyta,,Joey & Edyta,Quickstep,Eliminated
+3,9,3,Joey & Edyta,,Joey & Edyta,,Eliminated
+3,10,1,Emmitt & Cheryl,,Emmitt & Cheryl,Samba,Winners
+3,10,1,Emmitt & Cheryl,,Emmitt & Cheryl,,Winners
+3,10,1,Emmitt & Cheryl,,Emmitt & Cheryl,,Winners
+3,10,2,Mario & Karina,,Mario & Karina,Samba,Runners-Up
+3,10,2,Mario & Karina,,Mario & Karina,,Runners-Up
+3,10,2,Mario & Karina,,Mario & Karina,,Runners-Up
+4,1,1,Ian & Cheryl,,Ian & Cheryl,Cha-cha-cha,
+4,1,2,Paulina & Alec,,Paulina & Alec,Foxtrot,
+4,1,3,Billy Ray & Karina,,Billy Ray & Karina,Cha-cha-cha,
+4,1,4,Leeza & Tony,,Leeza & Tony,Foxtrot,
+4,1,5,Joey & Kym,,Joey & Kym,Cha-cha-cha,
+4,1,6,Laila & Maks,,Laila & Maks,Foxtrot,
+4,1,7,John & Edyta,,John & Edyta,Cha-cha-cha,
+4,1,8,Shandi & Brian,,Shandi & Brian,Foxtrot,
+4,1,9,Clyde & Elena,,Clyde & Elena,Cha-cha-cha,
+4,1,10,Heather & Jonathan,,Heather & Jonathan,Foxtrot,
+4,1,11,Apolo & Julianne,,Apolo & Julianne,Cha-cha-cha,
+4,2,1,Apolo & Julianne,,Apolo & Julianne,Quickstep,Safe
+4,2,2,Shandi & Brian,,Shandi & Brian,Mambo,Bottom Two
+4,2,3,Clyde & Elena,,Clyde & Elena,Quickstep,Safe
+4,2,4,Leeza & Tony,,Leeza & Tony,Mambo,Safe
+4,2,5,Ian & Cheryl,,Ian & Cheryl,Quickstep,Safe
+4,2,6,Paulina & Alec,,Paulina & Alec,Mambo,Eliminated
+4,2,7,Billy Ray & Karina,,Billy Ray & Karina,Quickstep,Safe
+4,2,8,Heather & Jonathan,,Heather & Jonathan,Mambo,Safe
+4,2,9,John & Edyta,,John & Edyta,Quickstep,Safe
+4,2,10,Laila & Maks,,Laila & Maks,Mambo,Safe
+4,2,11,Joey & Kym,,Joey & Kym,Quickstep,Safe
+4,3,1,Shandi & Brian,,Shandi & Brian,Jive,Eliminated
+4,3,2,John & Edyta,,John & Edyta,Tango,Safe
+4,3,3,Clyde & Elena,,Clyde & Elena,Jive,Safe
+4,3,4,Laila & Maks,,Laila & Maks,Tango,Safe
+4,3,5,Apolo & Julianne,,Apolo & Julianne,Jive,Safe
+4,3,6,Joey & Kym,,Joey & Kym,Tango,Safe
+4,3,7,Ian & Cheryl,,Ian & Cheryl,Jive,Safe
+4,3,8,Leeza & Tony,,Leeza & Tony,Tango,Bottom Two
+4,3,9,Heather & Jonathan,,Heather & Jonathan,Jive,Safe
+4,3,10,Billy Ray & Karina,,Billy Ray & Karina,Tango,Safe
+4,4,1,Laila & Maks,,Laila & Maks,Paso doble,Safe
+4,4,2,Apolo & Julianne,,Apolo & Julianne,Waltz,Safe
+4,4,3,Leeza & Tony,,Leeza & Tony,Paso doble,Eliminated
+4,4,4,Ian & Cheryl,,Ian & Cheryl,Waltz,Safe
+4,4,5,John & Edyta,,John & Edyta,Paso doble,Bottom Two
+4,4,6,Clyde & Elena,,Clyde & Elena,Waltz,Safe
+4,4,7,Billy Ray & Karina,,Billy Ray & Karina,Paso doble,Safe
+4,4,8,Heather & Jonathan,,Heather & Jonathan,Waltz,Safe
+4,4,9,Joey & Kym,,Joey & Kym,Paso doble,Safe
+4,5,1,Ian & Cheryl,,Ian & Cheryl,Samba,Safe
+4,5,2,Clyde & Elena,,Clyde & Elena,Rumba,Eliminated
+4,5,3,Heather & Jonathan,,Heather & Jonathan,Samba,Bottom Two
+4,5,4,Joey & Kym,,Joey & Kym,Rumba,Safe
+4,5,5,John & Edyta,,John & Edyta,Samba,Safe
+4,5,6,Laila & Maks,,Laila & Maks,Rumba,Safe
+4,5,7,Apolo & Julianne,,Apolo & Julianne,Samba,Safe
+4,5,8,Billy Ray & Karina,,Billy Ray & Karina,Rumba,Safe
+4,6,1,Joey & Kym,,Joey & Kym,Samba,Safe
+4,6,2,Heather & Jonathan,,Heather & Jonathan,Paso doble,Eliminated
+4,6,3,John & Edyta,,John & Edyta,Mambo,Bottom Two
+4,6,4,Laila & Maks,,Laila & Maks,Cha-cha-cha,Safe
+4,6,5,Billy Ray & Karina,,Billy Ray & Karina,Jive,Safe
+4,6,6,Apolo & Julianne,,Apolo & Julianne,Rumba,Safe
+4,6,7,Ian & Cheryl,,Ian & Cheryl,Paso doble,Safe
+4,6,8,Apolo & Julianne,Billy Ray & Karina,Apolo & Julianne / Billy Ray & Karina / Heather & Jonathan / Ian & Cheryl / Joey & Kym / John & Edyta / Laila & Maks,Group Swing,Safe
+4,7,1,Laila & Maks,,Laila & Maks,Quickstep,Safe
+4,7,1,Laila & Maks,,Laila & Maks,,Safe
+4,7,2,John & Edyta,,John & Edyta,Foxtrot,Eliminated
+4,7,2,John & Edyta,,John & Edyta,,Eliminated
+4,7,3,Apolo & Julianne,,Apolo & Julianne,Foxtrot,Safe
+4,7,3,Apolo & Julianne,,Apolo & Julianne,,Safe
+4,7,4,Ian & Cheryl,,Ian & Cheryl,Tango,Safe
+4,7,4,Ian & Cheryl,,Ian & Cheryl,,Safe
+4,7,5,Billy Ray & Karina,,Billy Ray & Karina,Waltz,Bottom Two
+4,7,5,Billy Ray & Karina,,Billy Ray & Karina,,Bottom Two
+4,7,6,Joey & Kym,,Joey & Kym,Foxtrot,Safe
+4,7,6,Joey & Kym,,Joey & Kym,,Safe
+4,8,1,Ian & Cheryl,,Ian & Cheryl,Foxtrot,Safe
+4,8,1,Ian & Cheryl,,Ian & Cheryl,,Safe
+4,8,2,Joey & Kym,,Joey & Kym,Waltz,Bottom Two
+4,8,2,Joey & Kym,,Joey & Kym,,Bottom Two
+4,8,3,Billy Ray & Karina,,Billy Ray & Karina,Foxtrot,Eliminated
+4,8,3,Billy Ray & Karina,,Billy Ray & Karina,,Eliminated
+4,8,4,Laila & Maks,,Laila & Maks,Waltz,Safe
+4,8,4,Laila & Maks,,Laila & Maks,,Safe
+4,8,5,Apolo & Julianne,,Apolo & Julianne,Tango,Safe
+4,8,5,Apolo & Julianne,,Apolo & Julianne,,Safe
+4,9,1,Apolo & Julianne,,Apolo & Julianne,Quickstep,Bottom Two
+4,9,1,Apolo & Julianne,,Apolo & Julianne,,Bottom Two
+4,9,2,Ian & Cheryl,,Ian & Cheryl,Tango,Eliminated
+4,9,2,Ian & Cheryl,,Ian & Cheryl,,Eliminated
+4,9,3,Laila & Maks,,Laila & Maks,Quickstep,Safe
+4,9,3,Laila & Maks,,Laila & Maks,,Safe
+4,9,4,Joey & Kym,,Joey & Kym,Foxtrot,Safe
+4,9,4,Joey & Kym,,Joey & Kym,,Safe
+4,10,1,Laila & Maks,,Laila & Maks,Paso doble,Third Place
+4,10,1,Laila & Maks,,Laila & Maks,,Third Place
+4,10,1,Laila & Maks,,Laila & Maks,,Third Place
+4,10,2,Apolo & Julianne,,Apolo & Julianne,Rumba,Winners
+4,10,2,Apolo & Julianne,,Apolo & Julianne,,Winners
+4,10,2,Apolo & Julianne,,Apolo & Julianne,,Winners
+4,10,3,Joey & Kym,,Joey & Kym,Cha-cha-cha,Runners-Up
+4,10,3,Joey & Kym,,Joey & Kym,,Runners-Up
+4,10,3,Joey & Kym,,Joey & Kym,,Runners-Up
+5,1,1,Jennie & Derek,,Jennie & Derek,Cha-cha-cha,Safe
+5,1,2,Josie & Alec,,Josie & Alec,Foxtrot,Eliminated
+5,1,3,Sabrina & Mark,,Sabrina & Mark,Cha-cha-cha,Safe
+5,1,4,Marie & Jonathan,,Marie & Jonathan,Foxtrot,Safe
+5,1,5,Mel & Maks,,Mel & Maks,Cha-cha-cha,Safe
+5,1,6,Jane & Tony,,Jane & Tony,Foxtrot,Safe
+5,1,1,Cameron & Edyta,,Cameron & Edyta,Foxtrot,Safe
+5,1,2,Floyd & Karina,,Floyd & Karina,Cha-cha-cha,Safe
+5,1,3,Hélio & Julianne,,Hélio & Julianne,Foxtrot,Safe
+5,1,4,Albert & Anna,,Albert & Anna,Cha-cha-cha,Safe
+5,1,5,Mark & Kym,,Mark & Kym,Foxtrot,Bottom Two
+5,1,6,Wayne & Cheryl,,Wayne & Cheryl,Cha-cha-cha,Safe
+5,2,1,Mel & Maks,,Mel & Maks,Quickstep,Safe
+5,2,2,Mark & Kym,,Mark & Kym,Mambo,Safe
+5,2,3,Wayne & Cheryl,,Wayne & Cheryl,Quickstep,Bottom Two
+5,2,4,Marie & Jonathan,,Marie & Jonathan,Mambo,Safe
+5,2,5,Albert & Anna,,Albert & Anna,Quickstep,Eliminated
+5,2,6,Hélio & Julianne,,Hélio & Julianne,Mambo,Safe
+5,2,7,Jennie & Derek,,Jennie & Derek,Quickstep,Safe
+5,2,8,Cameron & Edyta,,Cameron & Edyta,Mambo,Safe
+5,2,9,Floyd & Karina,,Floyd & Karina,Quickstep,Safe
+5,2,10,Jane & Tony,,Jane & Tony,Mambo,Safe
+5,2,11,Sabrina & Mark,,Sabrina & Mark,Quickstep,Safe
+5,3,1,Sabrina & Mark,,Sabrina & Mark,Jive,Safe
+5,3,2,Cameron & Edyta,,Cameron & Edyta,Tango,Safe
+5,3,3,Mark & Kym,,Mark & Kym,Jive,Safe
+5,3,4,Jennie & Derek,,Jennie & Derek,Tango,Safe
+5,3,5,Mel & Maks,,Mel & Maks,Jive,Safe
+5,3,6,Wayne & Cheryl,,Wayne & Cheryl,Tango,Eliminated
+5,3,7,Floyd & Karina,,Floyd & Karina,Jive,Bottom Two
+5,3,8,Jane & Tony,,Jane & Tony,Tango,Safe
+5,3,9,Hélio & Julianne,,Hélio & Julianne,Jive,Safe
+5,3,10,Marie & Jonathan,,Marie & Jonathan,Tango,Safe
+5,4,1,Mark & Kym,,Mark & Kym,Viennese waltz,Safe
+5,4,2,Sabrina & Mark,,Sabrina & Mark,Paso doble,Safe
+5,4,3,Jane & Tony,,Jane & Tony,Viennese waltz,Safe
+5,4,4,Floyd & Karina,,Floyd & Karina,Paso doble,Eliminated
+5,4,5,Mel & Maks,,Mel & Maks,Viennese waltz,Bottom Two
+5,4,6,Cameron & Edyta,,Cameron & Edyta,Paso doble,Safe
+5,4,7,Marie & Jonathan,,Marie & Jonathan,Viennese waltz,Safe
+5,4,8,Jennie & Derek,,Jennie & Derek,Paso doble,Safe
+5,4,9,Hélio & Julianne,,Hélio & Julianne,Viennese waltz,Safe
+5,5,1,Marie & Jonathan,,Marie & Jonathan,Samba,Safe
+5,5,2,Jane & Tony,,Jane & Tony,Rumba,Bottom Two
+5,5,3,Mark & Kym,,Mark & Kym,Samba,Eliminated
+5,5,4,Sabrina & Mark,,Sabrina & Mark,Rumba,Safe
+5,5,5,Jennie & Derek,,Jennie & Derek,Samba,Safe
+5,5,6,Hélio & Julianne,,Hélio & Julianne,Rumba,Safe
+5,5,7,Mel & Maks,,Mel & Maks,Samba,Safe
+5,5,8,Cameron & Edyta,,Cameron & Edyta,Rumba,Safe
+5,6,1,Sabrina & Mark,,Sabrina & Mark,Foxtrot,Eliminated
+5,6,2,Jennie & Derek,,Jennie & Derek,Mambo,Safe
+5,6,3,Jane & Tony,,Jane & Tony,Jive,Safe
+5,6,4,Cameron & Edyta,,Cameron & Edyta,Samba,Bottom Two
+5,6,5,Mel & Maks,,Mel & Maks,Rumba,Safe
+5,6,6,Marie & Jonathan,,Marie & Jonathan,Paso doble,Safe
+5,6,7,Hélio & Julianne,,Hélio & Julianne,Cha-cha-cha,Safe
+5,6,8,Cameron & Edyta,Helio & Julianne,Cameron & Edyta / Helio & Julianne / Jane & Tony / Jennie & Derek / Marie & Jonathan / Mel & Maks / Sabrina & Mark,Group Rock and Roll,Safe
+5,7,1,Hélio & Julianne,,Hélio & Julianne,Tango,Safe
+5,7,1,Hélio & Julianne,,Hélio & Julianne,,Safe
+5,7,2,Marie & Jonathan,,Marie & Jonathan,Quickstep,Safe
+5,7,2,Marie & Jonathan,,Marie & Jonathan,,Safe
+5,7,3,Mel & Maks,,Mel & Maks,Foxtrot,Safe
+5,7,3,Mel & Maks,,Mel & Maks,,Safe
+5,7,4,Jane & Tony,,Jane & Tony,Quickstep,Eliminated
+5,7,4,Jane & Tony,,Jane & Tony,,Eliminated
+5,7,5,Jennie & Derek,,Jennie & Derek,Viennese waltz,Safe
+5,7,5,Jennie & Derek,,Jennie & Derek,,Safe
+5,7,6,Cameron & Edyta,,Cameron & Edyta,Quickstep,Safe
+5,7,6,Cameron & Edyta,,Cameron & Edyta,,Safe
+5,8,1,Jennie & Derek,,Jennie & Derek,Jive,Safe
+5,8,1,Jennie & Derek,,Jennie & Derek,,Safe
+5,8,2,Cameron & Edyta,,Cameron & Edyta,Viennese waltz,Eliminated
+5,8,2,Cameron & Edyta,,Cameron & Edyta,,Eliminated
+5,8,3,Marie & Jonathan,,Marie & Jonathan,Rumba,Safe
+5,8,3,Marie & Jonathan,,Marie & Jonathan,,Safe
+5,8,4,Hélio & Julianne,,Hélio & Julianne,Paso doble,Safe
+5,8,4,Hélio & Julianne,,Hélio & Julianne,,Safe
+5,8,5,Mel & Maks,,Mel & Maks,Tango,Safe
+5,8,5,Mel & Maks,,Mel & Maks,,Safe
+5,9,1,Marie & Jonathan,,Marie & Jonathan,Quickstep,Safe
+5,9,1,Marie & Jonathan,,Marie & Jonathan,,Safe
+5,9,2,Mel & Maks,,Mel & Maks,Viennese waltz,Safe
+5,9,2,Mel & Maks,,Mel & Maks,,Safe
+5,9,3,Jennie & Derek,,Jennie & Derek,Tango,Eliminated
+5,9,3,Jennie & Derek,,Jennie & Derek,,Eliminated
+5,9,4,Hélio & Julianne,,Hélio & Julianne,Foxtrot,Safe
+5,9,4,Hélio & Julianne,,Hélio & Julianne,,Safe
+5,10,1,Mel & Maks,,Mel & Maks,Cha-cha-cha,Safe
+5,10,1,Mel & Maks,,Mel & Maks,,Safe
+5,10,2,Marie & Jonathan,,Marie & Jonathan,Samba,Eliminated
+5,10,2,Marie & Jonathan,,Marie & Jonathan,,Eliminated
+5,10,3,Hélio & Julianne,,Hélio & Julianne,Jive,Safe
+5,10,3,Hélio & Julianne,,Hélio & Julianne,,Safe
+5,10,1,Mel & Maks,,Mel & Maks,Mambo,Runners-Up
+5,10,2,Hélio & Julianne,,Hélio & Julianne,Quickstep,Winners
+6,1,1,Penn & Kym,,Penn & Kym,Cha-cha-cha,
+6,1,2,Jason & Edyta,,Jason & Edyta,Foxtrot,
+6,1,3,Cristián & Cheryl,,Cristián & Cheryl,Cha-cha-cha,
+6,1,4,Adam & Julianne,,Adam & Julianne,Foxtrot,
+6,1,5,Mario & Karina,,Mario & Karina,Cha-cha-cha,
+6,1,6,Steve & Anna,,Steve & Anna,Foxtrot,
+6,1,1,Shannon & Derek,,Shannon & Derek,Cha-cha-cha,
+6,1,2,Monica & Jonathan,,Monica & Jonathan,Foxtrot,
+6,1,3,Marissa & Tony,,Marissa & Tony,Cha-cha-cha,
+6,1,4,Priscilla & Louis,,Priscilla & Louis,Foxtrot,
+6,1,5,Kristi & Mark,,Kristi & Mark,Foxtrot,
+6,1,6,Marlee & Fabian,,Marlee & Fabian,Cha-cha-cha,
+6,2,1,Steve & Anna,,Steve & Anna,Mambo,Safe
+6,2,2,Cristián & Cheryl,,Cristián & Cheryl,Quickstep,Safe
+6,2,3,Monica & Jonathan,,Monica & Jonathan,Mambo,Eliminated
+6,2,4,Penn & Kym,,Penn & Kym,Quickstep,Eliminated
+6,2,5,Priscilla & Louis,,Priscilla & Louis,Mambo,Safe
+6,2,6,Shannon & Derek,,Shannon & Derek,Quickstep,Safe
+6,2,7,Jason & Edyta,,Jason & Edyta,Mambo,Safe
+6,2,8,Marissa & Tony,,Marissa & Tony,Quickstep,Safe
+6,2,9,Adam & Julianne,,Adam & Julianne,Mambo,Safe
+6,2,10,Marlee & Fabian,,Marlee & Fabian,Quickstep,Safe
+6,2,11,Kristi & Mark,,Kristi & Mark,Mambo,Safe
+6,2,12,Mario & Karina,,Mario & Karina,Quickstep,Safe
+6,3,1,Marlee & Fabian,,Marlee & Fabian,Jive,Safe
+6,3,2,Steve & Anna,,Steve & Anna,Tango,Eliminated
+6,3,3,Cristián & Cheryl,,Cristián & Cheryl,Jive,Safe
+6,3,4,Mario & Karina,,Mario & Karina,Tango,Safe
+6,3,5,Shannon & Derek,,Shannon & Derek,Jive,Safe
+6,3,6,Adam & Julianne,,Adam & Julianne,Tango,Safe
+6,3,7,Marissa & Tony,,Marissa & Tony,Jive,Safe
+6,3,8,Priscilla & Louis,,Priscilla & Louis,Tango,Safe
+6,3,9,Jason & Edyta,,Jason & Edyta,Jive,Safe
+6,3,10,Kristi & Mark,,Kristi & Mark,Tango,Safe
+6,4,1,Kristi & Mark,,Kristi & Mark,Paso doble,Safe
+6,4,2,Priscilla & Louis,,Priscilla & Louis,Viennese waltz,Bottom Two
+6,4,3,Adam & Julianne,,Adam & Julianne,Paso doble,Eliminated
+6,4,4,Marlee & Fabian,,Marlee & Fabian,Viennese waltz,Safe
+6,4,5,Mario & Karina,,Mario & Karina,Paso doble,Safe
+6,4,6,Jason & Edyta,,Jason & Edyta,Viennese waltz,Safe
+6,4,7,Cristián & Cheryl,,Cristián & Cheryl,Paso doble,Safe
+6,4,8,Shannon & Derek,,Shannon & Derek,Viennese waltz,Safe
+6,4,9,Marissa & Tony,,Marissa & Tony,Paso doble,Safe
+6,5,1,Mario & Karina,,Mario & Karina,Samba,Safe
+6,5,2,Priscilla & Louis,,Priscilla & Louis,Rumba,Eliminated
+6,5,3,Marissa & Tony,,Marissa & Tony,Samba,Safe
+6,5,4,Cristián & Cheryl,,Cristián & Cheryl,Rumba,Bottom Two
+6,5,5,Marlee & Fabian,,Marlee & Fabian,Samba,Safe
+6,5,6,Kristi & Mark,,Kristi & Mark,Rumba,Safe
+6,5,7,Shannon & Derek,,Shannon & Derek,Samba,Safe
+6,5,8,Jason & Edyta,,Jason & Edyta,Rumba,Safe
+6,6,1,Jason & Edyta,,Jason & Edyta,Cha-cha-cha,Safe
+6,6,2,Shannon & Derek,,Shannon & Derek,Rumba,Safe
+6,6,3,Marlee & Fabian,,Marlee & Fabian,Mambo,Eliminated
+6,6,4,Cristián & Cheryl,,Cristián & Cheryl,Foxtrot,Safe
+6,6,5,Marissa & Tony,,Marissa & Tony,Viennese waltz,Safe
+6,6,6,Kristi & Mark,,Kristi & Mark,Jive,Safe
+6,6,7,Mario & Karina,,Mario & Karina,Rumba,Bottom Two
+6,6,8,Cristian & Cheryl,Jason & Edyta,Cristian & Cheryl / Jason & Edyta / Kristi & Mark / Mario & Karina / Marissa & Tony / Marlee & Fabian / Shannon & Derek,Group Two-step,Bottom Two
+6,7,1,Marissa & Tony,,Marissa & Tony,Tango,Bottom Two
+6,7,1,Marissa & Tony,,Marissa & Tony,,Bottom Two
+6,7,2,Cristián & Cheryl,,Cristián & Cheryl,Viennese waltz,Safe
+6,7,2,Cristián & Cheryl,,Cristián & Cheryl,,Safe
+6,7,3,Kristi & Mark,,Kristi & Mark,Viennese waltz,Safe
+6,7,3,Kristi & Mark,,Kristi & Mark,,Safe
+6,7,4,Mario & Karina,,Mario & Karina,Foxtrot,Safe
+6,7,4,Mario & Karina,,Mario & Karina,,Safe
+6,7,5,Shannon & Derek,,Shannon & Derek,Tango,Eliminated
+6,7,5,Shannon & Derek,,Shannon & Derek,,Eliminated
+6,7,6,Jason & Edyta,,Jason & Edyta,Quickstep,Safe
+6,7,6,Jason & Edyta,,Jason & Edyta,,Safe
+6,8,1,Kristi & Mark,,Kristi & Mark,Quickstep,Safe
+6,8,1,Kristi & Mark,,Kristi & Mark,,Safe
+6,8,2,Mario & Karina,,Mario & Karina,Viennese waltz,Eliminated
+6,8,2,Mario & Karina,,Mario & Karina,,Eliminated
+6,8,3,Marissa & Tony,,Marissa & Tony,Foxtrot,Safe
+6,8,3,Marissa & Tony,,Marissa & Tony,,Safe
+6,8,4,Jason & Edyta,,Jason & Edyta,Tango,Safe
+6,8,4,Jason & Edyta,,Jason & Edyta,,Safe
+6,8,5,Cristián & Cheryl,,Cristián & Cheryl,Tango,Safe
+6,8,5,Cristián & Cheryl,,Cristián & Cheryl,,Safe
+6,9,1,Jason & Edyta,,Jason & Edyta,Foxtrot,Safe
+6,9,1,Jason & Edyta,,Jason & Edyta,,Safe
+6,9,2,Marissa & Tony,,Marissa & Tony,Quickstep,Eliminated
+6,9,2,Marissa & Tony,,Marissa & Tony,,Eliminated
+6,9,3,Cristián & Cheryl,,Cristián & Cheryl,Viennese waltz,Safe
+6,9,3,Cristián & Cheryl,,Cristián & Cheryl,,Safe
+6,9,4,Kristi & Mark,,Kristi & Mark,Tango,Safe
+6,9,4,Kristi & Mark,,Kristi & Mark,,Safe
+6,10,1,Cristián & Cheryl,,Cristián & Cheryl,Group Cha-cha-cha,
+6,10,2,Jason & Edyta,,Jason & Edyta,,
+6,10,3,Kristi & Mark,,Kristi & Mark,,
+6,10,3,Kristi & Mark,,Kristi & Mark,Freestyle,Safe
+6,10,4,Jason & Edyta,,Jason & Edyta,Freestyle,Safe
+6,10,5,Cristián & Cheryl,,Cristián & Cheryl,Freestyle,Eliminated
+6,10,1,Kristi & Mark,,Kristi & Mark,Jive,Winners
+6,10,2,Jason & Edyta,,Jason & Edyta,Quickstep,Runners-Up
+7,1,1,Cody & Julianne,,Cody & Julianne,Cha-cha-cha,
+7,1,2,Rocco & Karina,,Rocco & Karina,Foxtrot,
+7,1,3,Toni & Alec,,Toni & Alec,Cha-cha-cha,
+7,1,4,Maurice & Cheryl,,Maurice & Cheryl,Foxtrot,
+7,1,5,Brooke & Derek,,Brooke & Derek,Cha-cha-cha,
+7,1,6,Ted & Inna,,Ted & Inna,Foxtrot,
+7,1,7,Lance & Lacey,,Lance & Lacey,Cha-cha-cha,
+7,1,8,Cloris & Corky,,Cloris & Corky,Foxtrot,
+7,1,9,Jeffrey & Edyta,,Jeffrey & Edyta,Cha-cha-cha,
+7,1,10,Kim & Mark,,Kim & Mark,Foxtrot,
+7,1,11,Susan & Tony,,Susan & Tony,Cha-cha-cha,
+7,1,12,Misty & Maks,,Misty & Maks,Foxtrot,
+7,1,13,Warren & Kym,,Warren & Kym,Cha-cha-cha,
+7,1,1,Lance & Lacey,,Lance & Lacey,Quickstep,Safe
+7,1,2,Misty & Maks,,Misty & Maks,Mambo,Safe
+7,1,3,Maurice & Cheryl,,Maurice & Cheryl,Mambo,Safe
+7,1,4,Brooke & Derek,,Brooke & Derek,Quickstep,Safe
+7,1,5,Cloris & Corky,,Cloris & Corky,Mambo,Safe
+7,1,6,Toni & Alec,,Toni & Alec,Quickstep,Safe
+7,1,7,Warren & Kym,,Warren & Kym,Quickstep,Safe
+7,1,8,Ted & Inna,,Ted & Inna,Mambo,Eliminated
+7,1,9,Cody & Julianne,,Cody & Julianne,Quickstep,Safe
+7,1,10,Rocco & Karina,,Rocco & Karina,Mambo,Safe
+7,1,11,Susan & Tony,,Susan & Tony,Quickstep,Safe
+7,1,12,Kim & Mark,,Kim & Mark,Mambo,Safe
+7,1,13,Jeffrey & Edyta,,Jeffrey & Edyta,Quickstep,Eliminated
+7,2,1,Toni & Alec,,Toni & Alec,Rumba,Safe
+7,2,2,Brooke & Derek,,Brooke & Derek,Paso doble,Safe
+7,2,3,Rocco & Karina,,Rocco & Karina,Rumba,Safe
+7,2,4,Lance & Lacey,,Lance & Lacey,Paso doble,Safe
+7,2,5,Kim & Mark,,Kim & Mark,Rumba,Eliminated
+7,2,6,Misty & Maks,,Misty & Maks,Paso doble,Safe
+7,2,7,Maurice & Cheryl,,Maurice & Cheryl,Rumba,Safe
+7,2,8,Cloris & Corky,,Cloris & Corky,Paso doble,Safe
+7,2,9,Susan & Tony,,Susan & Tony,Rumba,Safe
+7,2,10,Warren & Kym,,Warren & Kym,Paso doble,Safe
+7,2,11,Cody & Julianne,,Cody & Julianne,Rumba,Safe
+7,3,1,Susan & Tony,,Susan & Tony,Jive,
+7,3,2,Lance & Lacey,,Lance & Lacey,Viennese waltz,
+7,3,3,Maurice & Cheryl,,Maurice & Cheryl,Jive,
+7,3,4,Rocco & Karina,,Rocco & Karina,Viennese waltz,
+7,3,5,Warren & Kym,,Warren & Kym,Viennese waltz,
+7,3,6,Cody & Julianne,,Cody & Julianne,Jive,
+7,3,7,Toni & Alec,,Toni & Alec,Viennese waltz,
+7,3,8,Cloris & Corky,,Cloris & Corky,Jive,
+7,3,9,Brooke & Derek,,Brooke & Derek,Viennese waltz,
+7,4,1,Maurice & Cheryl,,Maurice & Cheryl,Samba,Safe
+7,4,2,Cody & Julianne,,Cody & Julianne,Tango,Safe
+7,4,3,Toni & Alec,,Toni & Alec,Samba,Safe
+7,4,4,Cloris & Corky,,Cloris & Corky,Tango,Bottom Two
+7,4,5,Rocco & Karina,,Rocco & Karina,Samba,Eliminated
+7,4,6,Susan & Tony,,Susan & Tony,Tango,Safe
+7,4,7,Brooke & Derek,,Brooke & Derek,Samba,Safe
+7,4,8,Lance & Lacey,,Lance & Lacey,Tango,Safe
+7,4,9,Warren & Kym,,Warren & Kym,Samba,Safe
+7,5,1,Lance & Lacey,,Lance & Lacey,West Coast Swing,Safe
+7,5,2,Toni & Alec,,Toni & Alec,West Coast Swing,Eliminated
+7,5,3,Susan & Tony,,Susan & Tony,Hustle,Bottom Two
+7,5,4,Warren & Kym,,Warren & Kym,Hustle,Safe
+7,5,5,Cloris & Corky,,Cloris & Corky,Salsa,Safe
+7,5,6,Maurice & Cheryl,,Maurice & Cheryl,Salsa,Safe
+7,5,7,Brooke & Derek,,Brooke & Derek,Jitterbug,Safe
+7,5,8,Cody & Julianne,,Cody & Julianne,Jitterbug,Safe
+7,6,1,Maurice & Cheryl,,Maurice & Cheryl,Viennese waltz,Safe
+7,6,2,Lance & Lacey,,Lance & Lacey,Jive,Safe
+7,6,3,Susan & Tony,,Susan & Tony,Mambo,Safe
+7,6,4,Brooke & Derek,,Brooke & Derek,Rumba,Safe
+7,6,5,Cloris & Corky,,Cloris & Corky,Cha-cha-cha,Eliminated
+7,6,6,Cody & Julianne,,Cody & Julianne,Samba,Safe
+7,6,7,Warren & Kym,,Warren & Kym,Rumba,Safe
+7,6,8,Brooke & Derek,Cloris & Corky,Brooke & Derek / Cloris & Corky / Cody & Julianne / Lance & Lacey / Maurice & Cheryl / Susan & Tony / Warren & Kym,Group Hip-hop,Safe
+7,7,1,Warren & Kym,,Warren & Kym,Foxtrot,Safe
+7,7,2,Susan & Tony,,Susan & Tony,Paso doble,Eliminated
+7,7,3,Maurice & Cheryl,,Maurice & Cheryl,Cha-cha-cha,Safe
+7,7,4,Cody & Edyta,,Cody & Edyta,Viennese waltz,Safe
+7,7,5,Lance & Lacey,,Lance & Lacey,Rumba,Safe
+7,7,6,Brooke & Derek,,Brooke & Derek,Foxtrot,Safe
+7,7,7,Cody & Edyta,Lance & Lacey,Cody & Edyta / Lance & Lacey / Susan & Tony,Team Cha-cha-cha,Safe
+7,7,8,Brooke & Derek,Maurice & Cheryl,Brooke & Derek / Maurice & Cheryl / Warren & Kym,Team Paso doble,Safe
+7,8,1,Cody & Edyta,,Cody & Edyta,Foxtrot,Safe
+7,8,1,Cody & Edyta,,Cody & Edyta,,Safe
+7,8,2,Brooke & Derek,,Brooke & Derek,Tango,Safe
+7,8,2,Brooke & Derek,,Brooke & Derek,,Safe
+7,8,3,Maurice & Cheryl,,Maurice & Cheryl,Quickstep,Eliminated
+7,8,3,Maurice & Cheryl,,Maurice & Cheryl,,Eliminated
+7,8,4,Lance & Lacey,,Lance & Lacey,Foxtrot,Safe
+7,8,4,Lance & Lacey,,Lance & Lacey,,Safe
+7,8,5,Warren & Kym,,Warren & Kym,Tango,Safe
+7,8,5,Warren & Kym,,Warren & Kym,,Safe
+7,9,1,Brooke & Derek,,Brooke & Derek,Jive,Safe
+7,9,1,Brooke & Derek,,Brooke & Derek,,Safe
+7,9,2,Cody & Julianne,,Cody & Julianne,Paso doble,Eliminated
+7,9,2,Cody & Julianne,,Cody & Julianne,,Eliminated
+7,9,3,Warren & Kym,,Warren & Kym,Mambo,Safe
+7,9,3,Warren & Kym,,Warren & Kym,,Safe
+7,9,4,Lance & Lacey,,Lance & Lacey,Mambo,Safe
+7,9,4,Lance & Lacey,,Lance & Lacey,,Safe
+7,10,1,Brooke & Derek,,Brooke & Derek,Group Samba,
+7,10,2,Lance & Lacey,,Lance & Lacey,,
+7,10,3,Warren & Kym,,Warren & Kym,,
+7,10,4,Brooke & Derek,,Brooke & Derek,Freestyle,
+7,10,5,Lance & Lacey,,Lance & Lacey,Freestyle,
+7,10,6,Warren & Kym,,Warren & Kym,Freestyle,
+7,10,1,Warren & Kym,,Warren & Kym,Hustle,Runners-Up
+7,10,2,Lance & Lacey,,Lance & Lacey,Jitterbug,Third Place
+7,10,3,Brooke & Derek,,Brooke & Derek,Viennese waltz,Winners
+8,1,1,Lil' Kim & Derek,,Lil' Kim & Derek,Cha-cha-cha,
+8,1,2,Belinda & Jonathan,,Belinda & Jonathan,Waltz,
+8,1,3,Lawrence & Edyta,,Lawrence & Edyta,Cha-cha-cha,
+8,1,4,Steve-O & Lacey,,Steve-O & Lacey,Waltz,
+8,1,5,Gilles & Cheryl,,Gilles & Cheryl,Cha-cha-cha,
+8,1,6,Chuck & Julianne,,Chuck & Julianne,Waltz,
+8,1,7,Holly & Dmitry,,Holly & Dmitry,Cha-cha-cha,
+8,1,8,Ty & Chelsie,,Ty & Chelsie,Cha-cha-cha,
+8,1,9,Shawn & Mark,,Shawn & Mark,Waltz,
+8,1,10,Steve & Karina,,Steve & Karina,Cha-cha-cha,
+8,1,11,David & Kym,,David & Kym,Waltz,
+8,1,12,Denise & Maks,,Denise & Maks,Cha-cha-cha,
+8,1,13,Melissa & Tony,,Melissa & Tony,Waltz,
+8,2,1,Holly & Dmitry,,Holly & Dmitry,Quickstep,Safe
+8,2,2,David & Kym,,David & Kym,Salsa,Safe
+8,2,3,Denise & Maks,,Denise & Maks,Quickstep,Safe
+8,2,4,Belinda & Jonathan,,Belinda & Jonathan,Salsa,Bottom Two
+8,2,5,Ty & Chelsie,,Ty & Chelsie,Quickstep,Safe
+8,2,6,Shawn & Mark,,Shawn & Mark,Salsa,Safe
+8,2,7,Steve & Karina,,Steve & Karina,Quickstep,Bottom Two
+8,2,8,Chuck & Julianne,,Chuck & Julianne,Salsa,Safe
+8,2,9,Lawrence & Edyta,,Lawrence & Edyta,Quickstep,Safe
+8,2,10,Steve-O & Lacey,,Steve-O & Lacey,Salsa,Safe
+8,2,11,Lil' Kim & Derek,,Lil' Kim & Derek,Quickstep,Safe
+8,2,12,Melissa & Tony,,Melissa & Tony,Salsa,Safe
+8,2,13,Gilles & Cheryl,,Gilles & Cheryl,Quickstep,Safe
+8,2,1,Belinda & Jonathan,,Belinda & Jonathan,Salsa,Eliminated
+8,2,2,Steve & Karina,,Steve & Karina,Quickstep,Safe
+8,3,1,Denise & Maks,,Denise & Maks,Samba,Bottom Two
+8,3,2,Chuck & Julianne,,Chuck & Julianne,Foxtrot,Safe
+8,3,3,Holly & Dmitry,,Holly & Dmitry,Samba,Bottom Two
+8,3,4,Steve-O & Lacey,,Steve-O & Lacey,Foxtrot,Safe
+8,3,5,Lawrence & Edyta,,Lawrence & Edyta,Samba,Safe
+8,3,6,Shawn & Mark,,Shawn & Mark,Foxtrot,Safe
+8,3,7,Gilles & Cheryl,,Gilles & Cheryl,Samba,Safe
+8,3,8,David & Kym,,David & Kym,Foxtrot,Safe
+8,3,9,Steve & Karina,,Steve & Karina,Samba,Safe
+8,3,10,Melissa & Tony,,Melissa & Tony,Foxtrot,Safe
+8,3,11,Lil' Kim & Derek,,Lil' Kim & Derek,Samba,Safe
+8,3,12,Ty & Chelsie,,Ty & Chelsie,Foxtrot,Safe
+8,3,1,Holly & Dmitry,,Holly & Dmitry,Samba,Safe
+8,3,2,Denise & Maks,,Denise & Maks,Samba,Eliminated
+8,4,1,David & Kym,,David & Kym,Lindy Hop,Safe
+8,4,2,Lil' Kim & Derek,,Lil' Kim & Derek,Argentine tango,Safe
+8,4,3,Chuck & Julianne,,Chuck & Julianne,Lindy Hop,Safe
+8,4,4,Lawrence & Edyta,,Lawrence & Edyta,Argentine tango,Safe
+8,4,5,Ty & Chelsie,,Ty & Chelsie,Lindy Hop,Safe
+8,4,6,Steve & Karina,,Steve & Karina,Argentine tango,Eliminated
+8,4,7,Melissa & Tony,,Melissa & Tony,Lindy Hop,Safe
+8,4,8,Holly & Dmitry,,Holly & Dmitry,Argentine tango,Eliminated
+8,4,9,Steve-O & Lacey,,Steve-O & Lacey,Lindy Hop,Bottom Three
+8,4,10,Gilles & Cheryl,,Gilles & Cheryl,Argentine tango,Safe
+8,4,11,Shawn & Mark,,Shawn & Mark,Lindy Hop,Safe
+8,5,1,Chuck & Julianne,,Chuck & Julianne,Viennese waltz,Safe
+8,5,2,Lawrence & Edyta,,Lawrence & Edyta,Paso doble,Bottom Two
+8,5,3,Shawn & Mark,,Shawn & Mark,Viennese waltz,Safe
+8,5,4,Melissa & Tony,,Melissa & Tony,Paso doble,Safe
+8,5,5,David & Kym,,David & Kym,Viennese waltz,Bottom Two
+8,5,6,Gilles & Cheryl,,Gilles & Cheryl,Paso doble,Safe
+8,5,7,Steve-O & Lacey,,Steve-O & Lacey,Viennese waltz,Safe
+8,5,8,Ty & Chelsie,,Ty & Chelsie,Paso doble,Safe
+8,5,9,Lil' Kim & Derek,,Lil' Kim & Derek,Viennese waltz,Safe
+8,5,1,David & Kym,,David & Kym,Viennese waltz,Eliminated
+8,5,2,Lawrence & Edyta,,Lawrence & Edyta,Paso doble,Safe
+8,6,1,Ty & Chelsie,,Ty & Chelsie,Jive,Safe
+8,6,2,Shawn & Mark,,Shawn & Mark,Rumba,Safe
+8,6,3,Lawrence & Edyta,,Lawrence & Edyta,Jive,Safe
+8,6,4,Melissa & Tony,,Melissa & Tony,Rumba,Safe
+8,6,5,Lil' Kim & Derek,,Lil' Kim & Derek,Jive,Safe
+8,6,6,Steve-O & Lacey,,Steve-O & Lacey,Rumba,Eliminated
+8,6,7,Gilles & Cheryl,,Gilles & Cheryl,Jive,Safe
+8,6,8,Chuck & Julianne,,Chuck & Julianne,Rumba,Safe
+8,7,1,Melissa & Tony,,Melissa & Tony,Argentine tango,Safe
+8,7,2,Lawrence & Edyta,,Lawrence & Edyta,Waltz,Eliminated
+8,7,3,Lil' Kim & Derek,,Lil' Kim & Derek,Rumba,Safe
+8,7,4,Chuck & Julianne,,Chuck & Julianne,Samba,Safe
+8,7,5,Ty & Chelsie,,Ty & Chelsie,Waltz,Safe
+8,7,6,Shawn & Mark,,Shawn & Mark,Cha-cha-cha,Safe
+8,7,7,Gilles & Cheryl,,Gilles & Cheryl,Viennese waltz,Safe
+8,7,8,Chuck & Julianne,Gilles & Cheryl,Chuck & Julianne / Gilles & Cheryl / Lawrence & Edyta / Lil' Kim & Derek / Melissa & Tony / Shawn & Mark / Ty & Chelsie,Group Swing,Safe
+8,8,1,Gilles & Cheryl,,Gilles & Cheryl,Lindy Hop,Safe
+8,8,2,Lil' Kim & Derek,,Lil' Kim & Derek,Paso doble,Safe
+8,8,3,Chuck & Julianne,,Chuck & Julianne,Cha-cha-cha,Eliminated
+8,8,4,Shawn & Mark,,Shawn & Mark,Samba,Safe
+8,8,5,Melissa & Tony,,Melissa & Tony,Jive,Safe
+8,8,6,Ty & Chelsie,,Ty & Chelsie,Salsa,Safe
+8,8,7,Chuck & Julianne,Lacey & Tony,Chuck & Julianne / Lacey & Tony / Shawn & Mark,Team Mambo,Safe
+8,8,8,Gilles & Cheryl,Lil' Kim & Derek,Gilles & Cheryl / Lil' Kim & Derek / Ty & Chelsie,Team Tango,Safe
+8,9,1,Shawn & Mark,,Shawn & Mark,Quickstep,Safe
+8,9,1,Shawn & Mark,,Shawn & Mark,,Safe
+8,9,2,Ty & Chelsie,,Ty & Chelsie,Argentine tango,Bottom Two
+8,9,2,Ty & Chelsie,,Ty & Chelsie,,Bottom Two
+8,9,3,Lil' Kim & Derek,,Lil' Kim & Derek,Waltz,Eliminated
+8,9,3,Lil' Kim & Derek,,Lil' Kim & Derek,,Eliminated
+8,9,4,Gilles & Cheryl,,Gilles & Cheryl,Foxtrot,Safe
+8,9,4,Gilles & Cheryl,,Gilles & Cheryl,,Safe
+8,9,5,Melissa & Tony,,Melissa & Tony,Viennese waltz,Safe
+8,9,5,Melissa & Tony,,Melissa & Tony,,Safe
+8,10,1,Melissa & Tony,,Melissa & Tony,Quickstep,Safe
+8,10,1,Melissa & Tony,,Melissa & Tony,,Safe
+8,10,2,Gilles & Cheryl,,Gilles & Cheryl,Waltz,Safe
+8,10,2,Gilles & Cheryl,,Gilles & Cheryl,,Safe
+8,10,3,Shawn & Mark,,Shawn & Mark,Argentine tango,Safe
+8,10,3,Shawn & Mark,,Shawn & Mark,,Safe
+8,10,4,Ty & Chelsie,,Ty & Chelsie,Viennese waltz,Eliminated
+8,10,4,Ty & Chelsie,,Ty & Chelsie,,Eliminated
+8,11,1,Shawn & Mark,,Shawn & Mark,Group Paso doble,
+8,11,2,Melissa & Tony,,Melissa & Tony,,
+8,11,3,Gilles & Cheryl,,Gilles & Cheryl,,
+8,11,4,Shawn & Mark,,Shawn & Mark,Freestyle,
+8,11,5,Melissa & Tony,,Melissa & Tony,Freestyle,
+8,11,6,Gilles & Cheryl,,Gilles & Cheryl,Freestyle,
+8,11,1,Shawn & Mark,,Shawn & Mark,Cha-cha-cha,Winners
+8,11,2,Melissa & Tony,,Melissa & Tony,Samba,Third Place
+8,11,3,Gilles & Cheryl,,Gilles & Cheryl,Argentine tango,Runners-Up
+9,1,1,Aaron & Karina,,Aaron & Karina,Cha-cha-cha,Safe
+9,1,2,Chuck & Anna T.,,Chuck & Anna T.,Foxtrot,Safe
+9,1,3,Mark & Lacey,,Mark & Lacey,Cha-cha-cha,Safe
+9,1,4,Ashley & Edyta,,Ashley & Edyta,Foxtrot,Eliminated
+9,1,5,Donny & Kym,,Donny & Kym,Foxtrot,Safe
+9,1,6,Louie & Chelsie,,Louie & Chelsie,Foxtrot,Safe
+9,1,7,Michael & Anna D.,,Michael & Anna D.,Cha-cha-cha,Safe
+9,1,8,Tom & Cheryl,,Tom & Cheryl,Cha-cha-cha,Safe
+9,1,9,Donny & Kym,,Donny & Kym,Salsa Relay,Safe
+9,1,10,Louie & Chelsie,,Louie & Chelsie,,Safe
+9,1,11,Chuck & Anna T.,,Chuck & Anna T.,,Safe
+9,1,12,Ashley & Edyta,,Ashley & Edyta,,Safe
+9,1,13,Aaron & Karina,,Aaron & Karina,Viennese waltz Relay,Safe
+9,1,14,Mark & Lacey,,Mark & Lacey,,Safe
+9,1,15,Michael & Anna D.,,Michael & Anna D.,,Safe
+9,1,16,Tom & Cheryl,,Tom & Cheryl,,Safe
+9,1,1,Debi & Maks,,Debi & Maks,Salsa,Safe
+9,1,2,Melissa & Mark,,Melissa & Mark,Viennese waltz,Safe
+9,1,3,Mýa & Dmitry,,Mýa & Dmitry,Viennese waltz,Safe
+9,1,4,Kathy & Tony,,Kathy & Tony,Salsa,Safe
+9,1,5,Natalie & Alec,,Natalie & Alec,Salsa,Safe
+9,1,6,Macy & Jonathan,,Macy & Jonathan,Viennese waltz,Eliminated
+9,1,7,Joanna & Derek,,Joanna & Derek,Salsa,Safe
+9,1,8,Kelly & Louis,,Kelly & Louis,Viennese waltz,Safe
+9,1,9,Joanna & Derek,,Joanna & Derek,Foxtrot Relay,Safe
+9,1,10,Natalie & Alec,,Natalie & Alec,,Safe
+9,1,11,Debi & Maks,,Debi & Maks,,Safe
+9,1,12,Kathy & Tony,,Kathy & Tony,,Safe
+9,1,13,Mýa & Dmitry,,Mýa & Dmitry,Cha-cha-cha Relay,Safe
+9,1,14,Kelly & Louis,,Kelly & Louis,,Safe
+9,1,15,Melissa & Mark,,Melissa & Mark,,Safe
+9,1,16,Macy & Jonathan,,Macy & Jonathan,,Safe
+9,2,1,Joanna & Derek,,Joanna & Derek,Jive,Safe
+9,2,2,Natalie & Alec,,Natalie & Alec,Quickstep,Safe
+9,2,3,Chuck & Anna T.,,Chuck & Anna T.,Tango,Safe
+9,2,4,Melissa & Mark,,Melissa & Mark,Jive,Safe
+9,2,5,Michael & Anna D.,,Michael & Anna D.,Quickstep,Safe
+9,2,6,Debi & Maks,,Debi & Maks,Tango,Bottom Two
+9,2,7,Louie & Chelsie,,Louie & Chelsie,Jive,Safe
+9,2,8,Aaron & Karina,,Aaron & Karina,Quickstep,Safe
+9,2,9,Kelly & Louis,,Kelly & Louis,Tango,Safe
+9,2,10,Kathy & Tony,,Kathy & Tony,Quickstep,Eliminated
+9,2,11,Mark & Lacey,,Mark & Lacey,Quickstep,Safe
+9,2,12,Mýa & Dmitry,,Mýa & Dmitry,Jive,Safe
+9,2,13,Tom & Cheryl,,Tom & Cheryl,Tango,Safe
+9,2,14,Donny & Kym,,Donny & Kym,Jive,Safe
+9,3,1,Mark & Lacey,,Mark & Lacey,Rumba,Safe
+9,3,2,Joanna & Derek,,Joanna & Derek,Samba,Safe
+9,3,3,Mýa & Dmitry,,Mýa & Dmitry,Rumba,Safe
+9,3,4,Melissa & Mark,,Melissa & Mark,Samba,Safe
+9,3,5,Louie & Chelsie,,Louie & Chelsie,Rumba,Safe
+9,3,6,Debi & Maks,,Debi & Maks,Samba,Eliminated
+9,3,7,Donny & Kym,,Donny & Kym,Rumba,Safe
+9,3,8,Michael & Anna D.,,Michael & Anna D.,Samba,Bottom Two
+9,3,9,Natalie & Alec,,Natalie & Alec,Rumba,Safe
+9,3,10,Chuck & Anna T.,,Chuck & Anna T.,Samba,Safe
+9,3,11,Aaron & Karina,,Aaron & Karina,Rumba,Safe
+9,3,12,Tom & Cheryl,,Tom & Cheryl,Samba,Withdrew
+9,3,13,Kelly & Louis,,Kelly & Louis,Samba,Safe
+9,4,1,Chuck & Anna T.,,Chuck & Anna T.,Two-step,Eliminated
+9,4,2,Melissa & Mark,,Melissa & Mark,Charleston,Safe
+9,4,3,Natalie & Alec,,Natalie & Alec,Bolero,Safe
+9,4,4,Aaron & Karina,,Aaron & Karina,Lambada,Bottom Two
+9,4,5,Mark & Lacey,,Mark & Lacey,Two-step,Safe
+9,4,6,Kelly & Louis,,Kelly & Louis,Charleston,Safe
+9,4,7,Joanna & Derek,,Joanna & Derek,Lambada,Safe
+9,4,8,Donny & Kym,,Donny & Kym,Charleston,Safe
+9,4,9,Michael & Anna D.,,Michael & Anna D.,Bolero,Safe
+9,4,10,Louie & Chelsie,,Louie & Chelsie,Two-step,Safe
+9,4,11,Mýa & Dmitry,,Mýa & Dmitry,Lambada,Safe
+9,5,1,Natalie & Alec,,Natalie & Alec,Paso doble,Eliminated
+9,5,2,Aaron & Karina,,Aaron & Karina,Argentine tango,Bottom Two
+9,5,3,Michael & Anna D.,,Michael & Anna D.,Paso doble,Safe
+9,5,4,Mýa & Dmitry,,Mýa & Dmitry,Argentine tango,Safe
+9,5,5,Mark & Lacey,,Mark & Lacey,Paso doble,Safe
+9,5,6,Donny & Kym,,Donny & Kym,Argentine tango,Safe
+9,5,7,Louie & Chelsie,,Louie & Chelsie,Argentine tango,Safe
+9,5,8,Melissa & Mark,,Melissa & Mark,Argentine tango,Safe
+9,5,9,Kelly & Louis,,Kelly & Louis,Paso doble,Safe
+9,5,10,Joanna & Maks,,Joanna & Maks,Argentine tango,Safe
+9,5,11,Aaron & Karina,Donny & Kym,Aaron & Karina / Donny & Kym / Joanna & Maks / Kelly & Louis / Louie & Chelsie / Mark & Lacey / Melissa & Mark / Michael & Anna D. / Mýa & Dmitry / Natalie & Alec,Group Hustle,Safe
+9,6,1,Mýa & Dmitry,,Mýa & Dmitry,Jitterbug,Safe
+9,6,2,Melissa & Mark,,Melissa & Mark,Waltz,Eliminated
+9,6,3,Mark & Lacey,,Mark & Lacey,Jitterbug,Safe
+9,6,4,Aaron & Karina,,Aaron & Karina,Waltz,Safe
+9,6,5,Michael & Anna D.,,Michael & Anna D.,Waltz,Bottom Three
+9,6,6,Kelly & Louis,,Kelly & Louis,Jitterbug,Safe
+9,6,7,Louie & Chelsie,,Louie & Chelsie,Jitterbug,Bottom Three
+9,6,8,Joanna & Derek,,Joanna & Derek,Waltz,Safe
+9,6,9,Donny & Kym,,Donny & Kym,Jitterbug,Safe
+9,6,10,Michael & Anna D.,,Michael & Anna D.,Mambo Relay,Safe
+9,6,11,Louie & Chelsie,,Louie & Chelsie,,Safe
+9,6,12,Melissa & Mark,,Melissa & Mark,,Safe
+9,6,13,Kelly & Louis,,Kelly & Louis,,Safe
+9,6,14,Mark & Lacey,,Mark & Lacey,,Safe
+9,6,15,Donny & Kym,,Donny & Kym,,Safe
+9,6,16,Aaron & Karina,,Aaron & Karina,,Safe
+9,6,17,Mýa & Dmitry,,Mýa & Dmitry,,Safe
+9,6,18,Joanna & Derek,,Joanna & Derek,,Safe
+9,6,1,Michael & Anna D.,,Michael & Anna D.,Samba,Safe
+9,6,2,Louie & Chelsie,,Louie & Chelsie,Jive,Eliminated
+9,7,1,Michael & Anna D.,,Michael & Anna D.,Foxtrot,Eliminated
+9,7,2,Donny & Kym,,Donny & Kym,Quickstep,Safe
+9,7,3,Mark & Anna T.,,Mark & Anna T.,Samba,Bottom Three
+9,7,4,Mýa & Dmitry,,Mýa & Dmitry,Foxtrot,Safe
+9,7,5,Aaron & Karina,,Aaron & Karina,Jive,Bottom Three
+9,7,6,Kelly & Louis,,Kelly & Louis,Salsa,Safe
+9,7,7,Joanna & Derek,,Joanna & Derek,Rumba,Safe
+9,7,8,Aaron & Karina,Mark & Anna T.,Aaron & Karina / Mark & Anna T. / Michael & Anna D. / Mýa & Dmitry,Team Paso doble,Safe
+9,7,9,Donny & Kym,Joanna & Derek,Donny & Kym / Joanna & Derek / Kelly & Louis,Team Tango,Safe
+9,7,1,Mark & Anna T.,,Mark & Anna T.,Cha-cha-cha,Eliminated
+9,7,2,Aaron & Karina,,Aaron & Karina,Jive,Safe
+9,8,1,Mýa & Dmitry,,Mýa & Dmitry,Quickstep,Safe
+9,8,1,Mýa & Dmitry,,Mýa & Dmitry,""" Bad Girls "" — Donna Summer",Safe
+9,8,2,Aaron & Karina,,Aaron & Karina,Foxtrot,Eliminated
+9,8,2,Aaron & Karina,,Aaron & Karina,""" Two Princes "" — Spin Doctors",Eliminated
+9,8,3,Joanna & Derek,,Joanna & Derek,Quickstep,Safe
+9,8,3,Joanna & Derek,,Joanna & Derek,""" Living on Video "" — Trans-X",Safe
+9,8,4,Kelly & Louis,,Kelly & Louis,Foxtrot,Safe
+9,8,4,Kelly & Louis,,Kelly & Louis,""" River Deep – Mountain High "" — Ike & Tina Turner",Safe
+9,8,5,Donny & Kym,,Donny & Kym,Viennese waltz,Safe
+9,8,5,Donny & Kym,,Donny & Kym,""" You Spin Me Round (Like a Record) "" — Dead or Alive",Safe
+9,9,1,Donny & Kym,,Donny & Kym,Tango,Safe
+9,9,1,Donny & Kym,,Donny & Kym,,Safe
+9,9,1,Donny & Kym,,Donny & Kym,,Safe
+9,9,2,Joanna & Derek,,Joanna & Derek,Viennese waltz,Eliminated
+9,9,2,Joanna & Derek,,Joanna & Derek,,Eliminated
+9,9,2,Joanna & Derek,,Joanna & Derek,,Eliminated
+9,9,3,Kelly & Louis,,Kelly & Louis,Rumba,Safe
+9,9,3,Kelly & Louis,,Kelly & Louis,,Safe
+9,9,3,Kelly & Louis,,Kelly & Louis,,Safe
+9,9,4,Mýa & Dmitry,,Mýa & Dmitry,Waltz,Safe
+9,9,4,Mýa & Dmitry,,Mýa & Dmitry,,Safe
+9,9,4,Mýa & Dmitry,,Mýa & Dmitry,,Safe
+9,10,1,Kelly & Louis,,Kelly & Louis,Argentine tango,
+9,10,1,Kelly & Louis,,Kelly & Louis,,
+9,10,2,Mýa & Dmitry,,Mýa & Dmitry,Paso doble,
+9,10,2,Mýa & Dmitry,,Mýa & Dmitry,,
+9,10,3,Donny & Kym,,Donny & Kym,Cha-cha-cha,
+9,10,3,Donny & Kym,,Donny & Kym,,
+9,10,4,Mýa & Dmitry,,Mýa & Dmitry,"Megamix (Viennese waltz, samba & jive)",
+9,10,5,Donny & Kym,,Donny & Kym,,
+9,10,6,Kelly & Louis,,Kelly & Louis,,
+9,10,1,Kelly & Louis,,Kelly & Louis,Viennese waltz,Third Place
+9,10,2,Mýa & Dmitry,,Mýa & Dmitry,Jive,Runners-Up
+9,10,3,Donny & Kym,,Donny & Kym,Argentine tango,Winners
+10,1,1,Chad & Cheryl,,Chad & Cheryl,Cha-cha-cha,
+10,1,2,Shannen & Mark,,Shannen & Mark,Viennese waltz,
+10,1,3,Erin & Maks,,Erin & Maks,Cha-cha-cha,
+10,1,4,Jake & Chelsie,,Jake & Chelsie,Viennese waltz,
+10,1,5,Niecy & Louis,,Niecy & Louis,Cha-cha-cha,
+10,1,6,Evan & Anna,,Evan & Anna,Viennese waltz,
+10,1,7,Buzz & Ashly,,Buzz & Ashly,Cha-cha-cha,
+10,1,8,Nicole & Derek,,Nicole & Derek,Viennese waltz,
+10,1,9,Aiden & Edyta,,Aiden & Edyta,Cha-cha-cha,
+10,1,10,Kate & Tony,,Kate & Tony,Viennese waltz,
+10,1,11,Pamela & Damian,,Pamela & Damian,Cha-cha-cha,
+10,2,1,Shannen & Mark,,Shannen & Mark,Jive,Eliminated
+10,2,2,Aiden & Edyta,,Aiden & Edyta,Foxtrot,Safe
+10,2,3,Evan & Anna,,Evan & Anna,Jive,Safe
+10,2,4,Niecy & Louis,,Niecy & Louis,Foxtrot,Safe
+10,2,5,Jake & Chelsie,,Jake & Chelsie,Jive,Safe
+10,2,6,Buzz & Ashly,,Buzz & Ashly,Foxtrot,Safe
+10,2,7,Nicole & Derek,,Nicole & Derek,Jive,Safe
+10,2,8,Erin & Maks,,Erin & Maks,Foxtrot,Safe
+10,2,9,Pamela & Damian,,Pamela & Damian,Foxtrot,Bottom Two
+10,2,10,Chad & Cheryl,,Chad & Cheryl,Foxtrot,Safe
+10,2,11,Kate & Tony,,Kate & Tony,Jive,Safe
+10,3,1,Evan & Anna,,Evan & Anna,Quickstep,Safe
+10,3,2,Buzz & Ashly,,Buzz & Ashly,Waltz,Eliminated
+10,3,3,Jake & Chelsie,,Jake & Chelsie,Quickstep,Bottom Two
+10,3,4,Niecy & Louis,,Niecy & Louis,Waltz,Safe
+10,3,5,Chad & Cheryl,,Chad & Cheryl,Paso doble,Safe
+10,3,6,Pamela & Damian,,Pamela & Damian,Paso doble,Safe
+10,3,7,Aiden & Edyta,,Aiden & Edyta,Quickstep,Safe
+10,3,8,Erin & Maks,,Erin & Maks,Waltz,Safe
+10,3,9,Kate & Tony,,Kate & Tony,Paso doble,Safe
+10,3,10,Nicole & Derek,,Nicole & Derek,Quickstep,Safe
+10,4,1,Erin & Maks,,Erin & Maks,Tango,Safe
+10,4,1,Erin & Maks,,Erin & Maks,,Safe
+10,4,2,Evan & Anna,,Evan & Anna,Tango,Safe
+10,4,2,Evan & Anna,,Evan & Anna,,Safe
+10,4,3,Niecy & Louis,,Niecy & Louis,Rumba,Safe
+10,4,3,Niecy & Louis,,Niecy & Louis,,Safe
+10,4,4,Aiden & Edyta,,Aiden & Edyta,Rumba,Eliminated
+10,4,4,Aiden & Edyta,,Aiden & Edyta,,Eliminated
+10,4,5,Nicole & Derek,,Nicole & Derek,Rumba,Safe
+10,4,5,Nicole & Derek,,Nicole & Derek,,Safe
+10,4,6,Jake & Chelsie,,Jake & Chelsie,Tango,Safe
+10,4,6,Jake & Chelsie,,Jake & Chelsie,,Safe
+10,4,7,Kate & Tony,,Kate & Tony,Tango,Safe
+10,4,7,Kate & Tony,,Kate & Tony,,Safe
+10,4,8,Chad & Cheryl,,Chad & Cheryl,Rumba,Safe
+10,4,8,Chad & Cheryl,,Chad & Cheryl,,Safe
+10,4,9,Pamela & Damian,,Pamela & Damian,Rumba,Safe
+10,4,9,Pamela & Damian,,Pamela & Damian,,Safe
+10,5,1,Niecy & Louis,,Niecy & Louis,Jive,Safe
+10,5,2,Chad & Cheryl,,Chad & Cheryl,Quickstep,Safe
+10,5,3,Erin & Maks,,Erin & Maks,Jive,Safe
+10,5,4,Jake & Chelsie,,Jake & Chelsie,Cha-cha-cha,Safe
+10,5,5,Pamela & Damian,,Pamela & Damian,Quickstep,Bottom Two
+10,5,6,Kate & Tony,,Kate & Tony,Foxtrot,Eliminated
+10,5,7,Nicole & Derek,,Nicole & Derek,Tango,Safe
+10,5,8,Evan & Anna,,Evan & Anna,Rumba,Safe
+10,6,1,Jake & Chelsie,,Jake & Chelsie,Samba,Eliminated
+10,6,2,Evan & Anna,,Evan & Anna,Samba,Safe
+10,6,3,Niecy & Louis,,Niecy & Louis,Argentine tango,Bottom Two
+10,6,4,Erin & Maks,,Erin & Maks,Samba,Safe
+10,6,5,Chad & Cheryl,,Chad & Cheryl,Argentine tango,Safe
+10,6,6,Nicole & Derek,,Nicole & Derek,Samba,Safe
+10,6,7,Pamela & Damian,,Pamela & Damian,Argentine tango,Safe
+10,6,8,Jake & Chelsie,,Jake & Chelsie,Swing Marathon,Safe
+10,6,9,Niecy & Louis,,Niecy & Louis,,Safe
+10,6,10,Evan & Anna,,Evan & Anna,,Safe
+10,6,11,Chad & Cheryl,,Chad & Cheryl,,Safe
+10,6,12,Pamela & Damian,,Pamela & Damian,,Safe
+10,6,13,Erin & Maks,,Erin & Maks,,Safe
+10,6,14,Nicole & Derek,,Nicole & Derek,,Safe
+10,7,1,Erin & Maks,,Erin & Maks,Quickstep,Bottom Two
+10,7,2,Chad & Cheryl,,Chad & Cheryl,Viennese waltz,Safe
+10,7,3,Nicole & Derek,,Nicole & Derek,Waltz,Safe
+10,7,4,Pamela & Damian,,Pamela & Damian,Waltz,Eliminated
+10,7,5,Niecy & Louis,,Niecy & Louis,Quickstep,Safe
+10,7,6,Evan & Anna,,Evan & Anna,Argentine tango,Safe
+10,7,7,Chad & Cheryl,Nicole & Derek,Chad & Cheryl / Nicole & Derek / Pamela & Damian,Cha-cha-cha (Team Gaga),Safe
+10,7,8,Erin & Maks,Evan & Anna,Erin & Maks / Evan & Anna / Niecy & Louis,Cha-cha-cha (Team Madonna),Safe
+10,8,1,Chad & Cheryl,,Chad & Cheryl,Tango,Safe
+10,8,1,Chad & Cheryl,,Chad & Cheryl,""" Love Man "" — Otis Redding",Safe
+10,8,2,Niecy & Louis,,Niecy & Louis,Viennese waltz,Eliminated
+10,8,2,Niecy & Louis,,Niecy & Louis,""" Rhythm is a Dancer "" — Snap!",Eliminated
+10,8,3,Erin & Maks,,Erin & Maks,Argentine tango,Safe
+10,8,3,Erin & Maks,,Erin & Maks,""" Missing You "" — John Waite",Safe
+10,8,4,Evan & Anna,,Evan & Anna,Waltz,Safe
+10,8,4,Evan & Anna,,Evan & Anna,""" Bulletproof "" — La Roux",Safe
+10,8,5,Nicole & Derek,,Nicole & Derek,Foxtrot,Safe
+10,8,5,Nicole & Derek,,Nicole & Derek,""" Spanish Guitar "" — Bo Diddley",Safe
+10,9,1,Erin & Maks,,Erin & Maks,Viennese waltz,Safe
+10,9,1,Erin & Maks,,Erin & Maks,,Safe
+10,9,2,Nicole & Derek,,Nicole & Derek,Argentine tango,Safe
+10,9,2,Nicole & Derek,,Nicole & Derek,,Safe
+10,9,3,Chad & Cheryl,,Chad & Cheryl,Waltz,Eliminated
+10,9,3,Chad & Cheryl,,Chad & Cheryl,,Eliminated
+10,9,4,Evan & Anna,,Evan & Anna,Foxtrot,Safe
+10,9,4,Evan & Anna,,Evan & Anna,,Safe
+10,10,1,Erin & Maks,,Erin & Maks,Samba,
+10,10,1,Erin & Maks,,Erin & Maks,,
+10,10,2,Evan & Anna,,Evan & Anna,Viennese waltz,
+10,10,2,Evan & Anna,,Evan & Anna,,
+10,10,3,Nicole & Derek,,Nicole & Derek,Rumba,
+10,10,3,Nicole & Derek,,Nicole & Derek,,
+10,10,1,Erin & Maks,,Erin & Maks,Argentine tango,Eliminated
+10,10,2,Nicole & Derek,,Nicole & Derek,Argentine tango,Winners
+10,10,2,Nicole & Derek,,Nicole & Derek,,Winners
+10,10,3,Evan & Anna,,Evan & Anna,Argentine tango,Runners-Up
+10,10,3,Evan & Anna,,Evan & Anna,,Runners-Up
+11,1,1,Audrina & Tony,,Audrina & Tony,Cha-cha-cha,Safe
+11,1,2,Kurt & Anna,,Kurt & Anna,Viennese waltz,Safe
+11,1,3,Kyle & Lacey,,Kyle & Lacey,Cha-cha-cha,Safe
+11,1,4,Rick & Cheryl,,Rick & Cheryl,Viennese waltz,Safe
+11,1,5,Margaret & Louis,,Margaret & Louis,Viennese waltz,Safe
+11,1,6,Brandy & Maks,,Brandy & Maks,Viennese waltz,Safe
+11,1,7,Bristol & Mark,,Bristol & Mark,Cha-cha-cha,Safe
+11,1,8,Florence & Corky,,Florence & Corky,Cha-cha-cha,Safe
+11,1,9,Michael & Chelsie,,Michael & Chelsie,Viennese waltz,Safe
+11,1,10,The Situation & Karina,,The Situation & Karina,Cha-cha-cha,Safe
+11,1,11,Jennifer & Derek,,Jennifer & Derek,Viennese waltz,Safe
+11,1,12,David & Kym,,David & Kym,Cha-cha-cha,Eliminated
+11,2,1,Rick & Cheryl,,Rick & Cheryl,Jive,Safe
+11,2,2,Florence & Corky,,Florence & Corky,Quickstep,Safe
+11,2,3,Brandy & Maks,,Brandy & Maks,Jive,Safe
+11,2,4,Michael & Chelsie,,Michael & Chelsie,Jive,Eliminated
+11,2,5,Audrina & Tony,,Audrina & Tony,Quickstep,Safe
+11,2,6,Jennifer & Derek,,Jennifer & Derek,Jive,Safe
+11,2,7,Margaret & Louis,,Margaret & Louis,Jive,Safe
+11,2,8,Kyle & Lacey,,Kyle & Lacey,Quickstep,Safe
+11,2,9,Kurt & Anna,,Kurt & Anna,Jive,Safe
+11,2,10,The Situation & Karina,,The Situation & Karina,Quickstep,Safe
+11,2,11,Bristol & Mark,,Bristol & Mark,Quickstep,Safe
+11,3,1,Jennifer & Derek,,Jennifer & Derek,Samba,Safe
+11,3,2,Florence & Corky,,Florence & Corky,Waltz,Safe
+11,3,3,Kurt & Anna,,Kurt & Anna,Foxtrot,Safe
+11,3,4,Margaret & Louis,,Margaret & Louis,Samba,Eliminated
+11,3,5,Audrina & Tony,,Audrina & Tony,Waltz,Safe
+11,3,6,Bristol & Mark,,Bristol & Mark,Foxtrot,Safe
+11,3,7,Brandy & Maks,,Brandy & Maks,Samba,Safe
+11,3,8,Kyle & Lacey,,Kyle & Lacey,Waltz,Safe
+11,3,9,The Situation & Karina,,The Situation & Karina,Foxtrot,Safe
+11,3,10,Rick & Cheryl,,Rick & Cheryl,Samba,Safe
+11,4,1,Kurt & Anna,,Kurt & Anna,Rumba,Safe
+11,4,2,Brandy & Maks,,Brandy & Maks,Rumba,Safe
+11,4,3,Rick & Cheryl,,Rick & Cheryl,Argentine tango,Safe
+11,4,4,Kyle & Lacey,,Kyle & Lacey,Rumba,Safe
+11,4,5,The Situation & Karina,,The Situation & Karina,Argentine tango,Eliminated
+11,4,6,Florence & Corky,,Florence & Corky,Rumba,Safe
+11,4,7,Jennifer & Derek,,Jennifer & Derek,Argentine tango,Safe
+11,4,8,Bristol & Mark,,Bristol & Mark,Rumba,Safe
+11,4,9,Audrina & Tony,,Audrina & Tony,Argentine tango,Safe
+11,5,1,Brandy & Maks,,Brandy & Maks,Quickstep,Safe
+11,5,2,Florence & Corky,,Florence & Corky,Tango,Eliminated
+11,5,3,Kurt & Anna,,Kurt & Anna,Quickstep,Safe
+11,5,4,Audrina & Tony,,Audrina & Tony,Rumba,Safe
+11,5,5,Kyle & Lacey,,Kyle & Lacey,Foxtrot,Safe
+11,5,6,Rick & Cheryl,,Rick & Cheryl,Rumba,Safe
+11,5,7,Bristol & Mark,,Bristol & Mark,Jive,Safe
+11,5,8,Jennifer & Derek,,Jennifer & Derek,Foxtrot,Safe
+11,6,1,Audrina & Tony,,Audrina & Tony,Paso doble,Eliminated
+11,6,2,Kyle & Lacey,,Kyle & Lacey,Tango,Safe
+11,6,3,Jennifer & Derek,,Jennifer & Derek,Paso doble,Safe
+11,6,4,Rick & Cheryl,,Rick & Cheryl,Tango,Safe
+11,6,5,Bristol & Mark,,Bristol & Mark,Tango,Safe
+11,6,6,Kurt & Anna,,Kurt & Anna,Paso doble,Safe
+11,6,7,Brandy & Maks,,Brandy & Maks,Tango,Safe
+11,6,8,Kurt & Anna,,Kurt & Anna,Rock and roll Marathon,Safe
+11,6,9,Bristol & Mark,,Bristol & Mark,,Safe
+11,6,10,Rick & Cheryl,,Rick & Cheryl,,Safe
+11,6,11,Kyle & Lacey,,Kyle & Lacey,,Safe
+11,6,12,Audrina & Tony,,Audrina & Tony,,Safe
+11,6,13,Jennifer & Derek,,Jennifer & Derek,,Safe
+11,6,14,Brandy & Maks,,Brandy & Maks,,Safe
+11,7,1,Bristol & Mark,Kyle & Lacey,Bristol & Mark / Kyle & Lacey / Rick & Cheryl,Cha-cha-cha,
+11,7,2,Brandy & Maks,Jennifer & Derek,Brandy & Maks / Jennifer & Derek / Kurt & Anna,Cha-cha-cha,
+11,7,1,Kyle & Lacey,,Kyle & Lacey,Paso doble,Safe
+11,7,2,Kurt & Anna,,Kurt & Anna,Tango,Safe
+11,7,3,Bristol & Mark,,Bristol & Mark,Viennese waltz,Safe
+11,7,4,Rick & Cheryl,,Rick & Cheryl,Quickstep,Eliminated
+11,7,5,Brandy & Maks,,Brandy & Maks,Foxtrot,Safe
+11,7,6,Jennifer & Derek,,Jennifer & Derek,Tango,Safe
+11,8,1,Kyle & Lacey,,Kyle & Lacey,Viennese waltz,Safe
+11,8,1,Kyle & Lacey,,Kyle & Lacey,,Safe
+11,8,2,Jennifer & Derek,,Jennifer & Derek,Quickstep,Safe
+11,8,2,Jennifer & Derek,,Jennifer & Derek,,Safe
+11,8,3,Kurt & Anna,,Kurt & Anna,Waltz,Eliminated
+11,8,3,Kurt & Anna,,Kurt & Anna,,Eliminated
+11,8,4,Bristol & Mark,,Bristol & Mark,Argentine tango,Safe
+11,8,4,Bristol & Mark,,Bristol & Mark,,Safe
+11,8,5,Brandy & Maks,,Brandy & Maks,Waltz,Safe
+11,8,5,Brandy & Maks,,Brandy & Maks,,Safe
+11,9,1,Brandy & Maks,,Brandy & Maks,Paso doble,Eliminated
+11,9,1,Brandy & Maks,,Brandy & Maks,,Eliminated
+11,9,2,Jennifer & Derek,,Jennifer & Derek,Cha-cha-cha,Safe
+11,9,2,Jennifer & Derek,,Jennifer & Derek,,Safe
+11,9,3,Bristol & Mark,,Bristol & Mark,Paso doble,Safe
+11,9,3,Bristol & Mark,,Bristol & Mark,,Safe
+11,9,4,Kyle & Lacey,,Kyle & Lacey,Samba,Safe
+11,9,4,Kyle & Lacey,,Kyle & Lacey,,Safe
+11,10,1,Kyle & Lacey,,Kyle & Lacey,Foxtrot,
+11,10,1,Kyle & Lacey,,Kyle & Lacey,,
+11,10,2,Bristol & Mark,,Bristol & Mark,Jive,
+11,10,2,Bristol & Mark,,Bristol & Mark,,
+11,10,3,Jennifer & Derek,,Jennifer & Derek,Paso doble,
+11,10,3,Jennifer & Derek,,Jennifer & Derek,,
+11,10,1,Kyle & Lacey,,Kyle & Lacey,Tango,Runners-Up
+11,10,2,Bristol & Mark,,Bristol & Mark,Tango,Third Place
+11,10,3,Jennifer & Derek,,Jennifer & Derek,Viennese waltz,Winners
+11,10,4,Kyle & Lacey,,Kyle & Lacey,Cha-cha-cha Relay,Winners
+11,10,5,Jennifer & Derek,,Jennifer & Derek,,Winners
+11,10,6,Bristol & Mark,,Bristol & Mark,,Winners
+12,1,1,Chelsea & Mark,,Chelsea & Mark,Foxtrot,
+12,1,2,Wendy & Tony,,Wendy & Tony,Cha-cha-cha,
+12,1,3,Hines & Kym,,Hines & Kym,Cha-cha-cha,
+12,1,4,Petra & Dmitry,,Petra & Dmitry,Foxtrot,
+12,1,5,Romeo & Chelsie,,Romeo & Chelsie,Cha-cha-cha,
+12,1,6,Sugar Ray & Anna,,Sugar Ray & Anna,Foxtrot,
+12,1,7,Kendra & Louis,,Kendra & Louis,Cha-cha-cha,
+12,1,8,Ralph & Karina,,Ralph & Karina,Foxtrot,
+12,1,9,Chris & Cheryl,,Chris & Cheryl,Cha-cha-cha,
+12,1,10,Mike & Lacey,,Mike & Lacey,Foxtrot,
+12,1,11,Kirstie & Maks,,Kirstie & Maks,Cha-cha-cha,
+12,2,1,Sugar Ray & Anna,,Sugar Ray & Anna,Jive,Safe
+12,2,2,Kendra & Louis,,Kendra & Louis,Quickstep,Safe
+12,2,3,Chelsea & Mark,,Chelsea & Mark,Jive,Safe
+12,2,4,Chris & Cheryl,,Chris & Cheryl,Quickstep,Safe
+12,2,5,Petra & Dmitry,,Petra & Dmitry,Jive,Safe
+12,2,6,Kirstie & Maks,,Kirstie & Maks,Quickstep,Safe
+12,2,7,Mike & Lacey,,Mike & Lacey,Jive,Eliminated
+12,2,8,Romeo & Chelsie,,Romeo & Chelsie,Quickstep,Safe
+12,2,9,Wendy & Tony,,Wendy & Tony,Quickstep,Safe
+12,2,10,Ralph & Karina,,Ralph & Karina,Jive,Safe
+12,2,11,Hines & Kym,,Hines & Kym,Quickstep,Safe
+12,3,1,Wendy & Tony,,Wendy & Tony,Foxtrot,Eliminated
+12,3,2,Chelsea & Mark,,Chelsea & Mark,Cha-cha-cha,Safe
+12,3,3,Chris & Cheryl,,Chris & Cheryl,Rumba,Safe
+12,3,4,Kendra & Louis,,Kendra & Louis,Rumba,Safe
+12,3,5,Romeo & Chelsie,,Romeo & Chelsie,Rumba,Safe
+12,3,6,Hines & Kym,,Hines & Kym,Samba,Safe
+12,3,7,Petra & Dmitry,,Petra & Dmitry,Waltz,Safe
+12,3,8,Sugar Ray & Anna,,Sugar Ray & Anna,Paso doble,Safe
+12,3,9,Kirstie & Maks,,Kirstie & Maks,Rumba,Safe
+12,3,10,Ralph & Karina,,Ralph & Karina,Rumba,Safe
+12,4,1,Romeo & Chelsie,,Romeo & Chelsie,Paso doble,Safe
+12,4,2,Kendra & Louis,,Kendra & Louis,Viennese waltz,Safe
+12,4,3,Sugar Ray & Anna,,Sugar Ray & Anna,Viennese waltz,Eliminated
+12,4,4,Petra & Dmitry,,Petra & Dmitry,Paso doble,Safe
+12,4,5,Ralph & Karina,,Ralph & Karina,Waltz,Safe
+12,4,6,Hines & Kym,,Hines & Kym,Paso doble,Safe
+12,4,7,Chelsea & Mark,,Chelsea & Mark,Viennese waltz,Safe
+12,4,8,Chris & Cheryl,,Chris & Cheryl,Paso doble,Safe
+12,4,9,Kirstie & Maks,,Kirstie & Maks,Waltz,Safe
+12,5,1,Ralph & Karina,,Ralph & Karina,Samba,Safe
+12,5,2,Chris & Cheryl,,Chris & Cheryl,Viennese waltz,Safe
+12,5,3,Petra & Dmitry,,Petra & Dmitry,Quickstep,Eliminated
+12,5,4,Romeo & Chelsie,,Romeo & Chelsie,Foxtrot,Safe
+12,5,5,Hines & Kym,,Hines & Kym,Rumba,Safe
+12,5,6,Kirstie & Maks,,Kirstie & Maks,Foxtrot,Safe
+12,5,7,Kendra & Louis,,Kendra & Louis,Foxtrot,Safe
+12,5,8,Chelsea & Mark,,Chelsea & Mark,Samba,Safe
+12,6,1,Kirstie & Maks,,Kirstie & Maks,Samba,Safe
+12,6,2,Chris & Cheryl,,Chris & Cheryl,Tango,Eliminated
+12,6,3,Romeo & Chelsie,,Romeo & Chelsie,Waltz,Safe
+12,6,4,Chelsea & Mark,,Chelsea & Mark,Quickstep,Safe
+12,6,5,Kendra & Louis,,Kendra & Louis,Samba,Safe
+12,6,6,Hines & Kym,,Hines & Kym,Viennese waltz,Safe
+12,6,7,Ralph & Karina,,Ralph & Karina,Paso doble,Safe
+12,7,1,Chelsea & Mark,Ralph & Karina,Chelsea & Mark / Ralph & Karina / Romeo & Chelsie,Team Cha-cha-cha,
+12,7,2,Hines & Kym,Kendra & Louis,Hines & Kym / Kendra & Louis / Kirstie & Maks,Team Cha-cha-cha,
+12,7,3,Chelsea & Mark,,Chelsea & Mark,Paso doble,Safe
+12,7,4,Kendra & Louis,,Kendra & Louis,Tango,Eliminated
+12,7,5,Kirstie & Maks,,Kirstie & Maks,Jive,Safe
+12,7,6,Ralph & Karina,,Ralph & Karina,Quickstep,Safe
+12,7,7,Hines & Kym,,Hines & Kym,Tango,Safe
+12,7,8,Romeo & Chelsie,,Romeo & Chelsie,Samba,Safe
+12,8,1,Chelsea & Mark,,Chelsea & Mark,Waltz,Safe
+12,8,1,Chelsea & Mark,,Chelsea & Mark,,Safe
+12,8,2,Hines & Kym,,Hines & Kym,Foxtrot,Safe
+12,8,2,Hines & Kym,,Hines & Kym,,Safe
+12,8,3,Romeo & Chelsie,,Romeo & Chelsie,Tango,Eliminated
+12,8,3,Romeo & Chelsie,,Romeo & Chelsie,,Eliminated
+12,8,4,Ralph & Karina,,Ralph & Karina,Viennese waltz,Safe
+12,8,4,Ralph & Karina,,Ralph & Karina,,Safe
+12,8,5,Kirstie & Maks,,Kirstie & Maks,Argentine tango,Safe
+12,8,5,Kirstie & Maks,,Kirstie & Maks,,Safe
+12,9,1,Ralph & Karina,,Ralph & Karina,Argentine tango,Eliminated
+12,9,1,Ralph & Karina,,Ralph & Karina,,Eliminated
+12,9,2,Kirstie & Maks,,Kirstie & Maks,Viennese waltz,Safe
+12,9,2,Kirstie & Maks,,Kirstie & Maks,,Safe
+12,9,3,Chelsea & Mark,,Chelsea & Mark,Argentine tango,Safe
+12,9,3,Chelsea & Mark,,Chelsea & Mark,,Safe
+12,9,4,Hines & Kym,,Hines & Kym,Argentine tango,Safe
+12,9,4,Hines & Kym,,Hines & Kym,,Safe
+12,9,1,Hines & Kym,,Hines & Kym,Cha-cha-cha,Winners
+12,9,2,Ralph & Karina,,Ralph & Karina,""" Mustang Sally "" — Wilson Pickett",Winners
+12,9,3,Chelsea & Mark,,Chelsea & Mark,Cha-cha-cha,Winners
+12,9,4,Kirstie & Maks,,Kirstie & Maks,""" Walkin' On The Sun "" — Smash Mouth",Winners
+12,9,5,Chelsea & Mark,,Chelsea & Mark,Cha-cha-cha,Winners
+12,9,6,Hines & Kym,,Hines & Kym,Losers,Winners
+12,10,1,Chelsea & Mark,,Chelsea & Mark,Samba,
+12,10,1,Chelsea & Mark,,Chelsea & Mark,,
+12,10,2,Kirstie & Maks,,Kirstie & Maks,Samba,
+12,10,2,Kirstie & Maks,,Kirstie & Maks,,
+12,10,3,Hines & Kym,,Hines & Kym,Quickstep,
+12,10,3,Hines & Kym,,Hines & Kym,,
+12,10,1,Chelsea & Mark,,Chelsea & Mark,Viennese waltz,Third Place
+12,10,2,Kirstie & Maks,,Kirstie & Maks,Cha-cha-cha,Runners-Up
+12,10,3,Hines & Kym,,Hines & Kym,Samba,Winners
+13,1,1,Ron & Peta,,Ron & Peta,Cha-cha-cha,Eliminated
+13,1,2,Rob & Cheryl,,Rob & Cheryl,Viennese waltz,Safe
+13,1,3,Kristin & Mark,,Kristin & Mark,Cha-cha-cha,Safe
+13,1,4,Chynna & Tony,,Chynna & Tony,Viennese waltz,Safe
+13,1,5,Nancy & Tristan,,Nancy & Tristan,Cha-cha-cha,Safe
+13,1,6,David & Kym,,David & Kym,Viennese waltz,Safe
+13,1,7,Elisabetta & Val,,Elisabetta & Val,Cha-cha-cha,Safe
+13,1,8,Hope & Maks,,Hope & Maks,Viennese waltz,Safe
+13,1,9,Carson & Anna,,Carson & Anna,Cha-cha-cha,Safe
+13,1,10,J.R. & Karina,,J.R. & Karina,Viennese waltz,Safe
+13,1,11,Ricki & Derek,,Ricki & Derek,Viennese waltz,Safe
+13,1,12,Chaz & Lacey,,Chaz & Lacey,Cha-cha-cha,Safe
+13,2,1,Hope & Maks,,Hope & Maks,Jive,Safe
+13,2,2,Kristin & Mark,,Kristin & Mark,Quickstep,Safe
+13,2,3,David & Kym,,David & Kym,Jive,Bottom Two
+13,2,4,Elisabetta & Val,,Elisabetta & Val,Quickstep,Eliminated
+13,2,5,Rob & Cheryl,,Rob & Cheryl,Jive,Safe
+13,2,6,Carson & Anna,,Carson & Anna,Quickstep,Safe
+13,2,7,Ricki & Derek,,Ricki & Derek,Jive,Safe
+13,2,8,Chaz & Lacey,,Chaz & Lacey,Quickstep,Safe
+13,2,9,Chynna & Tony,,Chynna & Tony,Jive,Safe
+13,2,10,Nancy & Tristan,,Nancy & Tristan,Quickstep,Safe
+13,2,11,J.R. & Karina,,J.R. & Karina,Jive,Safe
+13,3,1,Rob & Cheryl,,Rob & Cheryl,Foxtrot,Safe
+13,3,2,Chynna & Tony,,Chynna & Tony,Rumba,Safe
+13,3,3,Chaz & Lacey,,Chaz & Lacey,Rumba,Safe
+13,3,4,Kristin & Mark,,Kristin & Mark,Samba,Eliminated
+13,3,5,Carson & Anna,,Carson & Anna,Tango,Safe
+13,3,6,J.R. & Karina,,J.R. & Karina,Rumba,Safe
+13,3,7,Nancy & Tristan,,Nancy & Tristan,Waltz,Safe
+13,3,8,Ricki & Derek,,Ricki & Derek,Rumba,Safe
+13,3,9,Hope & Maks,,Hope & Maks,Cha-cha-cha,Safe
+13,3,10,David & Kym,,David & Kym,Rumba,Safe
+13,4,1,Chynna & Tony,,Chynna & Tony,Tango,Eliminated
+13,4,2,David & Kym,,David & Kym,Paso doble,Safe
+13,4,3,Carson & Anna,,Carson & Anna,Viennese waltz,Safe
+13,4,4,Nancy & Tristan,,Nancy & Tristan,Paso doble,Safe
+13,4,5,Hope & Maks,,Hope & Maks,Foxtrot,Safe
+13,4,6,Rob & Cheryl,,Rob & Cheryl,Paso doble,Safe
+13,4,7,Ricki & Derek,,Ricki & Derek,Tango,Safe
+13,4,8,Chaz & Lacey,,Chaz & Lacey,Paso doble,Safe
+13,4,9,J.R. & Karina,,J.R. & Karina,Foxtrot,Safe
+13,5,1,Hope & Maks,,Hope & Maks,Tango,Safe
+13,5,2,Carson & Anna,,Carson & Anna,Jive,Eliminated
+13,5,3,Nancy & Tristan,,Nancy & Tristan,Rumba,Safe
+13,5,4,J.R. & Karina,,J.R. & Karina,Samba,Safe
+13,5,5,Rob & Cheryl,,Rob & Cheryl,Rumba,Safe
+13,5,6,Chaz & Lacey,,Chaz & Lacey,Samba,Safe
+13,5,7,David & Kym,,David & Kym,Tango,Safe
+13,5,8,Ricki & Derek,,Ricki & Derek,Foxtrot,Safe
+13,6,1,Rob & Cheryl,,Rob & Cheryl,Cha-cha-cha,Safe
+13,6,2,Nancy & Tristan,,Nancy & Tristan,Foxtrot,Safe
+13,6,3,David & Kym,,David & Kym,Quickstep,Safe
+13,6,4,Ricki & Derek,,Ricki & Derek,Quickstep,Safe
+13,6,5,Chaz & Lacey,,Chaz & Lacey,Tango,Eliminated
+13,6,6,Hope & Maks,,Hope & Maks,Rumba,Safe
+13,6,7,J.R. & Karina,,J.R. & Karina,Quickstep,Safe
+13,6,8,Chaz & Lacey,David & Kym,Chaz & Lacey / David & Kym / Hope & Maks / J.R. & Karina / Nancy & Tristan / Ricki & Derek / Rob & Cheryl,Group Broadway,Safe
+13,7,1,David & Kym,,David & Kym,Cha-cha-cha,Eliminated
+13,7,2,J.R. & Karina,,J.R. & Karina,Tango,Safe
+13,7,3,Nancy & Tristan,,Nancy & Tristan,Jive,Bottom Two
+13,7,4,Rob & Cheryl,,Rob & Cheryl,Tango,Safe
+13,7,5,Ricki & Derek,,Ricki & Derek,Paso doble,Safe
+13,7,6,Hope & Maks,,Hope & Maks,Samba,Safe
+13,7,7,David & Kym,J.R. & Karina,David & Kym / J.R. & Karina / Nancy & Tristan,Team Tango,Safe
+13,7,8,Hope & Maks,Ricki & Derek,Hope & Maks / Ricki & Derek / Rob & Cheryl,Team Paso doble,Safe
+13,8,1,Rob & Cheryl,,Rob & Cheryl,Quickstep,Safe
+13,8,1,Rob & Cheryl,,Rob & Cheryl,,Safe
+13,8,2,Hope & Maks,,Hope & Maks,Quickstep,Safe
+13,8,2,Hope & Maks,,Hope & Maks,,Safe
+13,8,3,Ricki & Derek,,Ricki & Derek,Waltz,Safe
+13,8,3,Ricki & Derek,,Ricki & Derek,,Safe
+13,8,4,Nancy & Tristan,,Nancy & Tristan,Tango,Eliminated
+13,8,4,Nancy & Tristan,,Nancy & Tristan,,Eliminated
+13,8,5,J.R. & Karina,,J.R. & Karina,Waltz,Safe
+13,8,5,J.R. & Karina,,J.R. & Karina,,Safe
+13,9,1,Hope & Maks,,Hope & Maks,Paso doble,Eliminated
+13,9,1,Hope & Maks,,Hope & Maks,,Eliminated
+13,9,2,J.R. & Karina,,J.R. & Karina,Paso doble,Safe
+13,9,2,J.R. & Karina,,J.R. & Karina,,Safe
+13,9,3,Rob & Cheryl,,Rob & Cheryl,Samba,Safe
+13,9,3,Rob & Cheryl,,Rob & Cheryl,,Safe
+13,9,4,Ricki & Derek,,Ricki & Derek,Samba,Safe
+13,9,4,Ricki & Derek,,Ricki & Derek,,Safe
+13,9,5,Hope & Maks,,Hope & Maks,Cha-cha-cha Relay,Safe
+13,9,6,J.R. & Karina,,J.R. & Karina,,Safe
+13,9,7,Ricki & Derek,,Ricki & Derek,,Safe
+13,9,8,Rob & Cheryl,,Rob & Cheryl,,Safe
+13,10,1,Ricki & Derek,,Ricki & Derek,Cha-cha-cha,
+13,10,1,Ricki & Derek,,Ricki & Derek,,
+13,10,2,Rob & Cheryl,,Rob & Cheryl,Waltz,
+13,10,2,Rob & Cheryl,,Rob & Cheryl,,
+13,10,3,J.R. & Karina,,J.R. & Karina,Cha-cha-cha,
+13,10,3,J.R. & Karina,,J.R. & Karina,,
+13,10,1,Ricki & Derek,,Ricki & Derek,Tango,Eliminated
+13,10,2,Rob & Cheryl,,Rob & Cheryl,Foxtrot,Safe
+13,10,3,J.R. & Karina,,J.R. & Karina,Jive,Safe
+13,10,3,J.R. & Karina,,J.R. & Karina,Samba,Winners
+13,10,4,Rob & Cheryl,,Rob & Cheryl,Runners-up,Winners
+14,1,1,Maria & Derek,,Maria & Derek,Cha-cha-cha,
+14,1,2,Jack & Anna,,Jack & Anna,Foxtrot,
+14,1,3,Donald & Peta,,Donald & Peta,Cha-cha-cha,
+14,1,4,Gavin & Karina,,Gavin & Karina,Foxtrot,
+14,1,5,Roshon & Chelsie,,Roshon & Chelsie,Cha-cha-cha,
+14,1,6,Sherri & Val,,Sherri & Val,Foxtrot,
+14,1,7,Melissa & Maks,,Melissa & Maks,Cha-cha-cha,
+14,1,8,William & Cheryl,,William & Cheryl,Cha-cha-cha,
+14,1,9,Martina & Tony,,Martina & Tony,Foxtrot,
+14,1,10,Katherine & Mark,,Katherine & Mark,Foxtrot,
+14,1,11,Gladys & Tristan,,Gladys & Tristan,Cha-cha-cha,
+14,1,12,Jaleel & Kym,,Jaleel & Kym,Foxtrot,
+14,2,1,Roshon & Chelsie,,Roshon & Chelsie,Quickstep,Safe
+14,2,2,Sherri & Val,,Sherri & Val,Jive,Safe
+14,2,3,Melissa & Maks,,Melissa & Maks,Quickstep,Safe
+14,2,4,Jack & Anna,,Jack & Anna,Jive,Safe
+14,2,5,Gladys & Tristan,,Gladys & Tristan,Quickstep,Safe
+14,2,6,Katherine & Mark,,Katherine & Mark,Jive,Safe
+14,2,7,Jaleel & Kym,,Jaleel & Kym,Jive,Safe
+14,2,8,Maria & Derek,,Maria & Derek,Quickstep,Safe
+14,2,9,Martina & Tony,,Martina & Tony,Jive,Eliminated
+14,2,10,Donald & Peta,,Donald & Peta,Quickstep,Safe
+14,2,11,Gavin & Karina,,Gavin & Karina,Jive,Bottom Two
+14,2,12,William & Cheryl,,William & Cheryl,Quickstep,Safe
+14,3,1,Jack & Anna,,Jack & Anna,Samba,Eliminated
+14,3,2,Maria & Derek,,Maria & Derek,Rumba,Safe
+14,3,3,Gladys & Tristan,,Gladys & Tristan,Foxtrot,Safe
+14,3,4,Roshon & Chelsie,,Roshon & Chelsie,Samba,Safe
+14,3,5,Gavin & Karina,,Gavin & Karina,Rumba,Bottom Two
+14,3,6,Katherine & Mark,,Katherine & Mark,Waltz,Safe
+14,3,7,Sherri & Val,,Sherri & Val,Rumba,Safe
+14,3,8,Melissa & Maks,,Melissa & Maks,Jive,Safe
+14,3,9,Jaleel & Kym,,Jaleel & Kym,Rumba,Safe
+14,3,10,William & Cheryl,,William & Cheryl,Salsa,Safe
+14,3,11,Donald & Peta,,Donald & Peta,Rumba,Safe
+14,4,1,Sherri & Val,,Sherri & Val,Tango,Eliminated
+14,4,2,Katherine & Mark,,Katherine & Mark,Paso doble,Safe
+14,4,3,Jaleel & Kym,,Jaleel & Kym,Tango,Safe
+14,4,4,Melissa & Maks,,Melissa & Maks,Paso doble,Safe
+14,4,5,Donald & Peta,,Donald & Peta,Paso doble,Safe
+14,4,6,Gladys & Tristan,,Gladys & Tristan,Tango,Safe
+14,4,7,William & Cheryl,,William & Cheryl,Jive,Safe
+14,4,8,Roshon & Chelsie,,Roshon & Chelsie,Viennese waltz,Bottom Two
+14,4,9,Maria & Derek,,Maria & Derek,Tango,Safe
+14,4,10,Gavin & Karina,,Gavin & Karina,Tango,Safe
+14,5,1,Jaleel & Kym,,Jaleel & Kym,Samba,Bottom Two
+14,5,2,Melissa & Maks,,Melissa & Maks,Salsa,Safe
+14,5,3,Maria & Derek,,Maria & Derek,Salsa,Safe
+14,5,4,Katherine & Mark,,Katherine & Mark,Argentine tango,Safe
+14,5,5,Gavin & Karina,,Gavin & Karina,Samba,Bottom Two
+14,5,6,William & Cheryl,,William & Cheryl,Argentine tango,Safe
+14,5,7,Gladys & Tristan,,Gladys & Tristan,Samba,Safe
+14,5,8,Roshon & Chelsie,,Roshon & Chelsie,Salsa,Safe
+14,5,9,Donald & Peta,,Donald & Peta,Argentine tango,Safe
+14,5,1,Gavin & Karina,,Gavin & Karina,Cha-cha-cha,Eliminated
+14,5,2,Jaleel & Kym,,Jaleel & Kym,Safe,Eliminated
+14,6,1,Gladys & Tristan,,Gladys & Tristan,Rumba,Bottom Two
+14,6,2,Maria & Derek,,Maria & Derek,Foxtrot,Safe
+14,6,3,Roshon & Chelsie,,Roshon & Chelsie,Rumba,Bottom Two
+14,6,4,Katherine & Mark,,Katherine & Mark,Samba,Safe
+14,6,5,Donald & Peta,,Donald & Peta,Foxtrot,Safe
+14,6,6,Melissa & Maks,,Melissa & Maks,Viennese waltz,Safe
+14,6,7,Jaleel & Kym,,Jaleel & Kym,Cha-cha-cha,Safe
+14,6,8,William & Cheryl,,William & Cheryl,Rumba,Safe
+14,6,9,Gladys & Tristan,,Gladys & Tristan,Freestyle Marathon,Safe
+14,6,10,Maria & Derek,,Maria & Derek,,Safe
+14,6,11,Roshon & Chelsie,,Roshon & Chelsie,,Safe
+14,6,12,Melissa & Maks,,Melissa & Maks,,Safe
+14,6,13,Donald & Peta,,Donald & Peta,,Safe
+14,6,14,Jaleel & Kym,,Jaleel & Kym,,Safe
+14,6,15,William & Cheryl,,William & Cheryl,,Safe
+14,6,16,Katherine & Mark,,Katherine & Mark,,Safe
+14,6,1,Roshon & Chelsie,,Roshon & Chelsie,Jive,Safe
+14,6,2,Gladys & Tristan,,Gladys & Tristan,Eliminated,Safe
+14,7,1,Katherine & Mark,,Katherine & Mark,Rumba,Safe
+14,7,2,Melissa & Maks,,Melissa & Maks,Argentine tango,Safe
+14,7,3,William & Cheryl,,William & Cheryl,Viennese waltz,Safe
+14,7,4,Roshon & Chelsie,,Roshon & Chelsie,Argentine tango,Bottom Two
+14,7,5,Donald & Peta,,Donald & Peta,Viennese waltz,Safe
+14,7,6,Maria & Derek,,Maria & Derek,Paso doble,Safe
+14,7,7,Jaleel & Kym,,Jaleel & Kym,Viennese waltz,Bottom Two
+14,7,8,Jaleel & Kym,Katherine & Mark,Jaleel & Kym / Katherine & Mark / Maria & Derek / Roshon & Chelsie,Team Tango,Bottom Two
+14,7,9,Melissa & Maks,William & Cheryl,Melissa & Maks / William & Cheryl / Donald & Peta,Team Paso doble,Bottom Two
+14,7,1,Roshon & Chelsie,,Roshon & Chelsie,Rumba,Safe
+14,7,2,Jaleel & Kym,,Jaleel & Kym,Eliminated,Safe
+14,8,1,Donald & Peta,,Donald & Peta,Tango,Safe
+14,8,1,Donald & Peta,,Donald & Peta,,Safe
+14,8,2,Maria & Derek,,Maria & Derek,Viennese waltz,Safe
+14,8,2,Maria & Derek,,Maria & Derek,,Safe
+14,8,3,Melissa & Maks,,Melissa & Maks,Foxtrot,Eliminated
+14,8,3,Melissa & Maks,,Melissa & Maks,,Eliminated
+14,8,4,Katherine & Mark,,Katherine & Mark,Viennese waltz,Safe
+14,8,4,Katherine & Mark,,Katherine & Mark,,Safe
+14,8,5,Roshon & Chelsie,,Roshon & Chelsie,Foxtrot,Eliminated
+14,8,5,Roshon & Chelsie,,Roshon & Chelsie,,Eliminated
+14,8,6,William & Cheryl,,William & Cheryl,Foxtrot,Safe
+14,8,6,William & Cheryl,,William & Cheryl,,Safe
+14,9,1,William & Cheryl,,William & Cheryl,Tango,Safe
+14,9,1,William & Cheryl,,William & Cheryl,,Safe
+14,9,2,Katherine & Mark,,Katherine & Mark,Quickstep,Safe
+14,9,2,Katherine & Mark,,Katherine & Mark,,Safe
+14,9,3,Donald & Peta,,Donald & Peta,Waltz,Safe
+14,9,3,Donald & Peta,,Donald & Peta,,Safe
+14,9,4,Maria & Derek,,Maria & Derek,Argentine tango,Eliminated
+14,9,4,Maria & Derek,,Maria & Derek,,Eliminated
+14,10,1,William & Cheryl,,William & Cheryl,Cha-cha-cha,
+14,10,1,William & Cheryl,,William & Cheryl,,
+14,10,2,Katherine & Mark,,Katherine & Mark,Paso doble,
+14,10,2,Katherine & Mark,,Katherine & Mark,,
+14,10,3,Donald & Peta,,Donald & Peta,Argentine tango,
+14,10,3,Donald & Peta,,Donald & Peta,,
+14,10,1,William & Cheryl,,William & Cheryl,Salsa,Third Place
+14,10,2,Katherine & Mark,,Katherine & Mark,Jive,Runners-Up
+14,10,3,Donald & Peta,,Donald & Peta,Cha-cha-cha,Winners
+15,1,1,Inaba,,Inaba,,
+15,1,2,Joey & Kym,,Joey & Kym,7.0,Cha-Cha-Cha
+15,1,3,Shawn & Derek,,Shawn & Derek,7.5,Foxtrot
+15,1,4,Sabrina & Louis,,Sabrina & Louis,7.5,Cha-Cha-Cha
+15,1,5,Hélio & Chelsie,,Hélio & Chelsie,7.0,Foxtrot
+15,1,6,Pamela & Tristan,,Pamela & Tristan,6.0,Cha-Cha-Cha
+15,1,7,Melissa & Tony,,Melissa & Tony,7.0,Foxtrot
+15,1,8,Apolo & Karina,,Apolo & Karina,7.5,Cha-Cha-Cha
+15,1,9,Gilles & Peta,,Gilles & Peta,8.0,Foxtrot
+15,1,10,Bristol & Mark,,Bristol & Mark,6.5,Cha-Cha-Cha
+15,1,11,Drew & Anna,,Drew & Anna,7.5,Foxtrot
+15,1,12,Kelly & Val,,Kelly & Val,7.5,Cha-Cha-Cha
+15,1,13,Kirstie & Maks,,Kirstie & Maks,6.5,Foxtrot
+15,1,14,Emmitt & Cheryl,,Emmitt & Cheryl,8.0,Cha-Cha-Cha
+15,2,1,Inaba,,Inaba,,
+15,2,2,Melissa & Tony,,Melissa & Tony,7.5,Jive
+15,2,3,Bristol & Mark,,Bristol & Mark,6.0,Quickstep
+15,2,4,Hélio & Chelsie,,Hélio & Chelsie,7.5,Jive
+15,2,5,Apolo & Karina,,Apolo & Karina,8.0,Quickstep
+15,2,6,Sabrina & Louis,,Sabrina & Louis,8.5,Quickstep
+15,2,7,Kirstie & Maks,,Kirstie & Maks,7.0,Jive
+15,2,8,Emmitt & Cheryl,,Emmitt & Cheryl,7.5,Quickstep
+15,2,9,Drew & Anna,,Drew & Anna,7.5,Jive
+15,2,10,Joey & Kym,,Joey & Kym,7.5,Quickstep
+15,2,11,Shawn & Derek,,Shawn & Derek,8.5,Jive
+15,2,12,Kelly & Val,,Kelly & Val,7.5,Quickstep
+15,2,13,Gilles & Peta,,Gilles & Peta,8.5,Jive
+15,3,1,Cha-cha-cha,,Cha-cha-cha,8.0,""" Crazy In Love "" — Beyoncé , Feat. Jay-Z"
+15,3,2,Tango,,Tango,8.5,""" Sweet Dreams (Are Made Of This) "" — Eurythmics"
+15,3,3,Samba,,Samba,9.0,""" Conga "" — Gloria Estefan"
+15,3,4,Foxtrot,,Foxtrot,8.5,""" Fever "" — Michael Bublé"
+15,3,5,Paso doble,,Paso doble,9.0,""" España Cañí "" — Erich Kunzel"
+15,3,6,Cha-cha-cha,,Cha-cha-cha,8.0,""" Moves Like Jagger "" — Maroon 5 , Feat. Christina Aguilera"
+15,3,7,Paso doble,,Paso doble,8.5,""" Free Your Mind "" — En Vogue"
+15,3,7,Paso doble,,Paso doble,8.5,""" Canción Del Mariachi "" — Los Lobos & Antonio Banderas"
+15,3,8,Quickstep,,Quickstep,8.5,""" Mr. Pinstripe Suit "" — Big Bad Voodoo Daddy"
+15,3,9,Paso doble,,Paso doble,7.5,""" Living On Video "" — Trans-X"
+15,3,10,Quickstep,,Quickstep,9.5,""" Hey! Pachuco! "" — Royal Crown Revue"
+15,4,1,Inaba,,Inaba,Tonioli,
+15,4,2,Kirstie & Maks,,Kirstie & Maks,7.5,Charleston
+15,4,3,Bristol & Mark,,Bristol & Mark,8.0,Rock And Roll
+15,4,4,Sabrina & Louis,,Sabrina & Louis,8.5,Disco
+15,4,5,Emmitt & Cheryl,,Emmitt & Cheryl,9.0,Bolero
+15,4,6,Gilles & Peta,,Gilles & Peta,10.0,Bollywood
+15,4,7,Melissa & Tony,,Melissa & Tony,9.5,Jitterbug
+15,4,8,Shawn & Derek,,Shawn & Derek,10.0,Mambo
+15,4,9,Apolo & Karina,,Apolo & Karina,8.5,Hip-Hop
+15,4,10,Kelly & Val,,Kelly & Val,9.5,Contemporary
+15,5,1,Inaba,,Inaba,,
+15,5,2,Kelly & Val,,Kelly & Val,8.5,
+15,5,3,Gilles & Peta,,Gilles & Peta,10.0,
+15,5,4,Kirstie & Maks,,Kirstie & Maks,8.5,
+15,5,5,Emmitt & Cheryl,,Emmitt & Cheryl,10.0,
+15,5,6,Apolo & Karina,Melissa & Tony,Apolo & Karina / Melissa & Tony / Sabrina & Louis / Shawn & Derek,10.0,
+15,5,1,Inaba,,Inaba,,
+15,5,2,Melissa & Tony,,Melissa & Tony,9.0,
+15,5,3,Shawn & Derek,,Shawn & Derek,10.0,
+15,5,4,Apolo & Karina,,Apolo & Karina,9.0,
+15,5,5,Sabrina & Louis,,Sabrina & Louis,9.5,
+15,5,6,Emmitt & Cheryl,Gilles & Peta,Emmitt & Cheryl / Gilles & Peta / Kelly & Val / Kirstie & Maks,9.0,
+15,6,1,Inaba,,Inaba,,
+15,6,2,Gilles & Peta,,Gilles & Peta,9.5,Cha-Cha-Cha
+15,6,3,Sabrina & Louis,,Sabrina & Louis,10.0,Rumba
+15,6,4,Kelly & Val,,Kelly & Val,9.0,Tango
+15,6,5,Melissa & Tony,,Melissa & Tony,10.0,Viennese Waltz
+15,6,6,Shawn & Derek,,Shawn & Derek,10.0,Cha-Cha-Cha
+15,6,7,Kirstie & Maks,,Kirstie & Maks,9.5,Rumba
+15,6,8,Apolo & Karina,,Apolo & Karina,10.0,Viennese Waltz
+15,6,9,Emmitt & Cheryl,,Emmitt & Cheryl,9.5,Foxtrot
+15,6,10,Apolo & Karina,Emmitt & Cheryl,Apolo & Karina / Emmitt & Cheryl / Gilles & Peta / Kelly & Val / Melissa & Tony / Sabrina & Louis / Shawn & Derek,""" Save a Horse (Ride a Cowboy) "" — Big & Rich & ""I Play Chicken with a Train"" — Cowboy Troy",Foxtrot
+15,7,1,Inaba,,Inaba,,
+15,7,2,Apolo & Karina,,Apolo & Karina,9.0,
+15,7,3,Emmitt & Cheryl,,Emmitt & Cheryl,9.5,
+15,7,4,Kirstie & Maks,,Kirstie & Maks,8.0,
+15,7,5,Kelly & Val,,Kelly & Val,9.0,
+15,7,6,Melissa & Tony,,Melissa & Tony,9.5,
+15,7,7,Shawn & Mark,,Shawn & Mark,10.0,
+15,7,8,Gilles & Peta,,Gilles & Peta,9.5,
+15,7,9,Kirstie & Maks,,Kirstie & Maks,""" Do Your Thing "" — Basement Jaxx",
+15,7,10,Gilles & Peta,,Gilles & Peta,,
+15,7,11,Apolo & Karina,,Apolo & Karina,,
+15,7,12,Emmitt & Cheryl,,Emmitt & Cheryl,,
+15,7,13,Shawn & Mark,,Shawn & Mark,,
+15,7,14,Kelly & Val,,Kelly & Val,,
+15,7,15,Melissa & Tony,,Melissa & Tony,,
+15,8,1,Inaba,,Inaba,,
+15,8,2,Shawn & Derek,,Shawn & Derek,10.0,Viennese Waltz
+15,8,3,10.0,,10.0,Samba,Viennese Waltz
+15,8,4,Apolo & Karina,,Apolo & Karina,10.0,Tango
+15,8,5,9.5,,9.5,Jive,Tango
+15,8,6,Kirstie & Maks,,Kirstie & Maks,9.0,Viennese Waltz
+15,8,7,8.0,,8.0,Paso doble,Viennese Waltz
+15,8,8,Kelly & Val,,Kelly & Val,9.5,Viennese Waltz
+15,8,9,9.5,,9.5,Jive,Viennese Waltz
+15,8,10,Gilles & Peta,,Gilles & Peta,10.0,Quickstep
+15,8,11,9.5,,9.5,Salsa,Quickstep
+15,8,12,Emmitt & Cheryl,,Emmitt & Cheryl,9.5,Viennese Waltz
+15,8,13,10.0,,10.0,Salsa,Viennese Waltz
+15,8,14,Melissa & Tony,,Melissa & Tony,10.0,Quickstep
+15,8,15,10.0,,10.0,Paso doble,Quickstep
+15,9,1,Inaba,,Inaba,,
+15,9,2,Melissa & Tony,,Melissa & Tony,9.0,"""Caveman"" Hustle"
+15,9,3,10.0,,10.0,30.0,""" Dirty Diana "" — Michael Jackson"
+15,9,4,Shawn & Derek,,Shawn & Derek,10.0,""" Knight Rider "" Bhangra"
+15,9,5,9.0,,9.0,29.0,""" Bad "" — Michael Jackson"
+15,9,6,Apolo & Karina,,Apolo & Karina,9.5,"""Big Top"" Jazz"
+15,9,7,10.0,,10.0,30.0,""" Man In The Mirror "" — Michael Jackson"
+15,9,8,Emmitt & Cheryl,,Emmitt & Cheryl,9.0,"""Espionage"" Lindy Hop"
+15,9,9,9.0,,9.0,27.0,""" Leave Me Alone "" — Michael Jackson"
+15,9,10,Kelly & Val,,Kelly & Val,8.5,"""Surfer"" Flamenco"
+15,9,11,9.5,,9.5,28.5,""" I Just Can'T Stop Loving You "" — Michael Jackson"
+15,10,1,Inaba,,Inaba,,
+15,10,2,Kelly & Val,,Kelly & Val,10.0,
+15,10,3,10.0,,10.0,29.5,
+15,10,4,Melissa & Tony,,Melissa & Tony,10.0,
+15,10,5,10.0,,10.0,30.0,
+15,10,6,Shawn & Derek,,Shawn & Derek,9.5,
+15,10,7,10.0,,10.0,30.0,
+15,10,1,Inaba,,Inaba,,
+15,10,2,Kelly & Val,,Kelly & Val,9.5,Jive
+15,10,3,Melissa & Tony,,Melissa & Tony,9.5,Samba
+15,10,4,Shawn & Derek,,Shawn & Derek,10.0,Cha-Cha-Cha
+16,1,1,Kellie & Derek,,Kellie & Derek,Cha-cha-cha,
+16,1,2,Victor & Lindsay,,Victor & Lindsay,Foxtrot,
+16,1,3,Ingo & Kym,,Ingo & Kym,Contemporary,
+16,1,4,Lisa & Gleb,,Lisa & Gleb,Foxtrot,
+16,1,5,D.L. & Cheryl,,D.L. & Cheryl,Cha-cha-cha,
+16,1,6,Zendaya & Val,,Zendaya & Val,Contemporary,
+16,1,7,Sean & Peta,,Sean & Peta,Foxtrot,
+16,1,8,Alexandra & Mark,,Alexandra & Mark,Cha-cha-cha,
+16,1,9,Dorothy & Tristan,,Dorothy & Tristan,Contemporary,
+16,1,10,Wynonna & Tony,,Wynonna & Tony,Cha-cha-cha,
+16,1,11,Andy & Sharna,,Andy & Sharna,Foxtrot,
+16,1,12,Jacoby & Karina,,Jacoby & Karina,Cha-cha-cha,
+16,2,1,Ingo & Kym,,Ingo & Kym,Quickstep,Safe
+16,2,2,Dorothy & Tristan,,Dorothy & Tristan,Jive,Withdrew
+16,2,3,Jacoby & Karina,,Jacoby & Karina,Jazz,Safe
+16,2,4,Victor & Lindsay,,Victor & Lindsay,Jive,Bottom Two
+16,2,5,Wynonna & Tony,,Wynonna & Tony,Quickstep,Safe
+16,2,6,Zendaya & Val,,Zendaya & Val,Jive,Safe
+16,2,7,Andy & Sharna,,Andy & Sharna,Jazz,Safe
+16,2,8,Sean & Peta,,Sean & Peta,Jive,Safe
+16,2,9,Alexandra & Mark,,Alexandra & Mark,Quickstep,Safe
+16,2,10,Lisa & Gleb,,Lisa & Gleb,Jive,Bottom Two
+16,2,11,D.L. & Cheryl,,D.L. & Cheryl,Quickstep,Safe
+16,2,12,Kellie & Derek,,Kellie & Derek,Jazz,Safe
+16,3,1,Alexandra & Mark,,Alexandra & Mark,Viennese waltz,Safe
+16,3,2,Andy & Sharna,,Andy & Sharna,Cha-cha-cha,Bottom Two
+16,3,3,Ingo & Kym,,Ingo & Kym,Paso doble,Safe
+16,3,4,Lisa & Gleb,,Lisa & Gleb,Viennese waltz,Safe
+16,3,5,Kellie & Derek,,Kellie & Derek,Jive,Safe
+16,3,6,Victor & Lindsay,,Victor & Lindsay,Contemporary,Safe
+16,3,7,D.L. & Cheryl,,D.L. & Cheryl,Salsa,Safe
+16,3,8,Jacoby & Karina,,Jacoby & Karina,Rumba,Safe
+16,3,9,Wynonna & Tony,,Wynonna & Tony,Samba,Eliminated
+16,3,10,Sean & Peta,,Sean & Peta,Cha-cha-cha,Safe
+16,3,11,Zendaya & Val,,Zendaya & Val,Viennese waltz,Safe
+16,3,12,Jacoby & Karina,,Jacoby & Karina,Group Freestyle,Safe
+16,3,13,Zendaya & Val,,Zendaya & Val,,Safe
+16,3,14,Alexandra & Mark,Andy & Sharna,Alexandra & Mark / Andy & Sharna / D.L. & Cheryl / Ingo & Kym / Kellie & Derek / Lisa & Gleb / Sean & Peta / Victor & Lindsay / Wynonna & Tony,,Safe
+16,4,1,Sean & Peta,,Sean & Peta,Viennese waltz,Safe
+16,4,2,Victor & Lindsay,,Victor & Lindsay,Paso doble,Bottom Two
+16,4,3,Jacoby & Karina,,Jacoby & Karina,Foxtrot,Safe
+16,4,4,Alexandra & Mark,,Alexandra & Mark,Contemporary,Safe
+16,4,5,Andy & Sharna,,Andy & Sharna,Viennese waltz,Safe
+16,4,6,Zendaya & Val,,Zendaya & Val,Samba,Safe
+16,4,7,Ingo & Kym,,Ingo & Kym,Viennese waltz,Safe
+16,4,8,D.L. & Cheryl,,D.L. & Cheryl,Foxtrot,Safe
+16,4,9,Kellie & Derek,,Kellie & Derek,Rumba,Safe
+16,4,10,Lisa & Gleb,,Lisa & Gleb,Cha-cha-cha,Eliminated
+16,5,1,Ingo & Kym,,Ingo & Kym,Cha-cha-cha,Safe
+16,5,2,Jacoby & Karina,,Jacoby & Karina,Jive,Safe
+16,5,3,Victor & Lindsay,,Victor & Lindsay,Viennese waltz,Bottom Two
+16,5,4,Alexandra & Mark,,Alexandra & Mark,Samba,Safe
+16,5,5,Sean & Peta,,Sean & Peta,Quickstep,Safe
+16,5,6,Kellie & Derek,,Kellie & Derek,Foxtrot,Safe
+16,5,7,D.L. & Cheryl,,D.L. & Cheryl,Tango,Eliminated
+16,5,8,Zendaya & Val,,Zendaya & Val,Argentine tango,Safe
+16,5,9,Andy & Sharna,,Andy & Sharna,Paso doble,Safe
+16,6,1,Zendaya & Val,,Zendaya & Val,Cha-cha-cha,Safe
+16,6,2,Andy & Sharna,,Andy & Sharna,Samba,Safe
+16,6,3,Sean & Peta,,Sean & Peta,Samba,Bottom Two
+16,6,4,Alexandra & Mark,,Alexandra & Mark,Foxtrot,Safe
+16,6,5,Ingo & Kym,,Ingo & Kym,Tango,Safe
+16,6,6,Kellie & Derek,,Kellie & Derek,Quickstep,Safe
+16,6,7,Victor & Lindsay,,Victor & Lindsay,Rumba,Eliminated
+16,6,8,Jacoby & Karina,,Jacoby & Karina,Quickstep,Safe
+16,6,9,Ingo & Kym,Jacoby & Karina,Ingo & Kym / Jacoby & Karina / Victor & Lindsay / Zendaya & Val,Team Paso doble,Safe
+16,6,10,Alexandra & Mark,Andy & Sharna,Alexandra & Mark / Andy & Sharna / Kellie & Derek / Sean & Peta,Team Samba,Safe
+16,7,1,Jacoby & Karina,,Jacoby & Karina,Salsa,Safe
+16,7,2,Ingo & Kym,,Ingo & Kym,Rumba,Bottom Two
+16,7,3,Kellie & Derek,,Kellie & Derek,Samba,Immunity
+16,7,4,Andy & Sharna,,Andy & Sharna,Rumba,Eliminated
+16,7,5,Alexandra & Mark,,Alexandra & Mark,Salsa,Safe
+16,7,6,Sean & Peta,,Sean & Peta,Rumba,Safe
+16,7,7,Zendaya & Val,,Zendaya & Val,Paso doble,Safe
+16,7,1,Alexandra & Mark,,Alexandra & Mark,Cha-cha-cha,Winners
+16,7,2,Andy & Sharna,,Andy & Sharna,Losers,Winners
+16,7,3,Zendaya & Val,,Zendaya & Val,Jive,Winners
+16,7,4,Jacoby & Karina,,Jacoby & Karina,Losers,Winners
+16,7,5,Ingo & Kym,,Ingo & Kym,Rumba,Winners
+16,7,6,Sean & Peta,,Sean & Peta,Losers,Winners
+16,8,1,Zendaya & Val,,Zendaya & Val,Foxtrot,Safe
+16,8,1,Zendaya & Val,,Zendaya & Val,,Safe
+16,8,2,Sean & Peta,,Sean & Peta,Tango,Eliminated
+16,8,2,Sean & Peta,,Sean & Peta,,Eliminated
+16,8,3,Jacoby & Karina,,Jacoby & Karina,Viennese waltz,Safe
+16,8,3,Jacoby & Karina,,Jacoby & Karina,,Safe
+16,8,4,Ingo & Kym,,Ingo & Kym,Foxtrot,Safe
+16,8,4,Ingo & Kym,,Ingo & Kym,,Safe
+16,8,5,Kellie & Derek,,Kellie & Derek,Viennese waltz,Safe
+16,8,5,Kellie & Derek,,Kellie & Derek,,Safe
+16,8,6,Alexandra & Mark,,Alexandra & Mark,Argentine tango,Safe
+16,8,6,Alexandra & Mark,,Alexandra & Mark,,Safe
+16,9,1,Kellie & Derek,,Kellie & Derek,Argentine tango,Safe
+16,9,1,Kellie & Derek,,Kellie & Derek,,Safe
+16,9,2,Ingo & Kym,,Ingo & Kym,Samba,Eliminated
+16,9,2,Ingo & Kym,,Ingo & Kym,,Eliminated
+16,9,3,Alexandra & Mark,,Alexandra & Mark,Rumba,Safe
+16,9,3,Alexandra & Mark,,Alexandra & Mark,,Safe
+16,9,4,Jacoby & Karina,,Jacoby & Karina,Argentine tango,Safe
+16,9,4,Jacoby & Karina,,Jacoby & Karina,,Safe
+16,9,5,Zendaya & Val,,Zendaya & Val,Quickstep,Safe
+16,9,5,Zendaya & Val,,Zendaya & Val,,Safe
+16,10,1,Jacoby & Karina,,Jacoby & Karina,Jive,Safe
+16,10,1,Jacoby & Karina,,Jacoby & Karina,,Safe
+16,10,2,Alexandra & Mark,,Alexandra & Mark,Samba,Eliminated
+16,10,2,Alexandra & Mark,,Alexandra & Mark,,Eliminated
+16,10,3,Kellie & Derek,,Kellie & Derek,Quickstep,Safe
+16,10,3,Kellie & Derek,,Kellie & Derek,,Safe
+16,10,4,Zendaya & Val,,Zendaya & Val,Samba,Safe
+16,10,4,Zendaya & Val,,Zendaya & Val,,Safe
+16,10,5,Jacoby & Karina,,Jacoby & Karina,Cha-cha-cha Relay,Safe
+16,10,6,Alexandra & Mark,,Alexandra & Mark,,Safe
+16,10,7,Kellie & Derek,,Kellie & Derek,,Safe
+16,10,8,Zendaya & Val,,Zendaya & Val,,Safe
+16,10,1,Jacoby & Karina,,Jacoby & Karina,Salsa,Third Place
+16,10,2,Kellie & Derek,,Kellie & Derek,Jive,Winners
+16,10,3,Zendaya & Val,,Zendaya & Val,Jive,Runners-Up
+17,1,1,Brant & Peta,,Brant & Peta,Cha-cha-cha,
+17,1,2,Leah & Tony,,Leah & Tony,Foxtrot,
+17,1,3,Corbin & Karina,,Corbin & Karina,Contemporary,
+17,1,4,Jack & Cheryl,,Jack & Cheryl,Foxtrot,
+17,1,5,Amber & Derek,,Amber & Derek,Cha-cha-cha,
+17,1,6,Elizabeth & Val,,Elizabeth & Val,Contemporary,
+17,1,7,Bill N. & Tyne,,Bill N. & Tyne,Cha-cha-cha,
+17,1,8,Keyshawn & Sharna,,Keyshawn & Sharna,Cha-cha-cha,
+17,1,9,Christina & Mark,,Christina & Mark,Contemporary,
+17,1,10,Bill E. & Emma,,Bill E. & Emma,Foxtrot,
+17,1,11,Valerie & Tristan,,Valerie & Tristan,Foxtrot,
+17,1,12,Nicole & Sasha,,Nicole & Sasha,Cha-cha-cha,
+17,2,1,Elizabeth & Val,,Elizabeth & Val,Samba,Safe
+17,2,2,Christina & Mark,,Christina & Mark,Paso doble,Safe
+17,2,3,Bill E. & Emma,,Bill E. & Emma,Jive,Safe
+17,2,4,Jack & Cheryl,,Jack & Cheryl,Rumba,Safe
+17,2,5,Keyshawn & Sharna,,Keyshawn & Sharna,Samba,Eliminated
+17,2,6,Nicole & Sasha,,Nicole & Sasha,Rumba,Safe
+17,2,7,Leah & Tony,,Leah & Tony,Samba,Safe
+17,2,8,Bill N. & Tyne,,Bill N. & Tyne,Paso doble,Safe
+17,2,9,Corbin & Karina,,Corbin & Karina,Jive,Safe
+17,2,10,Valerie & Tristan,,Valerie & Tristan,Paso doble,Safe
+17,2,11,Brant & Peta,,Brant & Peta,Rumba,Safe
+17,2,12,Amber & Derek,,Amber & Derek,Jive,Safe
+17,3,1,Leah & Tony,,Leah & Tony,Rumba,Safe
+17,3,2,Corbin & Karina,,Corbin & Karina,Quickstep,Safe
+17,3,3,Elizabeth & Val,,Elizabeth & Val,Foxtrot,Safe
+17,3,4,Brant & Peta,,Brant & Peta,Quickstep,Safe
+17,3,5,Valerie & Tristan,,Valerie & Tristan,Cha-cha-cha,Safe
+17,3,6,Bill E. & Emma,,Bill E. & Emma,Paso doble,Safe
+17,3,7,Amber & Derek,,Amber & Derek,Charleston,Safe
+17,3,8,Jack & Cheryl,,Jack & Cheryl,Cha-cha-cha,Safe
+17,3,9,Christina & Mark,,Christina & Mark,Charleston,Safe
+17,3,10,Nicole & Sasha,,Nicole & Sasha,Quickstep,Safe
+17,3,11,Bill N. & Tyne,,Bill N. & Tyne,Jazz,Eliminated
+17,4,1,Jack & Cheryl,,Jack & Cheryl,Quickstep,Safe
+17,4,2,Elizabeth & Val,,Elizabeth & Val,Argentine tango,Safe
+17,4,3,Brant & Peta,,Brant & Peta,Salsa,Safe
+17,4,4,Valerie & Tristan,,Valerie & Tristan,Viennese waltz,Eliminated
+17,4,5,Leah & Tony,,Leah & Tony,Cha-cha-cha,Safe
+17,4,6,Corbin & Karina,,Corbin & Karina,Paso doble,Safe
+17,4,7,Nicole & Sasha,,Nicole & Sasha,Jive,Safe
+17,4,8,Christina & Mark,,Christina & Mark,Foxtrot,Safe
+17,4,9,Amber & Derek,,Amber & Derek,Tango,Safe
+17,4,10,Bill E. & Emma,,Bill E. & Emma,Samba,Safe
+17,5,1,Christina & Mark,,Christina & Mark,Cha-cha-cha,Eliminated
+17,5,2,Jack & Cheryl,,Jack & Cheryl,Waltz,Safe
+17,5,3,Leah & Tony,,Leah & Tony,Contemporary,Safe
+17,5,4,Corbin & Karina,,Corbin & Karina,Foxtrot,Safe
+17,5,5,Bill E. & Emma,,Bill E. & Emma,Viennese waltz,Safe
+17,5,6,Nicole & Sasha,,Nicole & Sasha,Jazz,Safe
+17,5,7,Brant & Peta,,Brant & Peta,Contemporary,Safe
+17,5,8,Amber & Derek,,Amber & Derek,Foxtrot,Safe
+17,5,9,Elizabeth & Val,,Elizabeth & Val,Jive,Safe
+17,6,1,Bill E. & Emma,,Bill E. & Emma,Tango,
+17,6,2,Elizabeth & Val,,Elizabeth & Val,Cha-cha-cha,
+17,6,3,Leah & Tony,,Leah & Tony,Quickstep,
+17,6,4,Brant & Peta,,Brant & Peta,Tango,
+17,6,5,Amber & Derek,,Amber & Derek,Samba,
+17,6,6,Jack & Cheryl,,Jack & Cheryl,Paso doble,
+17,6,7,Nicole & Sasha,,Nicole & Sasha,Foxtrot,
+17,6,8,Corbin & Karina,,Corbin & Karina,Viennese waltz,
+17,6,9,Bill E. & Emma,,Bill E. & Emma,Megamix,
+17,6,10,Jack & Cheryl,,Jack & Cheryl,,
+17,6,11,Nicole & Sasha,,Nicole & Sasha,,
+17,6,12,Corbin & Karina,,Corbin & Karina,,
+17,6,13,Leah & Tony,,Leah & Tony,Megamix,
+17,6,14,Elizabeth & Val,,Elizabeth & Val,,
+17,6,15,Brant & Peta,,Brant & Peta,,
+17,6,16,Amber & Derek,,Amber & Derek,,
+17,7,1,Elizabeth & Val,,Elizabeth & Val,Quickstep,Safe
+17,7,2,Brant & Peta,,Brant & Peta,Jive,Safe
+17,7,3,Leah & Tony,,Leah & Tony,Salsa,Safe
+17,7,4,Jack & Cheryl,,Jack & Cheryl,Jive,Safe
+17,7,5,Amber & Derek,,Amber & Derek,Paso doble,Safe
+17,7,6,Bill E. & Emma,,Bill E. & Emma,Quickstep,Safe
+17,7,7,Nicole & Sasha,,Nicole & Sasha,Samba,Eliminated
+17,7,8,Corbin & Karina,,Corbin & Karina,Cha-cha-cha,Safe
+17,7,9,Bill E. & Emma,Elizabeth & Val,Bill E. & Emma / Elizabeth & Val / Leah & Tony / Nicole & Sasha,"Freestyle (Team ""Spooky BomBom"")",Safe
+17,7,10,Amber & Derek,Brant & Peta,Amber & Derek / Brant & Peta / Corbin & Karina / Jack & Cheryl,"Freestyle (Team ""Foxing Awesome"")",Safe
+17,8,1,Corbin & Karina,,Corbin & Karina,Argentine tango,Safe
+17,8,2,Leah & Tony,,Leah & Tony,Viennese waltz,Safe
+17,8,3,Brant & Peta,,Brant & Peta,Foxtrot,Eliminated
+17,8,4,Elizabeth & Val,,Elizabeth & Val,Jazz,Safe
+17,8,5,Bill E. & Emma,,Bill E. & Emma,Disco,Safe
+17,8,6,Jack & Cheryl,,Jack & Cheryl,Tango,Safe
+17,8,7,Amber & Derek,,Amber & Derek,Rumba,Immunity
+17,8,1,Corbin & Karina,,Corbin & Karina,Cha-cha-cha,Winners
+17,8,2,Elizabeth & Val,,Elizabeth & Val,Losers,Winners
+17,8,3,Leah & Tony,,Leah & Tony,Rumba,Winners
+17,8,4,Brant & Peta,,Brant & Peta,Losers,Winners
+17,8,5,Jack & Cheryl,,Jack & Cheryl,Disco,Winners
+17,8,6,Bill E. & Emma,,Bill E. & Emma,Losers,Winners
+17,9,1,Amber & Derek,,Amber & Derek,Quickstep,Safe
+17,9,1,Amber & Derek,,Amber & Derek,,Safe
+17,9,2,Leah & Tony,,Leah & Tony,Tango,Safe
+17,9,2,Leah & Tony,,Leah & Tony,,Safe
+17,9,3,Corbin & Karina,,Corbin & Karina,Waltz,Safe
+17,9,3,Corbin & Karina,,Corbin & Karina,,Safe
+17,9,4,Jack & Cheryl,,Jack & Cheryl,Viennese waltz,Safe
+17,9,4,Jack & Cheryl,,Jack & Cheryl,,Safe
+17,9,5,Bill E. & Emma,,Bill E. & Emma,Charleston,Safe
+17,9,5,Bill E. & Emma,,Bill E. & Emma,,Safe
+17,9,6,Elizabeth & Val,,Elizabeth & Val,Viennese waltz,Eliminated
+17,9,6,Elizabeth & Val,,Elizabeth & Val,,Eliminated
+17,10,1,Leah & Tony,,Leah & Tony,Paso doble,Eliminated
+17,10,1,Leah & Tony,,Leah & Tony,,Eliminated
+17,10,2,Corbin & Karina,,Corbin & Karina,Tango,Safe
+17,10,2,Corbin & Karina,,Corbin & Karina,,Safe
+17,10,3,Jack & Cheryl,,Jack & Cheryl,Jazz,Safe
+17,10,3,Jack & Cheryl,,Jack & Cheryl,,Safe
+17,10,4,Bill E. & Emma,,Bill E. & Emma,Cha-cha-cha,Safe
+17,10,4,Bill E. & Emma,,Bill E. & Emma,,Safe
+17,10,5,Amber & Derek,,Amber & Derek,Jazz,Safe
+17,10,5,Amber & Derek,,Amber & Derek,,Safe
+17,11,1,Bill E. & Emma,,Bill E. & Emma,Viennese waltz,Eliminated
+17,11,1,Bill E. & Emma,,Bill E. & Emma,,Eliminated
+17,11,2,Corbin & Karina,,Corbin & Karina,Quickstep,Safe
+17,11,2,Corbin & Karina,,Corbin & Karina,,Safe
+17,11,3,Jack & Cheryl,,Jack & Cheryl,Jive,Safe
+17,11,3,Jack & Cheryl,,Jack & Cheryl,,Safe
+17,11,4,Amber & Derek,,Amber & Derek,Charleston,Safe
+17,11,4,Amber & Derek,,Amber & Derek,,Safe
+17,11,5,Bill E. & Emma,,Bill E. & Emma,Samba Relay,Safe
+17,11,6,Jack & Cheryl,,Jack & Cheryl,,Safe
+17,11,7,Amber & Derek,,Amber & Derek,,Safe
+17,11,8,Corbin & Karina,,Corbin & Karina,,Safe
+17,11,1,Corbin & Karina,,Corbin & Karina,Cha-cha-cha & Foxtrot,Runners-Up
+17,11,2,Jack & Cheryl,,Jack & Cheryl,Paso doble & Salsa,Third Place
+17,11,3,Amber & Derek,,Amber & Derek,Quickstep & Samba,Winners
+18,1,1,NeNe & Tony,,NeNe & Tony,Cha-cha-cha,
+18,1,2,James & Peta,,James & Peta,Foxtrot,
+18,1,3,Danica & Val,,Danica & Val,Foxtrot,
+18,1,4,Sean & Karina,,Sean & Karina,Contemporary,
+18,1,5,Billy Dee & Emma,,Billy Dee & Emma,Cha-cha-cha,
+18,1,6,Meryl & Maks,,Meryl & Maks,Cha-cha-cha,
+18,1,7,Candace & Mark,,Candace & Mark,Contemporary,
+18,1,8,Cody & Witney,,Cody & Witney,Cha-cha-cha,
+18,1,9,Drew & Cheryl,,Drew & Cheryl,Foxtrot,
+18,1,10,Amy & Derek,,Amy & Derek,Cha-cha-cha,
+18,1,11,Diana & Henry,,Diana & Henry,Foxtrot,
+18,1,12,Charlie & Sharna,,Charlie & Sharna,Contemporary,
+18,2,1,Drew & Cheryl,,Drew & Cheryl,Jive,Safe
+18,2,2,Danica & Val,,Danica & Val,Samba,Safe
+18,2,3,Billy Dee & Emma,,Billy Dee & Emma,Tango,Safe
+18,2,4,Meryl & Maks,,Meryl & Maks,Swing,Safe
+18,2,5,Diana & Henry,,Diana & Henry,Cha-cha-cha,Eliminated
+18,2,6,Candace & Mark,,Candace & Mark,Rumba,Safe
+18,2,7,Amy & Derek,,Amy & Derek,Swing,Safe
+18,2,8,James & Peta,,James & Peta,Salsa,Safe
+18,2,9,Charlie & Sharna,,Charlie & Sharna,Tango,Safe
+18,2,10,NeNe & Tony,,NeNe & Tony,Jive,Safe
+18,2,11,Sean & Karina,,Sean & Karina,Salsa,Eliminated
+18,2,12,Cody & Witney,,Cody & Witney,Tango,Safe
+18,3,1,James & Peta,,James & Peta,Jive,
+18,3,2,NeNe & Tony,,NeNe & Tony,Rumba,
+18,3,3,Cody & Witney,,Cody & Witney,Jazz,
+18,3,4,Danica & Val,,Danica & Val,Contemporary,
+18,3,5,Drew & Cheryl,,Drew & Cheryl,Waltz,
+18,3,6,Meryl & Maks,,Meryl & Maks,Foxtrot,
+18,3,7,Amy & Derek,,Amy & Derek,Contemporary,
+18,3,8,Charlie & Sharna,,Charlie & Sharna,Jive,
+18,3,9,Candace & Mark,,Candace & Mark,Jive,
+18,4,1,Candace & Tony,,Candace & Tony,Quickstep,
+18,4,2,James & Cheryl,,James & Cheryl,Tango,
+18,4,3,Drew & Witney,,Drew & Witney,Cha-cha-cha,
+18,4,4,Danica & Maks,,Danica & Maks,Jive,
+18,4,5,Charlie & Peta,,Charlie & Peta,Rumba,
+18,4,6,Amy & Mark,,Amy & Mark,Salsa,
+18,4,7,Cody & Sharna,,Cody & Sharna,Foxtrot,
+18,4,8,NeNe & Derek,,NeNe & Derek,Jazz,
+18,4,9,Meryl & Val,,Meryl & Val,Argentine tango,
+18,5,1,Drew & Cheryl,,Drew & Cheryl,Quickstep,Safe
+18,5,2,Charlie & Sharna,,Charlie & Sharna,Jazz,Safe
+18,5,3,Danica & Val,,Danica & Val,Quickstep,Safe
+18,5,4,Amy & Derek,,Amy & Derek,Waltz,Safe
+18,5,5,Cody & Witney,,Cody & Witney,Samba,Eliminated
+18,5,6,NeNe & Tony,,NeNe & Tony,Foxtrot,Safe
+18,5,7,James & Peta,,James & Peta,Contemporary,Safe
+18,5,8,Meryl & Maks,,Meryl & Maks,Samba,Safe
+18,5,9,Candace & Mark,,Candace & Mark,Samba,Safe
+18,6,1,NeNe & Tony,,NeNe & Tony,Salsa,Safe
+18,6,2,Candace & Mark,,Candace & Mark,Cha-cha-cha,Safe
+18,6,3,James & Peta,,James & Peta,Quickstep,Safe
+18,6,4,Danica & Val,,Danica & Val,Cha-cha-cha,Safe
+18,6,5,Meryl & Maks,,Meryl & Maks,Tango,Safe
+18,6,6,Drew & Cheryl,,Drew & Cheryl,Tango,Eliminated
+18,6,7,Charlie & Sharna,,Charlie & Sharna,Cha-cha-cha,Safe
+18,6,8,Amy & Derek,,Amy & Derek,Jive,Safe
+18,7,1,Amy & Derek,,Amy & Derek,Rumba,Safe
+18,7,2,James & Peta,,James & Peta,Samba,Safe
+18,7,3,Danica & Val,,Danica & Val,Salsa,Safe
+18,7,4,NeNe & Tony,,NeNe & Tony,Argentine tango,Eliminated
+18,7,5,Charlie & Sharna,,Charlie & Sharna,Paso doble,Safe
+18,7,6,Candace & Mark,,Candace & Mark,Argentine tango,Safe
+18,7,7,Meryl & Maks,,Meryl & Maks,Salsa,Safe
+18,7,8,Charlie & Sharna,James & Peta,Charlie & Sharna / James & Peta / NeNe & Tony,Latin Freestyle (Team Vida),Safe
+18,7,9,Amy & Derek,Candace & Mark,Amy & Derek / Candace & Mark / Danica & Val / Meryl & Maks,Latin Freestyle (Team Loca),Safe
+18,8,1,Charlie & Sharna,,Charlie & Sharna,Quickstep,Safe
+18,8,2,Danica & Val,,Danica & Val,Tango,Eliminated
+18,8,3,Meryl & Maks,,Meryl & Maks,Rumba,Safe
+18,8,4,Candace & Mark,,Candace & Mark,Foxtrot,Safe
+18,8,5,James & Peta,,James & Peta,Viennese waltz,Safe
+18,8,6,Amy & Derek,,Amy & Derek,Argentine tango,Safe
+18,8,7,Danica & Val,Meryl & Maks,Danica & Val / Meryl & Maks,Samba,Safe
+18,8,8,Candace & Mark,Charlie & Sharna,Candace & Mark / Charlie & Sharna,Contemporary,Safe
+18,8,9,Amy & Derek,James & Peta,Amy & Derek / James & Peta,Jive,Safe
+18,9,1,Candace & Mark,,Candace & Mark,Viennese waltz,Safe
+18,9,1,Candace & Mark,,Candace & Mark,,Safe
+18,9,2,Charlie & Sharna,,Charlie & Sharna,Foxtrot,Eliminated
+18,9,2,Charlie & Sharna,,Charlie & Sharna,,Eliminated
+18,9,3,Amy & Derek,,Amy & Derek,Quickstep,Safe
+18,9,3,Amy & Derek,,Amy & Derek,,Safe
+18,9,4,James & Peta,,James & Peta,Cha-cha-cha,Safe
+18,9,4,James & Peta,,James & Peta,,Safe
+18,9,5,Meryl & Maks,,Meryl & Maks,Jive,Safe
+18,9,5,Meryl & Maks,,Meryl & Maks,,Safe
+18,10,1,James & Peta,,James & Peta,Tango,Eliminated
+18,10,1,James & Peta,,James & Peta,,Eliminated
+18,10,2,Meryl & Maks,,Meryl & Maks,Argentine tango,Safe
+18,10,2,Meryl & Maks,,Meryl & Maks,,Safe
+18,10,3,Candace & Mark,,Candace & Mark,Quickstep,Safe
+18,10,3,Candace & Mark,,Candace & Mark,,Safe
+18,10,4,Amy & Derek,,Amy & Derek,Salsa,Safe
+18,10,4,Amy & Derek,,Amy & Derek,,Safe
+18,10,1,Amy & Derek,,Amy & Derek,Argentine tango & Cha-cha-cha,Runners-Up
+18,10,2,Candace & Mark,,Candace & Mark,Quickstep & Samba,Third Place
+18,10,3,Meryl & Maks,,Meryl & Maks,Cha-cha-cha & Foxtrot,Winners
+19,1,1,Antonio & Cheryl,,Antonio & Cheryl,Cha-cha-cha,Safe
+19,1,2,Lea & Artem,,Lea & Artem,Foxtrot,Safe
+19,1,3,Janel & Val,,Janel & Val,Jive,Safe
+19,1,4,Lolo & Keo,,Lolo & Keo,Cha-cha-cha,Eliminated
+19,1,5,Betsey & Tony,,Betsey & Tony,Cha-cha-cha,Bottom Two
+19,1,6,Tavis & Sharna,,Tavis & Sharna,Foxtrot,Safe
+19,1,7,Sadie & Mark,,Sadie & Mark,Cha-cha-cha,Safe
+19,1,8,Michael & Emma,,Michael & Emma,Cha-cha-cha,Safe
+19,1,9,Jonathan & Allison,,Jonathan & Allison,Jive,Safe
+19,1,10,Tommy & Peta,,Tommy & Peta,Cha-cha-cha,Safe
+19,1,11,Randy & Karina,,Randy & Karina,Foxtrot,Safe
+19,1,12,Bethany & Derek,,Bethany & Derek,Jive,Safe
+19,1,13,Alfonso & Witney,,Alfonso & Witney,Jive,Safe
+19,2,1,Randy & Karina,,Randy & Karina,Cha-cha-cha,Safe
+19,2,2,Janel & Val,,Janel & Val,Foxtrot,Safe
+19,2,3,Lea & Artem,,Lea & Artem,Jive,Safe
+19,2,4,Michael & Emma,,Michael & Emma,Samba,Safe
+19,2,5,Tavis & Sharna,,Tavis & Sharna,Cha-cha-cha,Eliminated
+19,2,6,Alfonso & Witney,,Alfonso & Witney,Samba,Safe
+19,2,7,Bethany & Derek,,Bethany & Derek,Foxtrot,Safe
+19,2,8,Betsey & Tony,,Betsey & Tony,Foxtrot,Safe
+19,2,9,Antonio & Cheryl,,Antonio & Cheryl,Rumba,Safe
+19,2,10,Tommy & Peta,,Tommy & Peta,Salsa,Safe
+19,2,11,Jonathan & Allison,,Jonathan & Allison,Cha-cha-cha,Safe
+19,2,12,Sadie & Mark,,Sadie & Mark,Jazz,Safe
+19,3,1,Randy & Karina,,Randy & Karina,Paso doble,Eliminated
+19,3,2,Alfonso & Witney,,Alfonso & Witney,Quickstep,Safe
+19,3,3,Betsey & Tony,,Betsey & Tony,Contemporary,Safe
+19,3,4,Lea & Artem,,Lea & Artem,Cha-cha-cha,Safe
+19,3,5,Michael & Emma,,Michael & Emma,Waltz,Safe
+19,3,6,Antonio & Cheryl,,Antonio & Cheryl,Foxtrot,Safe
+19,3,7,Sadie & Mark,,Sadie & Mark,Viennese waltz,Safe
+19,3,8,Jonathan & Allison,,Jonathan & Allison,Tango,Safe
+19,3,9,Janel & Val,,Janel & Val,Jazz,Safe
+19,3,10,Tommy & Peta,,Tommy & Peta,Argentine tango,Safe
+19,3,11,Bethany & Derek,,Bethany & Derek,Jazz,Safe
+19,4,1,Janel & Val,,Janel & Val,Rumba,Safe
+19,4,2,Jonathan & Allison,,Jonathan & Allison,Samba,Safe
+19,4,3,Betsey & Tony,,Betsey & Tony,Jive,Eliminated
+19,4,4,Bethany & Derek,,Bethany & Derek,Rumba,Safe
+19,4,5,Michael & Emma,,Michael & Emma,Quickstep,Safe
+19,4,6,Lea & Artem,,Lea & Artem,Contemporary,Safe
+19,4,7,Antonio & Cheryl,,Antonio & Cheryl,Samba,Safe
+19,4,8,Tommy & Peta,,Tommy & Peta,Jive,Safe
+19,4,9,Sadie & Mark,,Sadie & Mark,Samba,Safe
+19,4,10,Alfonso & Witney,,Alfonso & Witney,Jazz,Safe
+19,5,1,Antonio & Allison,,Antonio & Allison,Bollywood,
+19,5,2,Bethany & Mark,,Bethany & Mark,Hip-hop,
+19,5,3,Jonathan & Peta,,Jonathan & Peta,Jitterbug,
+19,5,4,Alfonso & Cheryl,,Alfonso & Cheryl,Flamenco,
+19,5,5,Janel & Artem,,Janel & Artem,Burlesque,
+19,5,6,Michael & Witney,,Michael & Witney,Disco,
+19,5,7,Tommy & Emma,,Tommy & Emma,Mambo,
+19,5,8,Sadie & Derek,,Sadie & Derek,Charleston,
+19,5,9,Lea & Val,,Lea & Val,Broadway,
+19,6,1,Jonathan & Allison,,Jonathan & Allison,Jazz,Eliminated
+19,6,2,Janel & Val,,Janel & Val,Samba,Safe
+19,6,3,Tommy & Peta,,Tommy & Peta,Foxtrot,Safe
+19,6,4,Antonio & Cheryl,,Antonio & Cheryl,Salsa,Safe
+19,6,5,Sadie & Mark,,Sadie & Mark,Rumba,Safe
+19,6,6,Lea & Artem,,Lea & Artem,Salsa,Safe
+19,6,7,Michael & Emma,,Michael & Emma,Argentine tango,Safe
+19,6,8,Bethany & Derek,,Bethany & Derek,Tango,Safe
+19,6,9,Alfonso & Witney,,Alfonso & Witney,Salsa,Safe
+19,7,1,Tommy & Peta,,Tommy & Peta,Quickstep,Safe
+19,7,2,Lea & Artem,,Lea & Artem,Argentine tango,Safe
+19,7,3,Bethany & Derek,,Bethany & Derek,Paso doble,Safe
+19,7,4,Antonio & Cheryl,,Antonio & Cheryl,Viennese waltz,Eliminated
+19,7,5,Michael & Emma,,Michael & Emma,Jive,Safe
+19,7,6,Janel & Val,,Janel & Val,Viennese waltz,Safe
+19,7,7,Alfonso & Witney,,Alfonso & Witney,Rumba,Safe
+19,7,8,Sadie & Mark,,Sadie & Mark,Paso doble,Safe
+19,7,9,Bethany & Derek,Janel & Val,Bethany & Derek / Janel & Val / Lea & Artem / Michael & Emma,"Freestyle (Team ""Itsy Bitsy"")",Safe
+19,7,10,Alfonso & Witney,Antonio & Cheryl,Alfonso & Witney / Antonio & Cheryl / Sadie & Mark / Tommy & Peta,"Freestyle (Team ""Creepy"")",Safe
+19,8,1,Lea & Artem,,Lea & Artem,Jazz,Safe
+19,8,2,Michael & Emma,,Michael & Emma,Foxtrot,Eliminated
+19,8,3,Janel & Val,,Janel & Val,Contemporary,Immunity
+19,8,4,Tommy & Peta,,Tommy & Peta,Paso doble,Safe
+19,8,5,Sadie & Mark,,Sadie & Mark,Contemporary,Safe
+19,8,6,Alfonso & Witney,,Alfonso & Witney,Cha-cha-cha,Safe
+19,8,7,Bethany & Derek,,Bethany & Derek,Salsa,Safe
+19,8,1,Alfonso & Witney,,Alfonso & Witney,Jive,Winners
+19,8,2,Lea & Artem,,Lea & Artem,Losers,Winners
+19,8,3,Bethany & Derek,,Bethany & Derek,Cha-cha-cha,Winners
+19,8,4,Sadie & Mark,,Sadie & Mark,Losers,Winners
+19,8,5,Tommy & Peta,,Tommy & Peta,Rumba,Winners
+19,8,6,Michael & Emma,,Michael & Emma,Losers,Winners
+19,9,1,Alfonso & Witney,,Alfonso & Witney,Foxtrot,Safe
+19,9,1,Alfonso & Witney,,Alfonso & Witney,,Safe
+19,9,2,Tommy & Peta,,Tommy & Peta,Viennese waltz,Safe
+19,9,2,Tommy & Peta,,Tommy & Peta,,Safe
+19,9,3,Lea & Artem,,Lea & Artem,Samba,Eliminated
+19,9,3,Lea & Artem,,Lea & Artem,,Eliminated
+19,9,4,Bethany & Derek,,Bethany & Derek,Viennese waltz,Safe
+19,9,4,Bethany & Derek,,Bethany & Derek,,Safe
+19,9,5,Sadie & Mark,,Sadie & Mark,Jive,Safe
+19,9,5,Sadie & Mark,,Sadie & Mark,,Safe
+19,9,6,Janel & Val,,Janel & Val,Quickstep,Safe
+19,9,6,Janel & Val,,Janel & Val,,Safe
+19,10,1,Sadie & Mark,,Sadie & Mark,Quickstep,Safe
+19,10,1,Sadie & Mark,,Sadie & Mark,,Safe
+19,10,2,Tommy & Peta,,Tommy & Peta,Jazz,Eliminated
+19,10,2,Tommy & Peta,,Tommy & Peta,,Eliminated
+19,10,3,Bethany & Derek,,Bethany & Derek,Samba,Safe
+19,10,3,Bethany & Derek,,Bethany & Derek,,Safe
+19,10,4,Janel & Val,,Janel & Val,Paso doble,Safe
+19,10,4,Janel & Val,,Janel & Val,,Safe
+19,10,5,Alfonso & Witney,,Alfonso & Witney,Argentine tango,Safe
+19,10,5,Alfonso & Witney,,Alfonso & Witney,,Safe
+19,11,1,Bethany & Derek,,Bethany & Derek,Jive,Eliminated
+19,11,1,Bethany & Derek,,Bethany & Derek,,Eliminated
+19,11,2,Sadie & Mark,,Sadie & Mark,Samba,Safe
+19,11,2,Sadie & Mark,,Sadie & Mark,,Safe
+19,11,3,Janel & Val,,Janel & Val,Samba,Bottom Two
+19,11,3,Janel & Val,,Janel & Val,,Bottom Two
+19,11,4,Alfonso & Witney,,Alfonso & Witney,Jive,Safe
+19,11,4,Alfonso & Witney,,Alfonso & Witney,,Safe
+19,11,1,Sadie & Mark,,Sadie & Mark,Quickstep & Samba,Runners-Up
+19,11,2,Janel & Val,,Janel & Val,Foxtrot & Paso doble,Third Place
+19,11,3,Alfonso & Witney,,Alfonso & Witney,Argentine tango & Cha-cha-cha,Winners
+20,1,1,Willow & Mark,,Willow & Mark,Cha-cha-cha,
+20,1,2,Robert & Kym,,Robert & Kym,Cha-cha-cha,
+20,1,3,Riker & Allison,,Riker & Allison,Jive,
+20,1,4,Charlotte & Keo,,Charlotte & Keo,Jive,
+20,1,5,Patti & Artem,,Patti & Artem,Foxtrot,
+20,1,6,Chris & Witney,,Chris & Witney,Jive,
+20,1,7,Michael & Peta,,Michael & Peta,Cha-cha-cha,
+20,1,8,Nastia & Derek,,Nastia & Derek,Foxtrot,
+20,1,9,Redfoo & Emma,,Redfoo & Emma,Cha-cha-cha,
+20,1,10,Noah & Sharna,,Noah & Sharna,Cha-cha-cha,
+20,1,11,Suzanne & Tony,,Suzanne & Tony,Cha-cha-cha,
+20,1,12,Rumer & Val,,Rumer & Val,Foxtrot,
+20,2,1,Chris & Witney,,Chris & Witney,Cha-cha-cha,Safe
+20,2,2,Suzanne & Tony,,Suzanne & Tony,Jive,Safe
+20,2,3,Robert & Kym,,Robert & Kym,Foxtrot,Safe
+20,2,4,Charlotte & Keo,,Charlotte & Keo,Cha-cha-cha,Safe
+20,2,5,Michael & Peta,,Michael & Peta,Foxtrot,Safe
+20,2,6,Rumer & Val,,Rumer & Val,Cha-cha-cha,Safe
+20,2,7,Redfoo & Emma,,Redfoo & Emma,Jive,Eliminated
+20,2,8,Willow & Mark,,Willow & Mark,Argentine tango,Safe
+20,2,9,Noah & Sharna,,Noah & Sharna,Samba,Safe
+20,2,10,Nastia & Derek,,Nastia & Derek,Rumba,Safe
+20,2,11,Riker & Allison,,Riker & Allison,Foxtrot,Safe
+20,2,12,Patti & Artem,,Patti & Artem,Salsa,Safe
+20,3,1,Rumer & Val,,Rumer & Val,Salsa,Safe
+20,3,2,Charlotte & Keo,,Charlotte & Keo,Rumba,Eliminated
+20,3,3,Michael & Peta,,Michael & Peta,Salsa,Safe
+20,3,4,Riker & Allison,,Riker & Allison,Salsa,Safe
+20,3,5,Suzanne & Tony,,Suzanne & Tony,Samba,Safe
+20,3,6,Chris & Witney,,Chris & Witney,Argentine tango,Safe
+20,3,7,Robert & Kym,,Robert & Kym,Rumba,Safe
+20,3,8,Patti & Artem,,Patti & Artem,Cha-cha-cha,Safe
+20,3,9,Willow & Mark,,Willow & Mark,Paso doble,Safe
+20,3,10,Noah & Sharna,,Noah & Sharna,Argentine tango,Safe
+20,3,11,Nastia & Derek,,Nastia & Derek,Samba,Safe
+20,4,1,Nastia & Derek,,Nastia & Derek,Argentine tango,Safe
+20,4,2,Michael & Peta,,Michael & Peta,Rumba,Eliminated
+20,4,3,Riker & Allison,,Riker & Allison,Tango,Safe
+20,4,4,Robert & Kym,,Robert & Kym,Waltz,Safe
+20,4,5,Chris & Witney,,Chris & Witney,Rumba,Safe
+20,4,6,Patti & Artem,,Patti & Artem,Jazz,Safe
+20,4,7,Rumer & Val,,Rumer & Val,Waltz,Safe
+20,4,8,Suzanne & Tony,,Suzanne & Tony,Foxtrot,Safe
+20,4,9,Willow & Mark,,Willow & Mark,Contemporary,Safe
+20,4,10,Noah & Sharna,,Noah & Sharna,Contemporary,Safe
+20,5,1,Suzanne & Tony,,Suzanne & Tony,Jazz,Eliminated
+20,5,2,Robert & Kym,,Robert & Kym,Quickstep,Safe
+20,5,3,Patti & Artem,,Patti & Artem,Waltz,Safe
+20,5,4,Willow & Mark,,Willow & Mark,Foxtrot,Safe
+20,5,5,Chris & Witney,,Chris & Witney,Quickstep,Safe
+20,5,6,Noah & Sharna,,Noah & Sharna,Foxtrot,Safe
+20,5,7,Riker & Allison,,Riker & Allison,Paso doble,Safe
+20,5,8,Rumer & Val,,Rumer & Val,Samba,Safe
+20,5,9,Nastia & Derek,,Nastia & Derek,Jazz,Safe
+20,6,1,Patti & Artem,,Patti & Artem,Quickstep,Eliminated
+20,6,2,Nastia & Derek,,Nastia & Derek,Tango,Safe
+20,6,3,Willow & Mark,,Willow & Mark,Salsa,Safe
+20,6,4,Robert & Kym,,Robert & Kym,Jive,Safe
+20,6,5,Noah & Sharna,,Noah & Sharna,Rumba,Safe
+20,6,6,Rumer & Val,,Rumer & Val,Jazz,Safe
+20,6,7,Chris & Witney,,Chris & Witney,Viennese waltz,Safe
+20,6,8,Riker & Allison,,Riker & Allison,Samba,Safe
+20,6,9,Nastia & Derek,Noah & Sharna,Nastia & Derek / Noah & Sharna / Robert & Kym / Willow & Mark,Freestyle (Team YOLO),Safe
+20,6,10,Chris & Witney,Patti & Artem,Chris & Witney / Patti & Artem / Riker & Allison / Rumer & Val,Freestyle (Team Trouble),Safe
+20,7,1,Riker & Allison,,Riker & Allison,Quickstep,Safe
+20,7,2,Chris & Witney,,Chris & Witney,Foxtrot,Safe
+20,7,3,Rumer & Val,,Rumer & Val,Jive,Safe
+20,7,4,Noah & Sharna,,Noah & Sharna,Jazz,Safe
+20,7,5,Robert & Kym,,Robert & Kym,Argentine tango,Safe
+20,7,6,Nastia & Sasha,,Nastia & Sasha,Charleston,Immunity
+20,7,7,Willow & Mark,,Willow & Mark,Jazz,Eliminated
+20,7,1,Willow & Mark,,Willow & Mark,Salsa,Winners
+20,7,2,Riker & Allison,,Riker & Allison,Losers,Winners
+20,7,3,Noah & Sharna,,Noah & Sharna,Cha-cha-cha,Winners
+20,7,4,Robert & Kym,,Robert & Kym,Losers,Winners
+20,7,5,Rumer & Val,,Rumer & Val,Foxtrot,Winners
+20,7,6,Chris & Witney,,Chris & Witney,Losers,Winners
+20,8,1,Noah & Sharna,,Noah & Sharna,Tango,Safe
+20,8,1,Noah & Sharna,,Noah & Sharna,,Safe
+20,8,2,Chris & Witney,,Chris & Witney,Contemporary,Eliminated
+20,8,2,Chris & Witney,,Chris & Witney,,Eliminated
+20,8,3,Riker & Allison,,Riker & Allison,Viennese waltz,Safe
+20,8,3,Riker & Allison,,Riker & Allison,,Safe
+20,8,4,Robert & Kym,,Robert & Kym,Contemporary,Eliminated
+20,8,4,Robert & Kym,,Robert & Kym,,Eliminated
+20,8,5,Nastia & Sasha,,Nastia & Sasha,Paso doble,Safe
+20,8,5,Nastia & Sasha,,Nastia & Sasha,,Safe
+20,8,6,Rumer & Val,,Rumer & Val,Rumba,Safe
+20,8,6,Rumer & Val,,Rumer & Val,,Safe
+20,9,1,Rumer & Val,,Rumer & Val,Viennese waltz,Safe
+20,9,2,"30 (10, 10, 10,",X,"30 (10, 10, 10, / X / )",,Safe
+20,9,3,Noah & Sharna,,Noah & Sharna,Viennese waltz,Safe
+20,9,4,30 (,X,"30 ( / X / , 10, 10, 10)",,Safe
+20,9,5,Riker & Allison,,Riker & Allison,Contemporary,Safe
+20,9,6,"30 (10, 10,",X,"30 (10, 10, / X / , 10)",,Safe
+20,9,7,Nastia & Sasha,,Nastia & Sasha,Quickstep,Eliminated
+20,9,8,Nastia & Derek,,Nastia & Derek,""" Fall for You "" — Leela James",Eliminated
+20,10,1,Noah & Sharna,,Noah & Sharna,Argentine tango,
+20,10,1,Noah & Sharna,,Noah & Sharna,,
+20,10,2,Riker & Allison,,Riker & Allison,Paso doble,
+20,10,2,Riker & Allison,,Riker & Allison,,
+20,10,3,Rumer & Val,,Rumer & Val,Foxtrot,
+20,10,3,Rumer & Val,,Rumer & Val,,
+20,10,1,Noah & Sharna,,Noah & Sharna,Argentine tango & Cha-cha-cha,Third Place
+20,10,2,Riker & Allison,,Riker & Allison,Quickstep & Salsa,Runners-Up
+20,10,3,Rumer & Val,,Rumer & Val,Foxtrot & Paso doble,Winners
+21,1,1,Victor & Karina,,Victor & Karina,Salsa,
+21,1,2,Tamar & Val,,Tamar & Val,Quickstep,
+21,1,3,Chaka & Keo,,Chaka & Keo,Cha-cha-cha,
+21,1,4,Hayes & Emma,,Hayes & Emma,Cha-cha-cha,
+21,1,5,Andy & Allison,,Andy & Allison,Foxtrot,
+21,1,6,Paula & Louis,,Paula & Louis,Quickstep,
+21,1,7,Carlos & Witney,,Carlos & Witney,Jive,
+21,1,8,Alexa & Mark,,Alexa & Mark,Jive,
+21,1,9,Kim & Tony,,Kim & Tony,Salsa,
+21,1,10,Bindi & Derek,,Bindi & Derek,Jive,
+21,1,11,Gary & Anna,,Gary & Anna,Cha-cha-cha,
+21,1,12,Alek & Lindsay,,Alek & Lindsay,Foxtrot,
+21,1,13,Nick & Sharna,,Nick & Sharna,Cha-cha-cha,
+21,2,1,Nick & Sharna,,Nick & Sharna,Jive,Safe
+21,2,2,Paula & Louis,,Paula & Louis,Rumba,Safe
+21,2,3,Hayes & Emma,,Hayes & Emma,Foxtrot,Safe
+21,2,4,Chaka & Keo,,Chaka & Keo,Foxtrot,Eliminated
+21,2,5,Andy & Allison,,Andy & Allison,Jive,Safe
+21,2,6,Kim & Tony,,Kim & Tony,Quickstep,Safe
+21,2,7,Alek & Lindsay,,Alek & Lindsay,Jazz,Safe
+21,2,8,Alexa & Mark,,Alexa & Mark,Salsa,Safe
+21,2,9,Victor & Karina,,Victor & Karina,Jive,Safe
+21,2,10,Tamar & Val,,Tamar & Val,Cha-cha-cha,Safe
+21,2,11,Gary & Anna,,Gary & Anna,Foxtrot,Safe
+21,2,12,Carlos & Witney,,Carlos & Witney,Foxtrot,Safe
+21,2,13,Bindi & Derek,,Bindi & Derek,Tango,Safe
+21,2,1,Hayes & Emma,,Hayes & Emma,Quickstep,Safe
+21,2,2,Carlos & Witney,,Carlos & Witney,Cha-cha-cha,Safe
+21,2,3,Gary & Anna,,Gary & Anna,Paso doble,Safe
+21,2,4,Andy & Allison,,Andy & Allison,Contemporary,Safe
+21,2,5,Alexa & Mark,,Alexa & Mark,Rumba,Safe
+21,2,6,Paula & Louis,,Paula & Louis,Tango,Safe
+21,2,7,Bindi & Derek,,Bindi & Derek,Waltz,Safe
+21,2,8,Kim & Tony,,Kim & Tony,Foxtrot,Safe
+21,2,9,Alek & Lindsay,,Alek & Lindsay,Quickstep,Safe
+21,2,10,Victor & Karina,,Victor & Karina,Rumba,Eliminated
+21,2,11,Nick & Sharna,,Nick & Sharna,Foxtrot,Safe
+21,2,12,Tamar & Val,,Tamar & Val,Charleston,Safe
+21,3,1,Carlos & Witney,,Carlos & Witney,Jazz,
+21,3,2,Paula & Louis,,Paula & Louis,Samba,
+21,3,3,Tamar & Val,,Tamar & Val,Tango,
+21,3,4,Alexa & Mark,,Alexa & Mark,Jazz,
+21,3,5,Andy & Allison,,Andy & Allison,Quickstep,
+21,3,6,Gary & Anna,,Gary & Anna,Tango,
+21,3,7,Alek & Lindsay,,Alek & Lindsay,Tango,
+21,3,8,Bindi & Derek,,Bindi & Derek,Quickstep,
+21,3,9,Nick & Sharna,,Nick & Sharna,Viennese waltz,
+21,3,10,Hayes & Emma,,Hayes & Emma,Jive,
+21,4,1,Alexa & Mark,,Alexa & Mark,Foxtrot,Safe
+21,4,2,Gary & Anna,,Gary & Anna,Jazz,Eliminated
+21,4,3,Tamar & Val,,Tamar & Val,Rumba,Safe
+21,4,4,Hayes & Emma,,Hayes & Emma,Contemporary,Safe
+21,4,5,Alek & Lindsay,,Alek & Lindsay,Paso doble,Safe
+21,4,6,Nick & Sharna,,Nick & Sharna,Jazz,Safe
+21,4,7,Carlos & Witney,,Carlos & Witney,Waltz,Safe
+21,4,8,Paula & Louis,,Paula & Louis,Cha-cha-cha,Safe
+21,4,9,Andy & Allison,,Andy & Allison,Cha-cha-cha,Safe
+21,4,10,Bindi & Derek,,Bindi & Derek,Contemporary,Safe
+21,5,1,Tamar & Louis,,Tamar & Louis,Samba,
+21,5,2,Hayes & Allison,,Hayes & Allison,Viennese waltz,
+21,5,3,Paula & Mark,,Paula & Mark,Jive,
+21,5,4,Alek & Emma,,Alek & Emma,Rumba,
+21,5,5,Bindi & Val,,Bindi & Val,Cha-cha-cha,
+21,5,6,Carlos & Lindsay,,Carlos & Lindsay,Quickstep,
+21,5,7,Alexa & Derek,,Alexa & Derek,Tango,
+21,5,8,Andy & Sharna,,Andy & Sharna,Argentine tango,
+21,5,9,Nick & Witney,,Nick & Witney,Paso doble,
+21,6,1,Hayes & Emma,,Hayes & Emma,Jazz,Safe
+21,6,2,Andy & Allison,,Andy & Allison,Jazz,Safe
+21,6,3,Alexa & Mark,,Alexa & Mark,Cha-cha-cha,Safe
+21,6,4,Bindi & Derek,,Bindi & Derek,Rumba,Safe
+21,6,5,Paula & Louis,,Paula & Louis,Jazz,Eliminated
+21,6,6,Carlos & Witney,,Carlos & Witney,Rumba,Safe
+21,6,7,Nick & Sharna,,Nick & Sharna,Samba,Safe
+21,6,8,Alek & Lindsay,,Alek & Lindsay,Jive,Safe
+21,6,9,Tamar & Val,,Tamar & Val,Jazz,Safe
+21,7,1,Nick & Sharna,,Nick & Sharna,Argentine tango,Safe
+21,7,2,Hayes & Emma,,Hayes & Emma,Waltz,Eliminated
+21,7,3,Alexa & Mark,,Alexa & Mark,Paso doble,Safe
+21,7,4,Tamar & Val,,Tamar & Val,Foxtrot,Safe
+21,7,5,Andy & Allison,,Andy & Allison,Paso doble,Safe
+21,7,6,Bindi & Derek,,Bindi & Derek,Argentine tango,Safe
+21,7,7,Alek & Lindsay,,Alek & Lindsay,Viennese waltz,Safe
+21,7,8,Carlos & Witney,,Carlos & Witney,Paso doble,Safe
+21,7,9,Andy & Allison,Hayes & Emma,Andy & Allison / Hayes & Emma / Nick & Sharna / Tamar & Val,Freestyle (Team Nightmare),Safe
+21,7,10,Alek & Lindsay,Alexa & Mark,Alek & Lindsay / Alexa & Mark / Bindi & Derek / Carlos & Witney,Freestyle (Team Who You Gonna Call?),Safe
+21,8,1,Carlos & Witney,,Carlos & Witney,Salsa,Safe
+21,8,2,Alek & Lindsay,,Alek & Lindsay,Contemporary,Safe
+21,8,3,Andy & Allison,,Andy & Allison,Viennese waltz,Eliminated
+21,8,4,Alexa & Mark,,Alexa & Mark,Argentine tango,Safe
+21,8,5,Nick & Sharna,,Nick & Sharna,Contemporary,Immunity
+21,8,6,Bindi & Derek,,Bindi & Derek,Foxtrot,Safe
+21,8,7,Tamar & Val,,Tamar & Val,Paso doble,Safe
+21,8,1,Carlos & Witney,[,Carlos & Witney / [ / a / ],Jive,Winners
+21,8,2,Bindi & Derek,[,Bindi & Derek / [ / b / ],Losers,Winners
+21,8,3,Alexa & Mark,[,Alexa & Mark / [ / c / ],Cha-cha-cha,Winners
+21,8,4,Tamar & Val,[,Tamar & Val / [ / d / ],Losers,Winners
+21,8,5,Andy & Allison,[,Andy & Allison / [ / e / ],Samba,Winners
+21,8,6,Alek & Lindsay,,Alek & Lindsay,Losers,Winners
+21,9,1,Alek & Lindsay,,Alek & Lindsay,Salsa,Safe
+21,9,2,Alexa & Mark,,Alexa & Mark,Contemporary,Eliminated
+21,9,3,Carlos & Witney,,Carlos & Witney,Argentine tango,Safe
+21,9,4,Bindi & Derek,,Bindi & Derek,Viennese waltz,Safe
+21,9,5,Tamar & Val,,Tamar & Val,Contemporary,Withdrew
+21,9,6,Nick & Sharna,,Nick & Sharna,Quickstep,Safe
+21,9,7,Alek & Lindsay,Carlos & Witney,Alek & Lindsay / Carlos & Witney,Paso doble,Safe
+21,9,8,Alexa & Mark,Bindi & Derek,Alexa & Mark / Bindi & Derek,Charleston,Safe
+21,9,9,Nick & Sharna,Tamar & Val,Nick & Sharna / Tamar & Val,Rumba,Safe
+21,10,1,Bindi & Derek,,Bindi & Derek,Salsa,
+21,10,1,Bindi & Derek,,Bindi & Derek,,
+21,10,2,Alek & Lindsay,,Alek & Lindsay,Waltz,
+21,10,2,Alek & Lindsay,,Alek & Lindsay,,
+21,10,3,Carlos & Witney,,Carlos & Witney,Contemporary,
+21,10,3,Carlos & Witney,,Carlos & Witney,,
+21,10,4,Nick & Sharna,,Nick & Sharna,Tango,
+21,10,4,Nick & Sharna,,Nick & Sharna,,
+21,10,1,Carlos & Witney,,Carlos & Witney,Cha-cha-cha,Winners
+21,10,2,Alek & Lindsay,,Alek & Lindsay,Losers,Winners
+21,10,3,Bindi & Derek,,Bindi & Derek,Samba,Winners
+21,10,4,Nick & Sharna,,Nick & Sharna,Losers,Winners
+21,11,1,Carlos & Witney,,Carlos & Witney,Foxtrot,Eliminated
+21,11,1,Carlos & Witney,,Carlos & Witney,,Eliminated
+21,11,2,Alek & Lindsay,,Alek & Lindsay,Rumba,Safe
+21,11,2,Alek & Lindsay,,Alek & Lindsay,,Safe
+21,11,3,Nick & Sharna,,Nick & Sharna,Jive,Safe
+21,11,3,Nick & Sharna,,Nick & Sharna,,Safe
+21,11,4,Bindi & Derek,,Bindi & Derek,Quickstep,Safe
+21,11,4,Bindi & Derek,,Bindi & Derek,,Safe
+21,11,1,Nick & Sharna,,Nick & Sharna,Salsa & Tango,Runners-Up
+21,11,2,Alek & Lindsay,,Alek & Lindsay,Rumba & Tango,Third Place
+21,11,3,Bindi & Derek,,Bindi & Derek,Argentine tango & Cha-cha-cha,Winners
+22,1,1,Kim & Sasha,,Kim & Sasha,Cha-cha-cha,
+22,1,2,Paige & Mark,,Paige & Mark,Foxtrot,
+22,1,3,Doug & Karina,,Doug & Karina,Foxtrot,
+22,1,4,Jodie & Keo,,Jodie & Keo,Tango,
+22,1,5,Geraldo & Edyta,,Geraldo & Edyta,Cha-cha-cha,
+22,1,6,Marla & Tony,,Marla & Tony,Quickstep,
+22,1,7,Wanyá & Lindsay,,Wanyá & Lindsay,Cha-cha-cha,
+22,1,8,Ginger & Val,,Ginger & Val,Jive,
+22,1,9,Mischa & Artem,,Mischa & Artem,Tango,
+22,1,10,Nyle & Peta,,Nyle & Peta,Cha-cha-cha,
+22,1,11,Antonio & Sharna,,Antonio & Sharna,Quickstep,
+22,1,12,Von & Witney,,Von & Witney,Foxtrot,
+22,2,1,Jodie & Keo,,Jodie & Keo,Samba,Safe
+22,2,2,Marla & Tony,,Marla & Tony,Argentine tango,Safe
+22,2,3,Geraldo & Edyta,,Geraldo & Edyta,Salsa,Eliminated
+22,2,4,Paige & Alan,,Paige & Alan,Salsa,Safe
+22,2,5,Antonio & Sharna,,Antonio & Sharna,Rumba,Safe
+22,2,6,Kim & Sasha,,Kim & Sasha,Salsa,Safe
+22,2,7,Nyle & Peta,,Nyle & Peta,Rumba,Safe
+22,2,8,Mischa & Artem,,Mischa & Artem,Cha-cha-cha,Bottom Three
+22,2,9,Von & Witney,,Von & Witney,Cha-cha-cha,Safe
+22,2,10,Wanyá & Lindsay,,Wanyá & Lindsay,Salsa,Safe
+22,2,11,Doug & Karina,,Doug & Karina,Paso doble,Bottom Three
+22,2,12,Ginger & Val,,Ginger & Val,Samba,Safe
+22,3,1,Ginger & Val,,Ginger & Val,Contemporary,Safe
+22,3,2,Doug & Karina,,Doug & Karina,Waltz,Safe
+22,3,3,Kim & Sasha,,Kim & Sasha,Foxtrot,Safe
+22,3,4,Von & Witney,,Von & Witney,Contemporary,Safe
+22,3,5,Marla & Tony,,Marla & Tony,Jive,Safe
+22,3,6,Antonio & Sharna,,Antonio & Sharna,Foxtrot,Safe
+22,3,7,Paige & Mark,,Paige & Mark,Paso doble,Safe
+22,3,8,Jodie & Keo,,Jodie & Keo,Foxtrot,Safe
+22,3,9,Mischa & Artem,,Mischa & Artem,Samba,Eliminated
+22,3,10,Wanyá & Lindsay,,Wanyá & Lindsay,Waltz,Safe
+22,3,11,Nyle & Peta,,Nyle & Peta,Tango,Safe
+22,4,1,Antonio & Sharna,,Antonio & Sharna,Jazz,Safe
+22,4,2,Marla & Tony,,Marla & Tony,Waltz,Eliminated
+22,4,3,Nyle & Peta,,Nyle & Peta,Samba,Safe
+22,4,4,Doug & Karina,,Doug & Karina,Jazz,Safe
+22,4,5,Kim & Sasha,,Kim & Sasha,Quickstep,Safe
+22,4,6,Jodie & Keo,,Jodie & Keo,Cha-cha-cha,Safe
+22,4,7,Von & Witney,,Von & Witney,Viennese waltz,Safe
+22,4,8,Ginger & Val,,Ginger & Val,Foxtrot,Safe
+22,4,9,Wanyá & Lindsay,,Wanyá & Lindsay,Samba,Safe
+22,4,10,Paige & Mark,,Paige & Mark,Quickstep,Safe
+22,5,1,Wanyá & Witney,,Wanyá & Witney,Tango,
+22,5,2,Kim & Keo,,Kim & Keo,Viennese waltz,
+22,5,3,Doug & Peta,,Doug & Peta,Tango,
+22,5,4,Ginger & Mark,,Ginger & Mark,Salsa,
+22,5,5,Antonio & Karina,,Antonio & Karina,Cha-cha-cha,
+22,5,6,Paige & Sasha,,Paige & Sasha,Rumba,
+22,5,7,Von & Lindsay,,Von & Lindsay,Jive,
+22,5,8,Nyle & Sharna,,Nyle & Sharna,Viennese waltz,
+22,5,9,Jodie & Val,,Jodie & Val,Paso doble,
+22,6,1,Kim & Sasha,,Kim & Sasha,Jive,Safe
+22,6,2,Von & Witney,,Von & Witney,Jazz,Safe
+22,6,3,Jodie & Keo,,Jodie & Keo,Contemporary,Safe
+22,6,4,Paige & Mark,,Paige & Mark,Jazz,Safe
+22,6,5,Nyle & Peta,,Nyle & Peta,Quickstep,Safe
+22,6,6,Ginger & Val,,Ginger & Val,Jazz,Safe
+22,6,7,Doug & Karina,,Doug & Karina,Bollywood,Eliminated
+22,6,8,Wanyá & Lindsay,,Wanyá & Lindsay,Jazz,Safe
+22,6,9,Antonio & Sharna,,Antonio & Sharna,Jive,Safe
+22,7,1,Jodie & Keo,,Jodie & Keo,Quickstep,Safe
+22,7,2,Kim & Sasha,,Kim & Sasha,Samba,Eliminated
+22,7,3,Nyle & Peta,,Nyle & Peta,Foxtrot,Safe
+22,7,4,Antonio & Sharna,,Antonio & Sharna,Tango,Safe
+22,7,5,Wanyá & Lindsay,,Wanyá & Lindsay,Foxtrot,Safe
+22,7,6,Ginger & Val,,Ginger & Val,Viennese waltz,Safe
+22,7,7,Von & Witney,,Von & Witney,Salsa,Eliminated
+22,7,8,Paige & Mark,,Paige & Mark,Jive,Safe
+22,7,9,Antonio & Sharna,Nyle & Peta,Antonio & Sharna / Nyle & Peta / Von & Witney / Wanyá & Lindsay,Freestyle (Team James Brown),Safe
+22,7,10,Ginger & Val,Jodie & Keo,Ginger & Val / Jodie & Keo / Kim & Sasha / Paige & Mark,Freestyle (Team Beyoncé),Safe
+22,8,1,Nyle & Peta,,Nyle & Peta,Paso doble,Safe
+22,8,2,Antonio & Sharna,,Antonio & Sharna,""" Love on the Brain "" — Rihanna",Safe
+22,8,3,Jodie & Keo,,Jodie & Keo,""" Something's Got a Hold on Me "" — Etta James",Safe
+22,8,4,Paige & Mark,,Paige & Mark,""" Stone Cold "" — Demi Lovato",Safe
+22,8,5,Ginger & Val,,Ginger & Val,""" Telephone "" — Martynas Levickis",Safe
+22,8,6,Wanyá & Lindsay,,Wanyá & Lindsay,""" Can You Do This "" — Aloe Blacc",Safe
+22,8,7,Jodie & Keo,Nyle & Peta,Jodie & Keo / Nyle & Peta,Argentine tango,Safe
+22,8,8,Ginger & Val,Wanyá & Lindsay,Ginger & Val / Wanyá & Lindsay,Samba,Safe
+22,8,9,Antonio & Sharna,Paige & Mark,Antonio & Sharna / Paige & Mark,Paso doble,Safe
+22,9,1,Paige & Mark,,Paige & Mark,Samba,Safe
+22,9,1,Paige & Mark,,Paige & Mark,,Safe
+22,9,2,Antonio & Sharna,,Antonio & Sharna,Argentine tango,Eliminated
+22,9,2,Antonio & Sharna,,Antonio & Sharna,,Eliminated
+22,9,3,Wanyá & Lindsay,,Wanyá & Lindsay,Paso doble,Eliminated
+22,9,3,Wanyá & Lindsay,,Wanyá & Lindsay,,Eliminated
+22,9,4,Nyle & Peta,,Nyle & Peta,Jive,Safe
+22,9,4,Nyle & Peta,,Nyle & Peta,,Safe
+22,9,5,Ginger & Val,,Ginger & Val,Paso doble,Safe
+22,9,5,Ginger & Val,,Ginger & Val,,Safe
+22,10,1,Ginger & Val,,Ginger & Val,Contemporary,
+22,10,1,Ginger & Val,,Ginger & Val,,
+22,10,2,Nyle & Peta,,Nyle & Peta,Quickstep,
+22,10,2,Nyle & Peta,,Nyle & Peta,,
+22,10,3,Paige & Mark,,Paige & Mark,Salsa,
+22,10,3,Paige & Mark,,Paige & Mark,,
+22,10,1,Ginger & Val,,Ginger & Val,Argentine tango & Foxtrot,Third Place
+22,10,2,Nyle & Peta,,Nyle & Peta,Cha-cha-cha & Tango,Winners
+22,10,3,Paige & Mark,,Paige & Mark,Jive & Salsa,Runners-Up
+23,1,1,Marilu & Derek,,Marilu & Derek,Jive,
+23,1,2,James & Sharna,,James & Sharna,Foxtrot,
+23,1,3,Calvin & Lindsay,,Calvin & Lindsay,Cha-cha-cha,
+23,1,4,Maureen & Artem,,Maureen & Artem,Viennese waltz,
+23,1,5,Babyface & Allison,,Babyface & Allison,Foxtrot,
+23,1,6,Amber & Maks,,Amber & Maks,Foxtrot,
+23,1,7,Vanilla Ice & Witney,,Vanilla Ice & Witney,Cha-cha-cha,
+23,1,8,Jana & Gleb,,Jana & Gleb,Viennese waltz,
+23,1,9,Jake & Jenna,,Jake & Jenna,Jive,
+23,1,10,Rick & Emma,,Rick & Emma,Cha-cha-cha,
+23,1,11,Terra & Sasha,,Terra & Sasha,Jive,
+23,1,12,Ryan & Cheryl,,Ryan & Cheryl,Foxtrot,
+23,1,13,Laurie & Val,,Laurie & Val,Cha-cha-cha,
+23,2,1,Maureen & Artem,,Maureen & Artem,Quickstep,Safe
+23,2,2,Jana & Gleb,,Jana & Gleb,Tango,Safe
+23,2,3,Rick & Emma,,Rick & Emma,Quickstep,Safe
+23,2,4,Calvin & Lindsay,,Calvin & Lindsay,Foxtrot,Safe
+23,2,5,Amber & Maks,,Amber & Maks,Viennese waltz,Safe
+23,2,6,Jake & Jenna,,Jake & Jenna,Cha-cha-cha,Eliminated
+23,2,7,Vanilla Ice & Witney,,Vanilla Ice & Witney,Foxtrot,Safe
+23,2,8,Terra & Sasha,,Terra & Sasha,Quickstep,Safe
+23,2,9,Babyface & Allison,,Babyface & Allison,Argentine tango,Safe
+23,2,10,Laurie & Val,,Laurie & Val,Jive,Safe
+23,2,11,James & Sharna,,James & Sharna,Paso doble,Safe
+23,2,12,Marilu & Derek,,Marilu & Derek,Foxtrot,Safe
+23,2,13,Ryan & Cheryl,,Ryan & Cheryl,Quickstep,Safe
+23,3,1,Babyface & Allison,,Babyface & Allison,Jive,Safe
+23,3,2,Jana & Gleb,,Jana & Gleb,""" Too Many Fish in the Sea "" — Bette Midler",Safe
+23,3,3,Rick & Emma,,Rick & Emma,Paso doble,Eliminated
+23,3,4,Vanilla Ice & Witney,,Vanilla Ice & Witney,"""Save Tonight"" — Zayde Wølf",Eliminated
+23,3,5,James & Sharna,,James & Sharna,Cha-cha-cha,Immunity
+23,3,6,Ryan & Cheryl,,Ryan & Cheryl,""" If It Ain't Love "" — Jason Derulo",Immunity
+23,3,7,Terra & Sasha,,Terra & Sasha,Viennese waltz,Safe
+23,3,8,Calvin & Lindsay,,Calvin & Lindsay,""" Woman's World "" — BJ the Chicago Kid",Safe
+23,3,9,Amber & Maks,,Amber & Maks,Salsa,Safe
+23,3,10,Maureen & Artem,,Maureen & Artem,""" Tres Deseos "" — Gloria Estefan",Safe
+23,3,11,Laurie & Val,,Laurie & Val,Tango,Immunity
+23,3,12,Marilu & Derek,,Marilu & Derek,""" Battle Cry "" — Imagine Dragons",Immunity
+23,4,1,Calvin & Lindsay,,Calvin & Lindsay,Charleston,Safe
+23,4,2,Maureen & Artem,,Maureen & Artem,Argentine tango,Safe
+23,4,3,Jana & Gleb,,Jana & Gleb,Foxtrot,Safe
+23,4,4,Marilu & Derek,,Marilu & Derek,Paso doble,Safe
+23,4,5,Amber & Maks,,Amber & Maks,Argentine tango,Safe
+23,4,6,Ryan & Cheryl,,Ryan & Cheryl,Viennese waltz,Safe
+23,4,7,Babyface & Allison,,Babyface & Allison,Tango,Eliminated
+23,4,8,Terra & Sasha,,Terra & Sasha,Samba,Safe
+23,4,9,Laurie & Val,,Laurie & Val,Jazz,Safe
+23,4,10,Vanilla Ice & Witney,,Vanilla Ice & Witney,Viennese waltz,Eliminated
+23,4,11,James & Sharna,,James & Sharna,Quickstep,Safe
+23,5,1,Maureen & Artem,,Maureen & Artem,Foxtrot,
+23,5,2,Calvin & Lindsay,,Calvin & Lindsay,Jazz,
+23,5,3,Jana & Gleb,,Jana & Gleb,Contemporary,
+23,5,4,Ryan & Cheryl,,Ryan & Cheryl,Contemporary,
+23,5,5,Laurie & Val,,Laurie & Val,Paso doble,
+23,5,6,Marilu & Derek,,Marilu & Derek,Viennese waltz,
+23,5,7,Amber & Maks,,Amber & Maks,Samba,
+23,5,8,James & Sharna,,James & Sharna,Tango,
+23,5,9,Terra & Sasha,,Terra & Sasha,Contemporary,
+23,6,1,Ryan & Cheryl,,Ryan & Cheryl,Salsa,Safe
+23,6,2,Terra & Sasha,,Terra & Sasha,Paso doble,Safe
+23,6,3,Amber & Maks,,Amber & Maks,Cha-cha-cha,Eliminated
+23,6,4,James & Sharna,,James & Sharna,Rumba,Safe
+23,6,5,Marilu & Derek,,Marilu & Derek,Cha-cha-cha,Safe
+23,6,6,Jana & Gleb,,Jana & Gleb,Argentine tango,Safe
+23,6,7,Maureen & Artem,,Maureen & Artem,Samba,Safe
+23,6,8,Calvin & Lindsay,,Calvin & Lindsay,Argentine tango,Safe
+23,6,9,Laurie & Val,,Laurie & Val,Salsa,Safe
+23,7,1,Laurie & Val,,Laurie & Val,Quickstep,Safe
+23,7,2,Ryan & Cheryl,,Ryan & Cheryl,Rumba,Safe
+23,7,3,Marilu & Derek,,Marilu & Derek,Charleston,Safe
+23,7,4,Calvin & Lindsay,,Calvin & Lindsay,Jive,Safe
+23,7,5,Maureen & Artem,,Maureen & Artem,Tango,Eliminated
+23,7,6,Terra & Sasha,,Terra & Sasha,Foxtrot,Safe
+23,7,7,Jana & Gleb,,Jana & Gleb,Samba,Safe
+23,7,8,James & Sharna,,James & Sharna,Jitterbug,Safe
+23,7,9,Calvin & Lindsay,James & Sharna,Calvin & Lindsay / James & Sharna / Maureen & Artem / Ryan & Cheryl,Freestyle (Team Past),Safe
+23,7,10,Jana & Gleb,Laurie & Val,Jana & Gleb / Laurie & Val / Marilu & Derek / Terra & Sasha,Freestyle (Team Future),Safe
+23,8,1,Terra & Sasha,,Terra & Sasha,Cha-cha-cha,Safe
+23,8,2,Laurie & Val,,Laurie & Val,Viennese waltz,Safe
+23,8,3,Marilu & Derek,,Marilu & Derek,Argentine tango,Safe
+23,8,4,Calvin & Lindsay,,Calvin & Lindsay,Quickstep,Safe
+23,8,5,Ryan & Cheryl,,Ryan & Cheryl,Tango,Eliminated
+23,8,6,Jana & Gleb,,Jana & Gleb,Jazz,Safe
+23,8,7,James & Jenna,,James & Jenna,Viennese waltz,Immunity
+23,8,1,Laurie & Val,[,Laurie & Val / [ / a / ],Jive,Winners
+23,8,2,Calvin & Lindsay,,Calvin & Lindsay,Losers,Winners
+23,8,3,Jana & Gleb,[,Jana & Gleb / [ / b / ],Salsa,Winners
+23,8,4,Terra & Sasha,[,Terra & Sasha / [ / c / ],Losers,Winners
+23,8,5,Ryan & Cheryl,[,Ryan & Cheryl / [ / d / ],Cha-cha-cha,Winners
+23,8,6,Marilu & Derek,[,Marilu & Derek / [ / e / ],Losers,Winners
+23,9,1,Marilu & Derek,,Marilu & Derek,Samba,Eliminated
+23,9,2,Calvin & Lindsay,,Calvin & Lindsay,Waltz,Safe
+23,9,3,James & Jenna,,James & Jenna,Jazz,Safe
+23,9,4,Terra & Sasha,,Terra & Sasha,Charleston,Safe
+23,9,5,Jana & Gleb,,Jana & Gleb,Waltz,Safe
+23,9,6,Laurie & Val,,Laurie & Val,Argentine tango,Safe
+23,9,7,James & Jenna,Calvin & Lindsay,James & Jenna / Calvin & Lindsay,Paso doble,Safe
+23,9,8,Marilu & Derek,Terra & Sasha,Marilu & Derek / Terra & Sasha,Jazz,Safe
+23,9,9,Laurie & Val,Jana & Gleb,Laurie & Val / Jana & Gleb,Contemporary,Safe
+23,10,1,James & Sharna,,James & Sharna,Argentine tango,Safe
+23,10,1,James & Sharna,,James & Sharna,,Safe
+23,10,2,Terra & Sasha,,Terra & Sasha,Rumba,Eliminated
+23,10,2,Terra & Sasha,,Terra & Sasha,,Eliminated
+23,10,3,Jana & Gleb,,Jana & Gleb,Quickstep,Safe
+23,10,3,Jana & Gleb,,Jana & Gleb,,Safe
+23,10,4,Calvin & Lindsay,,Calvin & Lindsay,Tango,Safe
+23,10,4,Calvin & Lindsay,,Calvin & Lindsay,,Safe
+23,10,5,Laurie & Val,,Laurie & Val,Foxtrot,Safe
+23,10,5,Laurie & Val,,Laurie & Val,,Safe
+23,11,1,Calvin & Lindsay,,Calvin & Lindsay,Viennese waltz,Safe
+23,11,1,Calvin & Lindsay,,Calvin & Lindsay,,Safe
+23,11,2,Jana & Gleb,,Jana & Gleb,Tango,Eliminated
+23,11,2,Jana & Gleb,,Jana & Gleb,,Eliminated
+23,11,3,Laurie & Val,,Laurie & Val,Paso doble,Safe
+23,11,3,Laurie & Val,,Laurie & Val,,Safe
+23,11,4,James & Sharna,,James & Sharna,Foxtrot,Safe
+23,11,4,James & Sharna,,James & Sharna,,Safe
+23,11,1,James & Sharna,,James & Sharna,Foxtrot & Viennese waltz,Runners-Up
+23,11,2,Calvin & Lindsay,,Calvin & Lindsay,Jive & Quickstep,Third Place
+23,11,3,Laurie & Val,,Laurie & Val,Argentine tango & Foxtrot,Winners
+24,1,1,Normani & Val,,Normani & Val,Quickstep,
+24,1,2,Nancy & Artem,,Nancy & Artem,Viennese waltz,
+24,1,3,Chris & Witney,,Chris & Witney,Cha-cha-cha,
+24,1,4,Bonner & Sharna,,Bonner & Sharna,Cha-cha-cha,
+24,1,5,Charo & Keo,,Charo & Keo,Salsa,
+24,1,6,Nick & Peta,,Nick & Peta,Cha-cha-cha,
+24,1,7,Heather & Maks,,Heather & Maks,Viennese waltz,
+24,1,8,David & Lindsay,,David & Lindsay,Quickstep,
+24,1,9,Erika & Gleb,,Erika & Gleb,Salsa,
+24,1,10,Rashad & Emma,,Rashad & Emma,Cha-cha-cha,
+24,1,11,Mr. T & Kym,,Mr. T & Kym,Cha-cha-cha,
+24,1,12,Simone & Sasha,,Simone & Sasha,Tango,
+24,2,1,Nancy & Artem,,Nancy & Artem,Cha-cha-cha,Safe
+24,2,2,Erika & Gleb,,Erika & Gleb,Foxtrot,Safe
+24,2,3,Charo & Keo,,Charo & Keo,Paso doble,Safe
+24,2,4,Nick & Peta,,Nick & Peta,Foxtrot,Safe
+24,2,5,Heather & Alan,,Heather & Alan,Jive,Safe
+24,2,6,Bonner & Sharna,,Bonner & Sharna,Viennese waltz,Safe
+24,2,7,Simone & Sasha,,Simone & Sasha,Cha-cha-cha,Safe
+24,2,8,Chris & Witney,,Chris & Witney,Jazz,Eliminated
+24,2,9,Normani & Val,,Normani & Val,Cha-cha-cha,Safe
+24,2,10,Rashad & Emma,,Rashad & Emma,Viennese waltz,Safe
+24,2,11,Mr. T & Kym,,Mr. T & Kym,Paso doble,Safe
+24,2,12,David & Lindsay,,David & Lindsay,Cha-cha-cha,Safe
+24,3,1,Nick & Peta,,Nick & Peta,Tango,Safe
+24,3,2,Mr. T & Kym,,Mr. T & Kym,Foxtrot,Safe
+24,3,3,Bonner & Sharna,,Bonner & Sharna,Charleston,Safe
+24,3,4,Heather & Alan,,Heather & Alan,Tango,Safe
+24,3,5,Charo & Keo,,Charo & Keo,Foxtrot,Eliminated
+24,3,6,Simone & Sasha,,Simone & Sasha,Quickstep,Safe
+24,3,7,Nancy & Artem,,Nancy & Artem,Samba,Safe
+24,3,8,David & Lindsay,,David & Lindsay,Jazz,Safe
+24,3,9,Erika & Gleb,,Erika & Gleb,Jive,Safe
+24,3,10,Rashad & Emma,,Rashad & Emma,Samba,Safe
+24,3,11,Normani & Val,,Normani & Val,Foxtrot,Safe
+24,4,1,Normani & Val,,Normani & Val,Rumba,Safe
+24,4,2,Nick & Peta,,Nick & Peta,Rumba,Safe
+24,4,3,Nancy & Artem,,Nancy & Artem,Foxtrot,Safe
+24,4,4,Mr. T & Kym,,Mr. T & Kym,Waltz,Eliminated
+24,4,5,Heather & Alan,,Heather & Alan,Cha-cha-cha,Safe
+24,4,6,David & Lindsay,,David & Lindsay,Viennese waltz,Safe
+24,4,7,Rashad & Emma,,Rashad & Emma,Contemporary,Safe
+24,4,8,Erika & Gleb,,Erika & Gleb,Cha-cha-cha,Safe
+24,4,9,Simone & Sasha,,Simone & Sasha,Viennese waltz,Safe
+24,4,10,Bonner & Sharna,,Bonner & Sharna,Foxtrot,Safe
+24,5,1,Rashad & Emma,,Rashad & Emma,Foxtrot,Safe
+24,5,2,Nick & Peta,,Nick & Peta,Jazz,Safe
+24,5,3,Erika & Gleb,,Erika & Gleb,Viennese waltz,Eliminated
+24,5,4,Heather & Alan,,Heather & Alan,Jazz,Safe
+24,5,5,Bonner & Sharna,,Bonner & Sharna,Tango,Safe
+24,5,6,Normani & Val,,Normani & Val,Paso doble,Safe
+24,5,7,David & Lindsay,,David & Lindsay,Jive,Safe
+24,5,8,Nancy & Artem,,Nancy & Artem,Jazz,Safe
+24,5,9,Simone & Sasha,,Simone & Sasha,Contemporary,Safe
+24,6,1,Simone & Sasha,,Simone & Sasha,Samba,Safe
+24,6,2,Bonner & Sharna,,Bonner & Sharna,Rumba,Safe
+24,6,3,Nancy & Artem,,Nancy & Artem,Paso doble,Safe
+24,6,4,Nick & Peta,,Nick & Peta,Jive,Safe
+24,6,5,Normani & Val,,Normani & Val,Salsa,Safe
+24,6,6,David & Lindsay,,David & Lindsay,Argentine tango,Safe
+24,6,7,Rashad & Emma,,Rashad & Emma,Tango,Safe
+24,6,8,Heather & Maks,,Heather & Maks,Rumba,Eliminated
+24,6,9,Bonner & Sharna,David & Lindsay,Bonner & Sharna / David & Lindsay / Nick & Peta / Rashad & Emma,Freestyle (Team Boy Band),Eliminated
+24,6,10,Heather & Maks,Nancy & Artem,Heather & Maks / Nancy & Artem / Normani & Val / Simone & Sasha,Freestyle (Team Girl Group),Eliminated
+24,7,1,Bonner & Sharna,,Bonner & Sharna,Paso doble,Safe
+24,7,2,Nancy & Artem,,Nancy & Artem,Tango,Eliminated
+24,7,3,Simone & Sasha,,Simone & Sasha,Charleston,Safe
+24,7,4,Nick & Peta,,Nick & Peta,Argentine tango,Eliminated
+24,7,5,Rashad & Emma,,Rashad & Emma,Paso doble,Safe
+24,7,6,David & Lindsay,,David & Lindsay,Salsa,Safe
+24,7,7,Normani & Val,,Normani & Val,Argentine tango,Immunity
+24,7,1,Simone & Sasha,[,Simone & Sasha / [ / a / ],Cha-cha-cha,Winners
+24,7,2,Nancy & Artem,,Nancy & Artem,Losers,Winners
+24,7,3,Rashad & Emma,[,Rashad & Emma / [ / b / ],Jive,Winners
+24,7,4,David & Lindsay,,David & Lindsay,Losers,Winners
+24,7,5,Bonner & Sharna,[,Bonner & Sharna / [ / c / ],Rumba,Winners
+24,7,6,Nick & Peta,[,Nick & Peta / [ / d / ],Losers,Winners
+24,8,1,Rashad & Emma,,Rashad & Emma,Jive,Safe
+24,8,1,Rashad & Emma,,Rashad & Emma,,Safe
+24,8,2,Normani & Val,,Normani & Val,Contemporary,Safe
+24,8,2,Normani & Val,,Normani & Val,,Safe
+24,8,3,Bonner & Sharna,,Bonner & Sharna,Argentine tango,Eliminated
+24,8,3,Bonner & Sharna,,Bonner & Sharna,,Eliminated
+24,8,4,Simone & Sasha,,Simone & Sasha,Foxtrot,Safe
+24,8,4,Simone & Sasha,,Simone & Sasha,,Safe
+24,8,5,David & Lindsay,,David & Lindsay,Waltz,Safe
+24,8,5,David & Lindsay,,David & Lindsay,,Safe
+24,9,1,Normani & Val,,Normani & Val,Viennese waltz,Safe
+24,9,1,Normani & Val,,Normani & Val,,Safe
+24,9,2,David & Lindsay,,David & Lindsay,Foxtrot,Safe
+24,9,2,David & Lindsay,,David & Lindsay,,Safe
+24,9,3,Simone & Sasha,,Simone & Sasha,Jive,Eliminated
+24,9,3,Simone & Sasha,,Simone & Sasha,,Eliminated
+24,9,4,Rashad & Emma,,Rashad & Emma,Rumba,Safe
+24,9,4,Rashad & Emma,,Rashad & Emma,,Safe
+24,10,1,David & Lindsay,,David & Lindsay,Viennese waltz,
+24,10,1,David & Lindsay,,David & Lindsay,,
+24,10,2,Normani & Val,,Normani & Val,Quickstep,
+24,10,2,Normani & Val,,Normani & Val,,
+24,10,3,Rashad & Emma,,Rashad & Emma,Viennese waltz,
+24,10,3,Rashad & Emma,,Rashad & Emma,,
+24,10,1,David & Lindsay,,David & Lindsay,Foxtrot & Salsa,Runners-Up
+24,10,2,Normani & Val,,Normani & Val,Argentine tango & Foxtrot,Third Place
+24,10,3,Rashad & Emma,,Rashad & Emma,Cha-cha-cha & Tango,Winners
+25,1,1,Terrell & Cheryl,,Terrell & Cheryl,Cha-cha-cha,
+25,1,2,Debbie & Alan,,Debbie & Alan,Foxtrot,
+25,1,3,Sasha & Gleb,,Sasha & Gleb,Cha-cha-cha,
+25,1,4,Drew & Emma,,Drew & Emma,Foxtrot,
+25,1,5,Barbara & Keo,,Barbara & Keo,Salsa,
+25,1,6,Jordan & Lindsay,,Jordan & Lindsay,Tango,
+25,1,7,Nick & Peta,,Nick & Peta,Cha-cha-cha,
+25,1,8,Vanessa & Maks,,Vanessa & Maks,Cha-cha-cha,
+25,1,9,Frankie & Witney,,Frankie & Witney,Foxtrot,
+25,1,10,Nikki & Artem,,Nikki & Artem,Tango,
+25,1,11,Derek & Sharna,,Derek & Sharna,Salsa,
+25,1,12,Victoria & Val,,Victoria & Val,Cha-cha-cha,
+25,1,13,Lindsey & Mark,,Lindsey & Mark,Cha-cha-cha,
+25,2,1,Debbie & Alan,,Debbie & Alan,Quickstep,Safe
+25,2,2,Nikki & Artem,,Nikki & Artem,Waltz,Safe
+25,2,3,Lindsey & Mark,,Lindsey & Mark,Quickstep,Safe
+25,2,4,Barbara & Keo,,Barbara & Keo,Tango,Eliminated
+25,2,5,Nick & Peta,,Nick & Peta,Foxtrot,Safe
+25,2,6,Drew & Emma,,Drew & Emma,Quickstep,Safe
+25,2,7,Vanessa & Maks,,Vanessa & Maks,Foxtrot,Safe
+25,2,8,Frankie & Witney,,Frankie & Witney,Tango,Safe
+25,2,9,Terrell & Cheryl,,Terrell & Cheryl,Foxtrot,Safe
+25,2,10,Sasha & Gleb,,Sasha & Gleb,Viennese waltz,Safe
+25,2,11,Victoria & Val,,Victoria & Val,Tango,Safe
+25,2,12,Derek & Sharna,,Derek & Sharna,Foxtrot,Safe
+25,2,13,Jordan & Lindsay,,Jordan & Lindsay,Viennese waltz,Safe
+25,2,1,Nikki & Artem,,Nikki & Artem,Samba,Safe
+25,2,2,Victoria & Val,,Victoria & Val,Rumba,Safe
+25,2,3,Derek & Sharna,,Derek & Sharna,Paso doble,Safe
+25,2,4,Sasha & Gleb,,Sasha & Gleb,Samba,Safe
+25,2,5,Nick & Peta,,Nick & Peta,Argentine tango,Safe
+25,2,6,Jordan & Lindsay,,Jordan & Lindsay,Samba,Safe
+25,2,7,Drew & Emma,,Drew & Emma,Rumba,Safe
+25,2,8,Debbie & Alan,,Debbie & Alan,Argentine tango,Eliminated
+25,2,9,Vanessa & Maks,,Vanessa & Maks,Salsa,Safe
+25,2,10,Terrell & Cheryl,,Terrell & Cheryl,Samba,Safe
+25,2,11,Lindsey & Mark,,Lindsey & Mark,Salsa,Safe
+25,2,12,Frankie & Witney,,Frankie & Witney,Cha-cha-cha,Safe
+25,3,1,Drew & Emma,,Drew & Emma,Argentine tango,
+25,3,2,Derek & Sharna,,Derek & Sharna,Cha-cha-cha,
+25,3,3,Victoria & Val,,Victoria & Val,Quickstep,
+25,3,4,Vanessa & Alan,,Vanessa & Alan,Jazz,
+25,3,5,Nikki & Artem,,Nikki & Artem,Viennese waltz,
+25,3,6,Frankie & Witney,,Frankie & Witney,Samba,
+25,3,7,Lindsey & Mark,,Lindsey & Mark,Jive,
+25,3,8,Sasha & Gleb,,Sasha & Gleb,Jazz,
+25,3,9,Nick & Peta,,Nick & Peta,Jazz,
+25,3,10,Terrell & Cheryl,,Terrell & Cheryl,Salsa,
+25,3,11,Jordan & Lindsay,,Jordan & Lindsay,Charleston,
+25,4,1,Frankie & Witney,,Frankie & Witney,Quickstep,Safe
+25,4,2,Terrell & Cheryl,,Terrell & Cheryl,Viennese waltz,Safe
+25,4,3,Nikki & Artem,,Nikki & Artem,Contemporary,Safe
+25,4,4,Nick & Peta,,Nick & Peta,Contemporary,Safe
+25,4,5,Lindsey & Mark,,Lindsey & Mark,Viennese waltz,Safe
+25,4,6,Derek & Sharna,,Derek & Sharna,Jazz,Eliminated
+25,4,7,Jordan & Lindsay,,Jordan & Lindsay,Contemporary,Safe
+25,4,8,Sasha & Gleb,,Sasha & Gleb,Foxtrot,Safe
+25,4,9,Vanessa & Maks,,Vanessa & Maks,Rumba,Safe
+25,4,10,Drew & Emma,,Drew & Emma,Jive,Safe
+25,4,11,Victoria & Val,,Victoria & Val,Foxtrot,Safe
+25,5,1,Victoria & Val,,Victoria & Val,Jazz,Safe
+25,5,2,Vanessa & Maks,,Vanessa & Maks,Waltz,Safe
+25,5,3,Lindsey & Mark,,Lindsey & Mark,Foxtrot,Safe
+25,5,4,Nick & Peta,,Nick & Peta,Quickstep,Safe
+25,5,5,Drew & Emma,,Drew & Emma,Viennese waltz,Safe
+25,5,6,Sasha & Gleb,,Sasha & Gleb,Rumba,Eliminated
+25,5,7,Terrell & Cheryl,,Terrell & Cheryl,Quickstep,Safe
+25,5,8,Frankie & Witney,,Frankie & Witney,Argentine tango,Safe
+25,5,9,Jordan & Lindsay,,Jordan & Lindsay,Foxtrot,Safe
+25,5,10,Nikki & Artem,,Nikki & Artem,Jazz,Safe
+25,6,1,Nikki & Artem,,Nikki & Artem,Argentine tango,Safe
+25,6,2,Drew & Emma,,Drew & Emma,Paso doble,Safe
+25,6,3,Nick & Peta,,Nick & Peta,Samba,Eliminated
+25,6,4,Victoria & Val,,Victoria & Val,Paso doble,Safe
+25,6,5,Terrell & Cheryl,,Terrell & Cheryl,Jive,Safe
+25,6,6,Frankie & Witney,,Frankie & Witney,Jazz,Safe
+25,6,7,Vanessa & Maks,,Vanessa & Maks,Quickstep,Safe
+25,6,8,Jordan & Lindsay,,Jordan & Lindsay,Rumba,Safe
+25,6,9,Lindsey & Mark,,Lindsey & Mark,Argentine tango,Safe
+25,7,1,Victoria & Val,,Victoria & Val,Viennese waltz,Safe
+25,7,2,Jordan & Lindsay,,Jordan & Lindsay,Paso doble,Safe
+25,7,3,Nikki & Artem,,Nikki & Artem,Jive,Eliminated
+25,7,4,Vanessa & Maks,,Vanessa & Maks,Paso doble,Eliminated
+25,7,5,Terrell & Cheryl,,Terrell & Cheryl,Tango,Safe
+25,7,6,Lindsey & Mark,,Lindsey & Mark,Paso doble,Safe
+25,7,7,Frankie & Witney,,Frankie & Witney,Contemporary,Safe
+25,7,8,Drew & Emma,,Drew & Emma,Charleston,Safe
+25,7,9,Jordan & Lindsay,Lindsey & Mark,Jordan & Lindsay / Lindsey & Mark / Nikki & Artem / Terrell & Cheryl,Freestyle (Team Monster Mash),Safe
+25,7,10,Drew & Emma,Frankie & Witney,Drew & Emma / Frankie & Witney / Vanessa & Maks / Victoria & Val,Freestyle (Team Phantom of the Ballroom),Safe
+25,8,1,Terrell & Cheryl,,Terrell & Cheryl,Charleston,Eliminated
+25,8,1,Terrell & Cheryl,,Terrell & Cheryl,,Eliminated
+25,8,2,Drew & Emma,,Drew & Emma,Waltz,Safe
+25,8,2,Drew & Emma,,Drew & Emma,,Safe
+25,8,3,Victoria & Val,,Victoria & Val,Argentine tango,Safe
+25,8,3,Victoria & Val,,Victoria & Val,,Safe
+25,8,4,Lindsey & Mark,,Lindsey & Mark,Samba,Safe
+25,8,4,Lindsey & Mark,,Lindsey & Mark,,Safe
+25,8,5,Frankie & Witney,,Frankie & Witney,Viennese waltz,Safe
+25,8,5,Frankie & Witney,,Frankie & Witney,,Safe
+25,8,6,Jordan & Lindsay,,Jordan & Lindsay,Quickstep,Safe
+25,8,6,Jordan & Lindsay,,Jordan & Lindsay,,Safe
+25,9,1,Drew & Emma,,Drew & Emma,Tango,Safe
+25,9,1,Drew & Emma,,Drew & Emma,,Safe
+25,9,2,Victoria & Val,,Victoria & Val,Contemporary,Eliminated
+25,9,2,Victoria & Val,,Victoria & Val,,Eliminated
+25,9,3,Jordan & Lindsay,,Jordan & Lindsay,Argentine tango,Safe
+25,9,3,Jordan & Lindsay,,Jordan & Lindsay,,Safe
+25,9,4,Lindsey & Mark,,Lindsey & Mark,Contemporary,Safe
+25,9,4,Lindsey & Mark,,Lindsey & Mark,,Safe
+25,9,5,Frankie & Witney,,Frankie & Witney,Salsa,Safe
+25,9,5,Frankie & Witney,,Frankie & Witney,,Safe
+25,10,1,Drew & Emma,,Drew & Emma,Paso doble,Eliminated
+25,10,1,Drew & Emma,,Drew & Emma,,Eliminated
+25,10,2,Frankie & Witney,,Frankie & Witney,Foxtrot,Safe
+25,10,2,Frankie & Witney,,Frankie & Witney,,Safe
+25,10,3,Jordan & Lindsay,,Jordan & Lindsay,Charleston,Safe
+25,10,3,Jordan & Lindsay,,Jordan & Lindsay,,Safe
+25,10,4,Lindsey & Mark,,Lindsey & Mark,Quickstep,Safe
+25,10,4,Lindsey & Mark,,Lindsey & Mark,,Safe
+25,10,1,Lindsey & Mark,,Lindsey & Mark,Jive,Runners-Up
+25,10,1,Lindsey & Mark,,Lindsey & Mark,,Runners-Up
+25,10,2,Frankie & Witney,,Frankie & Witney,Argentine tango,Third Place
+25,10,2,Frankie & Witney,,Frankie & Witney,,Third Place
+25,10,3,Jordan & Lindsay,,Jordan & Lindsay,Samba,Winners
+25,10,3,Jordan & Lindsay,,Jordan & Lindsay,,Winners
+26,1,1,Chris & Witney,,Chris & Witney,Salsa,Safe
+26,1,2,Kareem & Lindsay,,Kareem & Lindsay,Cha-cha-cha,Safe
+26,1,3,Jennie & Keo,,Jennie & Keo,Foxtrot,Safe
+26,1,4,Jamie & Artem,,Jamie & Artem,Viennese waltz,Eliminated
+26,1,5,Mirai & Alan,,Mirai & Alan,Salsa,Safe
+26,1,6,Arike & Gleb,,Arike & Gleb,Salsa,Safe
+26,1,7,Adam & Jenna,,Adam & Jenna,Cha-cha-cha,Safe
+26,1,8,Johnny & Emma,,Johnny & Emma,Foxtrot,Eliminated
+26,1,9,Tonya & Sasha,,Tonya & Sasha,Foxtrot,Safe
+26,1,10,Josh & Sharna,,Josh & Sharna,Cha-cha-cha,Safe
+26,2,1,Josh & Sharna,,Josh & Sharna,Paso doble,Safe
+26,2,2,Jennie & Keo,,Jennie & Keo,Cha-cha-cha,Safe
+26,2,3,Kareem & Lindsay,,Kareem & Lindsay,Salsa,Eliminated
+26,2,4,Chris & Witney,,Chris & Witney,Viennese waltz,Safe
+26,2,5,Tonya & Sasha,,Tonya & Sasha,Quickstep,Safe
+26,2,6,Mirai & Alan,,Mirai & Alan,Foxtrot,Safe
+26,2,7,Arike & Gleb,,Arike & Gleb,Foxtrot,Eliminated
+26,2,8,Adam & Jenna,,Adam & Jenna,Quickstep,Safe
+26,2,9,Chris & Witney,Josh & Sharna,Chris & Witney / Josh & Sharna / Kareem & Lindsay / Tonya & Sasha,Freestyle (Team 1950s Tennis),Safe
+26,2,10,Adam & Jenna,Arike & Gleb,Adam & Jenna / Arike & Gleb / Jennie & Keo / Mirai & Alan,Freestyle (Team 1970s Football),Safe
+26,3,1,Mirai & Alan,,Mirai & Alan,Quickstep,Eliminated
+26,3,2,Jennie & Keo,,Jennie & Keo,Viennese waltz,Eliminated
+26,3,3,Chris & Witney,,Chris & Witney,Foxtrot,Eliminated
+26,3,4,Tonya & Sasha,,Tonya & Sasha,Rumba,Safe
+26,3,5,Adam & Jenna,,Adam & Jenna,Contemporary,Safe
+26,3,6,Josh & Sharna,,Josh & Sharna,Contemporary,Safe
+26,3,1,Tonya & Sasha,[,Tonya & Sasha / [ / a / ],Cha-cha-cha,Winners
+26,3,2,Jennie & Keo,[,Jennie & Keo / [ / b / ],,Winners
+26,3,3,Adam & Jenna,[,Adam & Jenna / [ / c / ],Jive,Winners
+26,3,4,Mirai & Alan,[,Mirai & Alan / [ / d / ],,Winners
+26,3,5,Josh & Sharna,[,Josh & Sharna / [ / e / ],Salsa,Winners
+26,3,6,Chris & Witney,[,Chris & Witney / [ / f / ],,Winners
+26,4,1,Tonya & Sasha,,Tonya & Sasha,Viennese waltz,Third Place
+26,4,1,Tonya & Sasha,,Tonya & Sasha,,Third Place
+26,4,2,Josh & Sharna,,Josh & Sharna,Foxtrot,Runners-Up
+26,4,2,Josh & Sharna,,Josh & Sharna,,Runners-Up
+26,4,3,Adam & Jenna,,Adam & Jenna,Jazz,Winners
+26,4,3,Adam & Jenna,,Adam & Jenna,,Winners
+27,1,1,Mary Lou & Sasha,,Mary Lou & Sasha,Cha-cha-cha,Bottom Two
+27,1,2,Milo & Witney,,Milo & Witney,Cha-cha-cha,Safe
+27,1,3,Evanna & Keo,,Evanna & Keo,Foxtrot,Safe
+27,1,4,Danelle & Artem,,Danelle & Artem,Foxtrot,Bottom Two
+27,1,5,Bobby & Sharna,,Bobby & Sharna,Jive,Safe
+27,1,6,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Salsa,Safe
+27,1,7,Nikki & Gleb,,Nikki & Gleb,Salsa,Bottom Two
+27,1,8,Alexis & Alan,,Alexis & Alan,Jive,Bottom Two
+27,1,9,John & Emma,,John & Emma,Foxtrot,Safe
+27,1,10,Tinashe & Brandon,,Tinashe & Brandon,Jive,Safe
+27,1,11,Nancy & Val,,Nancy & Val,Quickstep,Bottom Two
+27,1,12,Joe & Jenna,,Joe & Jenna,Quickstep,Safe
+27,1,13,DeMarcus & Lindsay,,DeMarcus & Lindsay,Cha-cha-cha,Safe
+27,1,1,Mary Lou & Sasha,,Mary Lou & Sasha,Cha-cha-cha,Safe
+27,1,2,Danelle & Artem,,Danelle & Artem,Foxtrot,Safe
+27,1,3,Nikki & Gleb,,Nikki & Gleb,Salsa,Eliminated
+27,1,4,Alexis & Alan,,Alexis & Alan,Jive,Safe
+27,1,5,Nancy & Val,,Nancy & Val,Quickstep,Safe
+27,2,1,DeMarcus & Lindsay,,DeMarcus & Lindsay,Foxtrot,
+27,2,2,Danelle & Artem,,Danelle & Artem,Cha-cha-cha,
+27,2,3,John & Emma,,John & Emma,Charleston,
+27,2,4,Nancy & Val,,Nancy & Val,Cha-cha-cha,
+27,2,5,Alexis & Alan,,Alexis & Alan,Argentine tango,
+27,2,6,Joe & Jenna,,Joe & Jenna,Foxtrot,
+27,2,7,Tinashe & Brandon,,Tinashe & Brandon,Argentine tango,
+27,2,8,Milo & Witney,,Milo & Witney,Charleston,
+27,2,9,Mary Lou & Sasha,,Mary Lou & Sasha,Waltz,
+27,2,10,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Quickstep,
+27,2,11,Evanna & Keo,,Evanna & Keo,Samba,
+27,2,12,Bobby & Sharna,,Bobby & Sharna,Foxtrot,
+27,2,1,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Foxtrot,Safe
+27,2,2,Milo & Witney,,Milo & Witney,Tango,Safe
+27,2,3,Danelle & Artem,,Danelle & Artem,Quickstep,Eliminated
+27,2,4,Alexis & Alan,,Alexis & Alan,Salsa,Safe
+27,2,5,John & Emma,,John & Emma,Jive,Safe
+27,2,6,DeMarcus & Lindsay,,DeMarcus & Lindsay,Quickstep,Safe
+27,2,7,Joe & Jenna,,Joe & Jenna,Jazz,Safe
+27,2,8,Evanna & Keo,,Evanna & Keo,Jive,Safe
+27,2,9,Bobby & Sharna,,Bobby & Sharna,Quickstep,Safe
+27,2,10,Nancy & Val,,Nancy & Val,Paso doble,Safe
+27,2,11,Tinashe & Brandon,,Tinashe & Brandon,Cha-cha-cha,Safe
+27,2,12,Mary Lou & Sasha,,Mary Lou & Sasha,Samba,Safe
+27,3,1,Mary Lou & Sasha,,Mary Lou & Sasha,Viennese waltz,Safe
+27,3,2,Milo & Witney,,Milo & Witney,Jive,Safe
+27,3,3,Nancy & Val,,Nancy & Val,Rumba,Eliminated
+27,3,4,Alexis & Alan,,Alexis & Alan,Contemporary,Safe
+27,3,5,Evanna & Keo,,Evanna & Keo,Viennese waltz,Safe
+27,3,6,Joe & Jenna,,Joe & Jenna,Viennese waltz,Safe
+27,3,7,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Samba,Safe
+27,3,8,John & Emma,,John & Emma,Waltz,Safe
+27,3,9,Bobby & Sharna,,Bobby & Sharna,Contemporary,Safe
+27,3,10,Tinashe & Brandon,,Tinashe & Brandon,Rumba,Safe
+27,3,11,DeMarcus & Lindsay,,DeMarcus & Lindsay,Argentine tango,Safe
+27,4,1,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Cha-cha-cha,Safe
+27,4,2,Tinashe & Brandon,,Tinashe & Brandon,Tango,Eliminated
+27,4,3,John & Emma,,John & Emma,Argentine tango,Safe
+27,4,4,Evanna & Keo,,Evanna & Keo,Salsa,Safe
+27,4,5,DeMarcus & Lindsay,,DeMarcus & Lindsay,Paso doble,Safe
+27,4,6,Mary Lou & Sasha,,Mary Lou & Sasha,Charleston,Safe
+27,4,7,Milo & Witney,,Milo & Witney,Salsa,Safe
+27,4,8,Joe & Jenna,,Joe & Jenna,Salsa,Safe
+27,4,9,Alexis & Alan,,Alexis & Alan,Tango,Safe
+27,4,10,Bobby & Sharna,,Bobby & Sharna,Cha-cha-cha,Safe
+27,5,1,Alexis & Alan,,Alexis & Alan,Foxtrot,
+27,5,2,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Viennese waltz,
+27,5,3,DeMarcus & Lindsay,,DeMarcus & Lindsay,Charleston,
+27,5,4,Evanna & Keo,,Evanna & Keo,Jazz,
+27,5,5,Joe & Jenna,,Joe & Jenna,Jive,
+27,5,6,Mary Lou & Sasha,,Mary Lou & Sasha,Contemporary,
+27,5,7,John & Emma,,John & Emma,Quickstep,
+27,5,8,Bobby & Sharna,,Bobby & Sharna,Waltz,
+27,5,9,Milo & Witney,,Milo & Witney,Quickstep,
+27,6,1,Milo & Witney,,Milo & Witney,Contemporary,Safe
+27,6,2,John & Emma,,John & Emma,Paso doble,Safe
+27,6,3,DeMarcus & Lindsay,,DeMarcus & Lindsay,Salsa,Safe
+27,6,4,Evanna & Keo,,Evanna & Keo,Tango,Safe
+27,6,5,Bobby & Sharna,,Bobby & Sharna,Argentine tango,Safe
+27,6,6,Mary Lou & Sasha,,Mary Lou & Sasha,Tango,Eliminated
+27,6,7,Alexis & Alan,,Alexis & Alan,Jazz,Safe
+27,6,8,Joe & Jenna,,Joe & Jenna,Argentine tango,Safe
+27,6,9,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Jive,Safe
+27,7,1,John & Emma,,John & Emma,Jazz,Eliminated
+27,7,2,Evanna & Keo,,Evanna & Keo,Rumba,Safe
+27,7,3,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Charleston,Safe
+27,7,4,Joe & Jenna,,Joe & Jenna,Tango,Safe
+27,7,5,Milo & Witney,,Milo & Witney,Foxtrot,Safe
+27,7,6,DeMarcus & Lindsay,,DeMarcus & Lindsay,Viennese waltz,Eliminated
+27,7,7,Alexis & Alan,,Alexis & Alan,Samba,Safe
+27,7,8,Bobby & Sharna,,Bobby & Sharna,Viennese waltz,Safe
+27,7,9,Bobby & Sharna,Evanna & Keo,Bobby & Sharna / Evanna & Keo / John & Emma / Milo & Witney,Freestyle (Team HayNow),Safe
+27,7,10,Alexis & Alan,DeMarcus & Lindsay,Alexis & Alan / DeMarcus & Lindsay / Joe & Jenna / Juan Pablo & Cheryl,Freestyle (Team JoeDown),Safe
+27,8,1,Bobby & Sharna,,Bobby & Sharna,Salsa,Safe
+27,8,1,Bobby & Sharna,,Bobby & Sharna,,Safe
+27,8,2,Alexis & Alan,,Alexis & Alan,Waltz,Safe
+27,8,2,Alexis & Alan,,Alexis & Alan,,Safe
+27,8,3,Joe & Jenna,,Joe & Jenna,Contemporary,Eliminated
+27,8,3,Joe & Jenna,,Joe & Jenna,,Eliminated
+27,8,4,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,Argentine tango,Eliminated
+27,8,4,Juan Pablo & Cheryl,,Juan Pablo & Cheryl,,Eliminated
+27,8,5,Evanna & Keo,,Evanna & Keo,Contemporary,Safe
+27,8,5,Evanna & Keo,,Evanna & Keo,,Safe
+27,8,6,Milo & Witney,,Milo & Witney,Argentine tango,Safe
+27,8,6,Milo & Witney,,Milo & Witney,,Safe
+27,9,1,Alexis & Alan,,Alexis & Alan,Argentine tango,Fourth Place
+27,9,1,Alexis & Alan,,Alexis & Alan,,Fourth Place
+27,9,2,Bobby & Sharna,,Bobby & Sharna,Cha-cha-cha,Winners
+27,9,2,Bobby & Sharna,,Bobby & Sharna,,Winners
+27,9,3,Evanna & Keo,,Evanna & Keo,Tango,Third Place
+27,9,3,Evanna & Keo,,Evanna & Keo,,Third Place
+27,9,4,Milo & Witney,,Milo & Witney,Charleston,Runners-Up
+27,9,4,Milo & Witney,,Milo & Witney,,Runners-Up
+28,1,1,Hannah & Alan,,Hannah & Alan,Cha-cha-cha,
+28,1,2,Kel & Witney,,Kel & Witney,Tango,
+28,1,3,Kate & Pasha,,Kate & Pasha,Cha-cha-cha,
+28,1,4,Lamar & Peta,,Lamar & Peta,Foxtrot,
+28,1,5,Lauren & Gleb,,Lauren & Gleb,Cha-cha-cha,
+28,1,6,Sailor & Val,,Sailor & Val,Foxtrot,
+28,1,7,Karamo & Jenna,,Karamo & Jenna,Salsa,
+28,1,8,Ray & Cheryl,,Ray & Cheryl,Salsa,
+28,1,9,Mary & Brandon,,Mary & Brandon,Foxtrot,
+28,1,10,Ally & Sasha,,Ally & Sasha,Cha-cha-cha,
+28,1,11,Sean & Lindsay,,Sean & Lindsay,Salsa,
+28,1,12,James & Emma,,James & Emma,Tango,
+28,2,1,James & Emma,,James & Emma,Cha-cha-cha,Safe
+28,2,2,Sailor & Val,,Sailor & Val,Rumba,Safe
+28,2,3,Ray & Cheryl,,Ray & Cheryl,Foxtrot,Bottom Two
+28,2,4,Ally & Sasha,,Ally & Sasha,Viennese waltz,Safe
+28,2,5,Mary & Brandon,,Mary & Brandon,Cha-cha-cha,Eliminated
+28,2,6,Lauren & Gleb,,Lauren & Gleb,Paso doble,Safe
+28,2,7,Sean & Lindsay,,Sean & Lindsay,Tango,Safe
+28,2,8,Karamo & Jenna,,Karamo & Jenna,Quickstep,Safe
+28,2,9,Kate & Pasha,,Kate & Pasha,Foxtrot,Safe
+28,2,10,Kel & Witney,,Kel & Witney,Samba,Safe
+28,2,11,Lamar & Peta,,Lamar & Peta,Salsa,Safe
+28,2,12,Hannah & Alan,,Hannah & Alan,Viennese waltz,Safe
+28,3,1,Lauren & Gleb,,Lauren & Gleb,Tango,Safe
+28,3,2,Hannah & Alan,,Hannah & Alan,Rumba,Safe
+28,3,3,Karamo & Jenna,,Karamo & Jenna,Jive,Safe
+28,3,4,Ally & Sasha,,Ally & Sasha,Rumba,Safe
+28,3,5,James & Emma,,James & Emma,Rumba,Safe
+28,3,6,Kate & Pasha,,Kate & Pasha,Quickstep,Safe
+28,3,7,Lamar & Peta,,Lamar & Peta,Cha-cha-cha,Bottom Two
+28,3,8,Sailor & Val,,Sailor & Val,Tango,Safe
+28,3,9,Kel & Witney,,Kel & Witney,Rumba,Bottom Two
+28,3,10,Sean & Lindsay,,Sean & Lindsay,Cha-cha-cha,Safe
+28,4,1,Sean & Lindsay,,Sean & Lindsay,Paso doble,Safe
+28,4,2,Ally & Sasha,,Ally & Sasha,Jive,Safe
+28,4,3,Kel & Witney,,Kel & Witney,Cha-cha-cha,Safe
+28,4,4,Kate & Pasha,,Kate & Pasha,Argentine tango,Safe
+28,4,5,James & Emma,,James & Emma,Quickstep,Safe
+28,4,6,Hannah & Alan,,Hannah & Alan,Paso doble,Safe
+28,4,7,Lamar & Peta,,Lamar & Peta,Viennese waltz,Eliminated
+28,4,8,Sailor & Val,,Sailor & Val,Cha-cha-cha,Safe
+28,4,9,Lauren & Gleb,,Lauren & Gleb,Foxtrot,Safe
+28,4,10,Karamo & Jenna,,Karamo & Jenna,Tango,Bottom Two
+28,5,1,Sailor & Val,,Sailor & Val,Viennese waltz,
+28,5,2,Karamo & Jenna,,Karamo & Jenna,Samba,
+28,5,3,Kate & Pasha,,Kate & Pasha,Jazz,
+28,5,4,Sean & Lindsay,,Sean & Lindsay,Quickstep,
+28,5,5,Ally & Sasha,,Ally & Sasha,Contemporary,
+28,5,6,Lauren & Gleb,,Lauren & Gleb,Samba,
+28,5,7,Kel & Witney,,Kel & Witney,Jazz,
+28,5,8,Hannah & Alan,,Hannah & Alan,Foxtrot,
+28,5,9,James & Emma,,James & Emma,Paso doble,
+28,6,1,Ally & Sasha,,Ally & Sasha,Quickstep,Bottom Two
+28,6,2,Kate & Pasha,,Kate & Pasha,Viennese waltz,Safe
+28,6,3,Kel & Witney,,Kel & Witney,Quickstep,Safe
+28,6,4,Karamo & Jenna,,Karamo & Jenna,Contemporary,Safe
+28,6,5,Hannah & Alan,,Hannah & Alan,Samba,Safe
+28,6,6,Sailor & Val,,Sailor & Val,Jive,Eliminated
+28,6,7,Sean & Lindsay,,Sean & Lindsay,Viennese waltz,Safe
+28,6,8,James & Emma,,James & Emma,Samba,Safe
+28,6,9,Lauren & Gleb,,Lauren & Gleb,Contemporary,Safe
+28,7,1,Kel & Witney,,Kel & Witney,Jive,Safe
+28,7,2,James & Emma,,James & Emma,Viennese waltz,Safe
+28,7,3,Ally & Sasha,,Ally & Sasha,Tango,Safe
+28,7,4,Hannah & Alan,,Hannah & Alan,Jazz,Safe
+28,7,5,Karamo & Jenna,,Karamo & Jenna,Paso doble,Eliminated
+28,7,6,Lauren & Gleb,,Lauren & Gleb,Argentine tango,Safe
+28,7,7,Sean & Lindsay,,Sean & Lindsay,Jive,Safe
+28,7,8,Kate & Pasha,,Kate & Pasha,Rumba,Bottom Two
+28,7,9,Ally & Sasha,Hannah & Alan,Ally & Sasha / Hannah & Alan / James & Emma / Lauren & Gleb,Freestyle (Team Trick),Bottom Two
+28,7,10,Karamo & Jenna,Kate & Pasha,Karamo & Jenna / Kate & Pasha / Kel & Witney / Sean & Lindsay,Freestyle (Team Treat),Bottom Two
+28,8,1,Sean & Jenna,,Sean & Jenna,Jazz,Safe
+28,8,2,Lauren & Gleb,,Lauren & Gleb,Jive,Safe
+28,8,3,Kel & Witney,,Kel & Witney,Salsa,Safe
+28,8,4,Ally & Sasha,,Ally & Sasha,Paso doble,Bottom Two
+28,8,5,Hannah & Alan,,Hannah & Alan,Quickstep,Safe
+28,8,6,Kate & Pasha,,Kate & Pasha,Jive,Eliminated
+28,8,7,James & Emma,,James & Emma,Contemporary,Safe
+28,8,1,Kel & Witney,,Kel & Witney,Jive,Winners
+28,8,2,Ally & Sasha,,Ally & Sasha,Losers,Winners
+28,8,3,Kate & Pasha,,Kate & Pasha,Cha-cha-cha,Winners
+28,8,4,Sean & Jenna,,Sean & Jenna,Losers,Winners
+28,8,5,Hannah & Alan,,Hannah & Alan,Salsa,Winners
+28,8,6,Lauren & Gleb,,Lauren & Gleb,Losers,Winners
+28,9,1,James & Emma,,James & Emma,Jive,Safe
+28,9,1,James & Emma,,James & Emma,,Safe
+28,9,2,Sean & Jenna,,Sean & Jenna,Argentine tango,Eliminated
+28,9,2,Sean & Jenna,,Sean & Jenna,,Eliminated
+28,9,3,Hannah & Alan,,Hannah & Alan,Salsa,Safe
+28,9,3,Hannah & Alan,,Hannah & Alan,,Safe
+28,9,4,Ally & Sasha,,Ally & Sasha,Samba,Safe
+28,9,4,Ally & Sasha,,Ally & Sasha,,Safe
+28,9,5,Lauren & Gleb,,Lauren & Gleb,Quickstep,Bottom Two
+28,9,5,Lauren & Gleb,,Lauren & Gleb,,Bottom Two
+28,9,6,Kel & Witney,,Kel & Witney,Paso doble,Safe
+28,9,6,Kel & Witney,,Kel & Witney,,Safe
+28,10,1,Lauren & Gleb,,Lauren & Gleb,Paso doble,Safe
+28,10,1,Lauren & Gleb,,Lauren & Gleb,,Safe
+28,10,2,Kel & Witney,,Kel & Witney,Tango,Safe
+28,10,2,Kel & Witney,,Kel & Witney,,Safe
+28,10,3,Ally & Sasha,,Ally & Sasha,Viennese waltz,Bottom Two
+28,10,3,Ally & Sasha,,Ally & Sasha,,Bottom Two
+28,10,4,Hannah & Alan,,Hannah & Alan,Rumba,Safe
+28,10,4,Hannah & Alan,,Hannah & Alan,,Safe
+28,10,5,James & Emma,,James & Emma,Cha-cha-cha,Eliminated
+28,10,5,James & Emma,,James & Emma,,Eliminated
+28,11,1,Ally & Sasha,,Ally & Sasha,Jive,Third Place
+28,11,1,Ally & Sasha,,Ally & Sasha,,Third Place
+28,11,2,Lauren & Gleb,,Lauren & Gleb,Foxtrot,Fourth Place
+28,11,2,Lauren & Gleb,,Lauren & Gleb,,Fourth Place
+28,11,3,Kel & Witney,,Kel & Witney,Jazz,Runners-Up
+28,11,3,Kel & Witney,,Kel & Witney,,Runners-Up
+28,11,4,Hannah & Alan,,Hannah & Alan,Viennese waltz,Winners
+28,11,4,Hannah & Alan,,Hannah & Alan,,Winners
+29,1,1,AJ & Cheryl,,AJ & Cheryl,Jive,
+29,1,2,Chrishell & Gleb,,Chrishell & Gleb,Tango,
+29,1,3,Vernon & Peta,,Vernon & Peta,Foxtrot,
+29,1,4,Anne & Keo,,Anne & Keo,Cha-cha-cha,
+29,1,5,Jeannie & Brandon,,Jeannie & Brandon,Salsa,
+29,1,6,Jesse & Sharna,,Jesse & Sharna,Quickstep,
+29,1,7,Skai & Alan,,Skai & Alan,Tango,
+29,1,8,Kaitlyn & Artem,,Kaitlyn & Artem,Cha-cha-cha,
+29,1,9,Nev & Jenna,,Nev & Jenna,Foxtrot,
+29,1,10,Johnny & Britt,,Johnny & Britt,Cha-cha-cha,
+29,1,11,Justina & Sasha,,Justina & Sasha,Cha-cha-cha,
+29,1,12,Charles & Emma,,Charles & Emma,Salsa,
+29,1,13,Monica & Val,,Monica & Val,Foxtrot,
+29,1,14,Nelly & Daniella,,Nelly & Daniella,Salsa,
+29,1,15,Carole & Pasha,,Carole & Pasha,Paso doble,
+29,2,1,Nev & Jenna,,Nev & Jenna,Cha-cha-cha,Safe
+29,2,2,Skai & Alan,,Skai & Alan,Samba,Safe
+29,2,3,Johnny & Britt,,Johnny & Britt,Tango,Safe
+29,2,4,Justina & Sasha,,Justina & Sasha,Foxtrot,Safe
+29,2,5,Monica & Val,,Monica & Val,Jive,Safe
+29,2,6,AJ & Cheryl,,AJ & Cheryl,Foxtrot,Safe
+29,2,7,Anne & Keo,,Anne & Keo,Foxtrot,Safe
+29,2,8,Nelly & Daniella,,Nelly & Daniella,Cha-cha-cha,Safe
+29,2,9,Chrishell & Gleb,,Chrishell & Gleb,Rumba,Safe
+29,2,10,Charles & Emma,,Charles & Emma,Cha-cha-cha,Eliminated
+29,2,11,Jesse & Sharna,,Jesse & Sharna,Foxtrot,Safe
+29,2,12,Jeannie & Brandon,,Jeannie & Brandon,Cha-cha-cha,Safe
+29,2,13,Carole & Pasha,,Carole & Pasha,Viennese waltz,Bottom Two
+29,2,14,Vernon & Peta,,Vernon & Peta,Paso doble,Safe
+29,2,15,Kaitlyn & Artem,,Kaitlyn & Artem,Foxtrot,Safe
+29,3,1,Skai & Alan,,Skai & Alan,Jive,Safe
+29,3,2,Monica & Val,,Monica & Val,Viennese waltz,Safe
+29,3,3,Justina & Sasha,,Justina & Sasha,Charleston,Safe
+29,3,4,AJ & Cheryl,,AJ & Cheryl,Quickstep,Safe
+29,3,5,Anne & Keo,,Anne & Keo,Quickstep,Bottom Two
+29,3,6,Jeannie & Brandon,,Jeannie & Brandon,Viennese waltz,Safe
+29,3,7,Nelly & Daniella,,Nelly & Daniella,Foxtrot,Safe
+29,3,8,Carole & Pasha,,Carole & Pasha,Samba,Eliminated
+29,3,9,Kaitlyn & Artem,,Kaitlyn & Artem,Rumba,Safe
+29,3,10,Vernon & Peta,,Vernon & Peta,Quickstep,Safe
+29,3,11,Nev & Jenna,,Nev & Jenna,Argentine tango,Safe
+29,3,12,Johnny & Britt,,Johnny & Britt,Rumba,Safe
+29,3,13,Jesse & Sharna,,Jesse & Sharna,Jive,Safe
+29,3,14,Chrishell & Gleb,,Chrishell & Gleb,Waltz,Safe
+29,4,1,Nelly & Daniella,,Nelly & Daniella,Paso doble,Safe
+29,4,2,Chrishell & Gleb,,Chrishell & Gleb,Foxtrot,Safe
+29,4,3,Monica & Val,,Monica & Val,Samba,Bottom Two
+29,4,4,Anne & Keo,,Anne & Keo,Paso doble,Eliminated
+29,4,5,Nev & Jenna,,Nev & Jenna,Rumba,Safe
+29,4,6,Justina & Sasha,,Justina & Sasha,Salsa,Safe
+29,4,7,Kaitlyn & Artem,,Kaitlyn & Artem,Viennese waltz,Safe
+29,4,8,Johnny & Britt,,Johnny & Britt,Jive,Safe
+29,4,9,Jeannie & Brandon,,Jeannie & Brandon,Tango,Safe
+29,4,10,Vernon & Peta,,Vernon & Peta,Rumba,Safe
+29,4,11,Jesse & Sharna,,Jesse & Sharna,Cha-cha-cha,Safe
+29,4,12,Skai & Alan,,Skai & Alan,Foxtrot,Safe
+29,4,13,AJ & Cheryl,,AJ & Cheryl,Cha-cha-cha,Safe
+29,5,1,Justina & Sasha,,Justina & Sasha,Jazz,Safe
+29,5,2,Jesse & Sharna,,Jesse & Sharna,Tango,Eliminated
+29,5,3,Chrishell & Gleb,,Chrishell & Gleb,Cha-cha-cha,Safe
+29,5,4,Jeannie & Brandon,,Jeannie & Brandon,Jazz,Safe
+29,5,5,Monica & Val,,Monica & Val,Tango,Safe
+29,5,6,AJ & Cheryl,,AJ & Cheryl,Waltz,Safe
+29,5,7,Skai & Alan,,Skai & Alan,Jazz,Safe
+29,5,8,Vernon & Peta,,Vernon & Peta,Tango,Bottom Two
+29,5,9,Kaitlyn & Artem,,Kaitlyn & Artem,Tango,Safe
+29,5,10,Nelly & Daniella,,Nelly & Daniella,Samba,Safe
+29,5,11,Johnny & Britt,,Johnny & Britt,Contemporary,Safe
+29,5,12,Nev & Jenna,,Nev & Jenna,Quickstep,Safe
+29,6,1,Johnny & Britt,,Johnny & Britt,Salsa,Bottom Two
+29,6,2,Nev & Jenna,,Nev & Jenna,Jazz,Safe
+29,6,3,Monica & Val,,Monica & Val,Rumba,Safe
+29,6,4,Skai & Alan,,Skai & Alan,Cha-cha-cha,Safe
+29,6,5,Vernon & Peta,,Vernon & Peta,Cha-cha-cha,Eliminated
+29,6,6,Nelly & Daniella,,Nelly & Daniella,Viennese waltz,Safe
+29,6,7,Jeannie & Brandon,,Jeannie & Brandon,Rumba,Safe
+29,6,8,AJ & Cheryl,,AJ & Cheryl,Samba,Safe
+29,6,9,Chrishell & Gleb,,Chrishell & Gleb,Contemporary,Safe
+29,6,10,Kaitlyn & Artem,,Kaitlyn & Artem,Samba,Safe
+29,6,11,Justina & Sasha,,Justina & Sasha,Viennese waltz,Safe
+29,7,1,Jeannie & Brandon,,Jeannie & Brandon,Paso doble,Bottom Two
+29,7,2,Johnny & Britt,,Johnny & Britt,Viennese waltz,Safe
+29,7,3,Chrishell & Gleb,,Chrishell & Gleb,Paso doble,Safe
+29,7,4,Monica & Val,,Monica & Val,Jazz,Eliminated
+29,7,5,AJ & Cheryl,,AJ & Cheryl,Tango,Safe
+29,7,6,Nelly & Daniella,,Nelly & Daniella,Argentine tango,Safe
+29,7,7,Justina & Sasha,,Justina & Sasha,Tango,Safe
+29,7,8,Nev & Jenna,,Nev & Jenna,Paso doble,Safe
+29,7,9,Skai & Alan,,Skai & Alan,Argentine tango,Safe
+29,7,10,Kaitlyn & Artem,,Kaitlyn & Artem,Paso doble,Safe
+29,8,1,Kaitlyn & Artem,,Kaitlyn & Artem,Jive,Safe
+29,8,2,Nev & Jenna,,Nev & Jenna,Viennese waltz,Safe
+29,8,3,Justina & Sasha,,Justina & Sasha,Samba,Safe
+29,8,4,Nelly & Daniella,,Nelly & Daniella,Rumba,Safe
+29,8,5,Chrishell & Gleb,,Chrishell & Gleb,Viennese waltz,Eliminated
+29,8,6,Skai & Alan,,Skai & Alan,Salsa,Bottom Two
+29,8,7,Johnny & Britt,,Johnny & Britt,Foxtrot,Safe
+29,8,8,AJ & Cheryl,,AJ & Cheryl,Rumba,Safe
+29,8,9,Nev & Jenna,,Nev & Jenna,Cha-cha-cha Relay,Safe
+29,8,10,Chrishell & Gleb,,Chrishell & Gleb,,Safe
+29,8,11,Nelly & Daniella,,Nelly & Daniella,,Safe
+29,8,12,Justina & Sasha,,Justina & Sasha,Viennese waltz Relay,Safe
+29,8,13,Johnny & Britt,,Johnny & Britt,,Safe
+29,8,14,AJ & Cheryl,,AJ & Cheryl,Samba Relay,Safe
+29,8,15,Kaitlyn & Artem,,Kaitlyn & Artem,,Safe
+29,8,16,Skai & Alan,,Skai & Alan,,Safe
+29,9,1,Justina & Sasha,,Justina & Sasha,Rumba,Safe
+29,9,2,Nelly & Daniella,,Nelly & Daniella,Jazz,Safe
+29,9,3,AJ & Cheryl,,AJ & Cheryl,Viennese waltz,Eliminated
+29,9,4,Kaitlyn & Artem,,Kaitlyn & Artem,Argentine tango,Safe
+29,9,5,Johnny & Britt,,Johnny & Britt,Quickstep,Bottom Two
+29,9,6,Skai & Alan,,Skai & Alan,Paso doble,Safe
+29,9,7,Nev & Jenna,,Nev & Jenna,Jive,Safe
+29,9,1,Justina & Sasha,,Justina & Sasha,Cha-cha-cha,Winners
+29,9,2,Kaitlyn & Artem,,Kaitlyn & Artem,Losers,Winners
+29,9,3,Skai & Alan,,Skai & Alan,Salsa,Winners
+29,9,4,Nelly & Daniella,,Nelly & Daniella,Losers,Winners
+29,9,5,AJ & Cheryl,,AJ & Cheryl,Jive,Winners
+29,9,6,Johnny & Britt,,Johnny & Britt,Losers,Winners
+29,10,1,Skai & Alan,,Skai & Alan,Cha-cha-cha,Eliminated
+29,10,1,Skai & Alan,,Skai & Alan,,Eliminated
+29,10,2,Justina & Sasha,,Justina & Sasha,Tango,Bottom Three
+29,10,2,Justina & Sasha,,Justina & Sasha,,Bottom Three
+29,10,3,Johnny & Britt,,Johnny & Britt,Salsa,Eliminated
+29,10,3,Johnny & Britt,,Johnny & Britt,,Eliminated
+29,10,4,Nelly & Daniella,,Nelly & Daniella,Paso doble,Safe
+29,10,4,Nelly & Daniella,,Nelly & Daniella,,Safe
+29,10,5,Nev & Jenna,,Nev & Jenna,Foxtrot,Safe
+29,10,5,Nev & Jenna,,Nev & Jenna,,Safe
+29,10,6,Kaitlyn & Artem,,Kaitlyn & Artem,Paso doble,Safe
+29,10,6,Kaitlyn & Artem,,Kaitlyn & Artem,,Safe
+29,11,1,Kaitlyn & Artem,,Kaitlyn & Artem,Argentine tango,Winners
+29,11,1,Kaitlyn & Artem,,Kaitlyn & Artem,,Winners
+29,11,2,Nelly & Daniella,,Nelly & Daniella,Samba,Third Place
+29,11,2,Nelly & Daniella,,Nelly & Daniella,,Third Place
+29,11,3,Nev & Jenna,,Nev & Jenna,Paso doble,Runners-Up
+29,11,3,Nev & Jenna,,Nev & Jenna,,Runners-Up
+29,11,4,Justina & Sasha,,Justina & Sasha,Cha-cha-cha,Fourth Place
+29,11,4,Justina & Sasha,,Justina & Sasha,,Fourth Place
+30,1,1,Melanie & Gleb,,Melanie & Gleb,Cha-cha-cha,
+30,1,2,The Miz & Witney,,The Miz & Witney,Cha-cha-cha,
+30,1,3,Iman & Daniella,,Iman & Daniella,Jive,
+30,1,4,Olivia & Val,,Olivia & Val,Salsa,
+30,1,5,Jimmie & Emma,,Jimmie & Emma,Tango,
+30,1,6,Melora & Artem,,Melora & Artem,Tango,
+30,1,7,Suni & Sasha,,Suni & Sasha,Jive,
+30,1,8,Cody & Cheryl,,Cody & Cheryl,Tango,
+30,1,9,Amanda & Alan,,Amanda & Alan,Tango,
+30,1,10,Martin & Britt,,Martin & Britt,Paso doble,
+30,1,11,Kenya & Brandon,,Kenya & Brandon,Foxtrot,
+30,1,12,Christine & Pasha,,Christine & Pasha,Tango,
+30,1,13,Matt & Lindsay,,Matt & Lindsay,Cha-cha-cha,
+30,1,14,Brian & Sharna,,Brian & Sharna,Foxtrot,
+30,1,15,JoJo & Jenna,,JoJo & Jenna,Quickstep,
+30,2,1,Matt & Lindsay,,Matt & Lindsay,Samba,Safe
+30,2,2,Olivia & Val,,Olivia & Val,Viennese waltz,Safe
+30,2,3,Kenya & Brandon,,Kenya & Brandon,Cha-cha-cha,Safe
+30,2,4,The Miz & Witney,,The Miz & Witney,Tango,Safe
+30,2,5,Brian & Sharna,,Brian & Sharna,Rumba,Safe
+30,2,6,Christine & Pasha,,Christine & Pasha,Salsa,Bottom Two
+30,2,7,Jimmie & Emma,,Jimmie & Emma,Rumba,Safe
+30,2,8,Amanda & Alan,,Amanda & Alan,Foxtrot,Safe
+30,2,9,JoJo & Jenna,,JoJo & Jenna,Cha-cha-cha,Safe
+30,2,10,Iman & Daniella,,Iman & Daniella,Rumba,Safe
+30,2,11,Martin & Britt,,Martin & Britt,Cha-cha-cha,Eliminated
+30,2,12,Melora & Artem,,Melora & Artem,Rumba,Safe
+30,2,13,Cody & Cheryl,,Cody & Cheryl,Salsa,Safe
+30,2,14,Melanie & Gleb,,Melanie & Gleb,Foxtrot,Safe
+30,2,15,Suni & Sasha,,Suni & Sasha,Cha-cha-cha,Safe
+30,3,1,Amanda & Alan,,Amanda & Alan,Cha-cha-cha,Safe
+30,3,2,Iman & Daniella,,Iman & Daniella,Tango,Safe
+30,3,3,Christine & Pasha,,Christine & Pasha,Paso doble,Eliminated
+30,3,4,JoJo & Jenna,,JoJo & Jenna,Argentine tango,Safe
+30,3,5,Kenya & Brandon,,Kenya & Brandon,Tango,Bottom Two
+30,3,6,Brian & Sharna,,Brian & Sharna,Tango,Safe
+30,3,7,Melora & Artem,,Melora & Artem,Cha-cha-cha,Safe
+30,3,8,Melanie & Gleb,,Melanie & Gleb,Tango,Safe
+30,3,9,Jimmie & Emma,,Jimmie & Emma,Salsa,Safe
+30,3,10,Olivia & Val,,Olivia & Val,Tango,Safe
+30,3,11,Cody & Cheryl,,Cody & Cheryl,Jazz,Safe
+30,3,12,Suni & Sasha,,Suni & Sasha,Foxtrot,Safe
+30,3,13,Matt & Lindsay,,Matt & Lindsay,Tango,Safe
+30,3,14,The Miz & Witney,,The Miz & Witney,Salsa,Safe
+30,4,1,JoJo & Jenna,,JoJo & Jenna,Viennese waltz,
+30,4,2,Melanie & Gleb,,Melanie & Gleb,Jazz,
+30,4,3,Matt & Lindsay,,Matt & Lindsay,Quickstep,
+30,4,4,Jimmie & Emma,,Jimmie & Emma,Paso doble,
+30,4,5,Amanda & Alan,,Amanda & Alan,Rumba,
+30,4,6,Olivia & Val,,Olivia & Val,Samba,
+30,4,7,The Miz & Witney,,The Miz & Witney,Quickstep,
+30,4,8,Kenya & Brandon,,Kenya & Brandon,Contemporary,
+30,4,9,Brian & Sharna,,Brian & Sharna,Waltz,
+30,4,10,Suni & Sasha,,Suni & Sasha,Salsa,
+30,4,11,Melora & Artem,,Melora & Artem,Quickstep,
+30,4,12,Cody & Cheryl,,Cody & Cheryl,Jive,
+30,4,13,Iman & Daniella,,Iman & Daniella,Foxtrot,
+30,4,1,Jimmie & Emma,,Jimmie & Emma,Jazz,Safe
+30,4,2,Cody & Cheryl,,Cody & Cheryl,Viennese waltz,Safe
+30,4,3,Melanie & Gleb,,Melanie & Gleb,Viennese waltz,Safe
+30,4,4,JoJo & Jenna,,JoJo & Jenna,Paso doble,Safe
+30,4,5,Kenya & Brandon,,Kenya & Brandon,Viennese waltz,Bottom Three
+30,4,6,Iman & Daniella,,Iman & Daniella,Argentine tango,Safe
+30,4,7,Melora & Artem,,Melora & Artem,Jazz,Safe
+30,4,8,The Miz & Witney,,The Miz & Witney,Argentine tango,Safe
+30,4,9,Brian & Sharna,,Brian & Sharna,Paso doble,Eliminated
+30,4,10,Matt & Lindsay,,Matt & Lindsay,Paso doble,Eliminated
+30,4,11,Olivia & Val,,Olivia & Val,Jazz,Safe
+30,4,12,Suni & Sasha,,Suni & Sasha,Viennese waltz,Safe
+30,4,13,Amanda & Alan,,Amanda & Alan,Paso doble,Safe
+30,5,1,Olivia & Val,,Olivia & Val,Foxtrot,Bottom Two
+30,5,2,Melora & Artem,,Melora & Artem,Viennese waltz,Safe
+30,5,3,Iman & Daniella,,Iman & Daniella,Viennese waltz,Safe
+30,5,4,The Miz & Witney,,The Miz & Witney,Jive,Safe
+30,5,5,Amanda & Alan,,Amanda & Alan,Viennese waltz,Safe
+30,5,6,Suni & Sasha,,Suni & Sasha,Charleston,Safe
+30,5,7,Jimmie & Emma,,Jimmie & Emma,Foxtrot,Safe
+30,5,8,Kenya & Brandon,,Kenya & Brandon,Rumba,Safe
+30,5,9,JoJo & Jenna,,JoJo & Jenna,Foxtrot,Safe
+30,5,10,Melanie & Gleb,,Melanie & Gleb,Quickstep,Eliminated
+30,5,11,Cody & Cheryl,,Cody & Cheryl,Quickstep,Safe
+30,6,1,The Miz & Witney,,The Miz & Witney,Paso doble,Safe
+30,6,2,Kenya & Brandon,,Kenya & Brandon,Argentine tango,Eliminated
+30,6,3,JoJo & Jenna,,JoJo & Jenna,Jazz,Safe
+30,6,4,Cody & Cheryl,,Cody & Cheryl,Cha-cha-cha,Safe
+30,6,5,Jimmie & Emma,,Jimmie & Emma,Contemporary,Safe
+30,6,6,Olivia & Val,,Olivia & Val,Paso doble,Safe
+30,6,7,Melora & Artem,,Melora & Artem,Jive,Safe
+30,6,8,Iman & Daniella,,Iman & Daniella,Contemporary,Safe
+30,6,9,Suni & Sasha,,Suni & Sasha,Tango,Bottom Two
+30,6,10,Amanda & Alan,,Amanda & Alan,Argentine tango,Safe
+30,7,1,Amanda & Alan,,Amanda & Alan,Jive,Safe
+30,7,2,Olivia & Val,,Olivia & Val,Quickstep,Safe
+30,7,3,Iman & Daniella,,Iman & Daniella,Paso doble,Safe
+30,7,4,Jimmie & Emma,,Jimmie & Emma,Viennese waltz,Safe
+30,7,5,The Miz & Witney,,The Miz & Witney,Foxtrot,Eliminated
+30,7,6,JoJo & Jenna,,JoJo & Jenna,Tango,Bottom Two
+30,7,7,Suni & Sasha,,Suni & Sasha,Paso doble,Safe
+30,7,8,Cody & Cheryl,,Cody & Cheryl,Foxtrot,Safe
+30,7,9,Melora & Artem,,Melora & Artem,Foxtrot,Safe
+30,7,10,The Miz & Witney,,The Miz & Witney,Jive Relay,Safe
+30,7,11,Iman & Daniella,,Iman & Daniella,,Safe
+30,7,12,Cody & Cheryl,,Cody & Cheryl,,Safe
+30,7,13,JoJo & Jenna,,JoJo & Jenna,Foxtrot Relay,Safe
+30,7,14,Olivia & Val,,Olivia & Val,,Safe
+30,7,15,Jimmie & Emma,,Jimmie & Emma,,Safe
+30,7,16,Amanda & Alan,,Amanda & Alan,Viennese waltz Relay,Safe
+30,7,17,Suni & Sasha,,Suni & Sasha,,Safe
+30,7,18,Melora & Artem,,Melora & Artem,,Safe
+30,8,1,Jimmie & Emma,,Jimmie & Emma,Cha-cha-cha,Eliminated
+30,8,2,Suni & Sasha,,Suni & Sasha,Samba,Safe
+30,8,3,Melora & Artem,,Melora & Artem,Paso doble,Bottom Three
+30,8,4,Olivia & Val,,Olivia & Val,Argentine tango,Eliminated
+30,8,5,Cody & Cheryl,,Cody & Cheryl,Paso doble,Safe
+30,8,6,Amanda & Alan,,Amanda & Alan,Jazz,Safe
+30,8,7,Iman & Daniella,,Iman & Daniella,Cha-cha-cha,Safe
+30,8,8,JoJo & Jenna,,JoJo & Jenna,Salsa,Safe
+30,8,1,Suni & Sasha,,Suni & Sasha,Salsa,Winners
+30,8,2,Jimmie & Emma,,Jimmie & Emma,,Winners
+30,8,3,JoJo & Jenna,,JoJo & Jenna,Rumba,Winners
+30,8,4,Olivia & Val,,Olivia & Val,,Winners
+30,8,5,Melora & Artem,,Melora & Artem,Foxtrot,Winners
+30,8,6,Iman & Daniella,,Iman & Daniella,,Winners
+30,8,7,Amanda & Alan,,Amanda & Alan,Cha-cha-cha,Winners
+30,8,8,Cody & Cheryl,,Cody & Cheryl,,Winners
+30,9,1,Cody & Cheryl,,Cody & Cheryl,Salsa,Safe
+30,9,1,Cody & Cheryl,,Cody & Cheryl,,Safe
+30,9,2,Melora & Artem,,Melora & Artem,Rumba,Eliminated
+30,9,2,Melora & Artem,,Melora & Artem,,Eliminated
+30,9,3,Suni & Sasha,,Suni & Sasha,Foxtrot,Eliminated
+30,9,3,Suni & Sasha,,Suni & Sasha,,Eliminated
+30,9,4,JoJo & Jenna,,JoJo & Jenna,Argentine tango,Safe
+30,9,4,JoJo & Jenna,,JoJo & Jenna,,Safe
+30,9,5,Iman & Daniella,,Iman & Daniella,Tango,Safe
+30,9,5,Iman & Daniella,,Iman & Daniella,,Safe
+30,9,6,Amanda & Alan,,Amanda & Alan,Tango,Bottom Three
+30,9,6,Amanda & Alan,,Amanda & Alan,,Bottom Three
+30,10,1,Amanda & Alan,,Amanda & Alan,Paso doble & Viennese waltz,Fourth Place
+30,10,1,Amanda & Alan,,Amanda & Alan,,Fourth Place
+30,10,2,Cody & Cheryl,,Cody & Cheryl,Cha-cha-cha & Paso doble,Third Place
+30,10,2,Cody & Cheryl,,Cody & Cheryl,,Third Place
+30,10,3,JoJo & Jenna,,JoJo & Jenna,Cha-cha-cha & Tango,Runners-Up
+30,10,3,JoJo & Jenna,,JoJo & Jenna,,Runners-Up
+30,10,4,Iman & Daniella,,Iman & Daniella,Cha-cha-cha & Foxtrot,Winners
+30,10,4,Iman & Daniella,,Iman & Daniella,,Winners
+31,1,1,Jordin & Brandon,,Jordin & Brandon,Cha-cha-cha,Safe
+31,1,2,Sam & Cheryl,,Sam & Cheryl,Foxtrot,Safe
+31,1,3,Heidi & Artem,,Heidi & Artem,Cha-cha-cha,Safe
+31,1,4,Daniel & Britt,,Daniel & Britt,Tango,Safe
+31,1,5,Jessie & Alan,,Jessie & Alan,Cha-cha-cha,Safe
+31,1,6,Teresa & Pasha,,Teresa & Pasha,Tango,Bottom Two
+31,1,7,Wayne & Witney,,Wayne & Witney,Cha-cha-cha,Safe
+31,1,8,Cheryl & Louis,,Cheryl & Louis,Cha-cha-cha,Safe
+31,1,9,Vinny & Koko,,Vinny & Koko,Salsa,Safe
+31,1,10,Shangela & Gleb,,Shangela & Gleb,Salsa,Safe
+31,1,11,Trevor & Emma,,Trevor & Emma,Quickstep,Safe
+31,1,12,Gabby & Val,,Gabby & Val,Jive,Safe
+31,1,13,Joseph & Daniella,,Joseph & Daniella,Jive,Safe
+31,1,14,Jason & Peta,,Jason & Peta,Cha-cha-cha,Eliminated
+31,1,15,Selma & Sasha,,Selma & Sasha,Viennese waltz,Safe
+31,1,16,Charli & Mark,,Charli & Mark,Cha-cha-cha,Safe
+31,2,1,Jessie & Alan,,Jessie & Alan,Foxtrot,Safe
+31,2,2,Jordin & Brandon,,Jordin & Brandon,Quickstep,Safe
+31,2,3,Sam & Cheryl,,Sam & Cheryl,Viennese waltz,Safe
+31,2,4,Shangela & Gleb,,Shangela & Gleb,Quickstep,Safe
+31,2,5,Teresa & Pasha,,Teresa & Pasha,Jive,Eliminated
+31,2,6,Daniel & Britt,,Daniel & Britt,Jive,Safe
+31,2,7,Gabby & Val,,Gabby & Val,Viennese waltz,Safe
+31,2,8,Vinny & Koko,,Vinny & Koko,Quickstep,Safe
+31,2,9,Charli & Mark,,Charli & Mark,Quickstep,Safe
+31,2,10,Selma & Sasha,,Selma & Sasha,Jive,Safe
+31,2,11,Cheryl & Louis,,Cheryl & Louis,Tango,Bottom Two
+31,2,12,Joseph & Alexis,,Joseph & Alexis,Viennese waltz,Safe
+31,2,13,Heidi & Artem,,Heidi & Artem,Foxtrot,Safe
+31,2,14,Trevor & Emma,,Trevor & Emma,Rumba,Safe
+31,2,15,Wayne & Witney,,Wayne & Witney,Jive,Safe
+31,3,1,Charli & Mark,,Charli & Mark,Rumba,Safe
+31,3,2,Cheryl & Louis,,Cheryl & Louis,Rumba,Eliminated
+31,3,3,Trevor & Emma,,Trevor & Emma,Tango,Safe
+31,3,4,Daniel & Britt,,Daniel & Britt,Rumba,Safe
+31,3,5,Jordin & Brandon,,Jordin & Brandon,Rumba,Safe
+31,3,6,Sam & Cheryl,,Sam & Cheryl,Samba,Bottom Two
+31,3,7,Selma & Sasha,,Selma & Sasha,Rumba,Safe
+31,3,8,Wayne & Witney,,Wayne & Witney,Tango,Safe
+31,3,9,Vinny & Koko,,Vinny & Koko,Rumba,Safe
+31,3,10,Heidi & Artem,,Heidi & Artem,Argentine tango,Safe
+31,3,11,Shangela & Gleb,,Shangela & Gleb,Rumba,Safe
+31,3,12,Jessie & Alan,,Jessie & Alan,Rumba,Safe
+31,3,13,Joseph & Alexis,,Joseph & Alexis,Argentine tango,Safe
+31,3,14,Gabby & Val,,Gabby & Val,Cha-cha-cha,Safe
+31,4,1,Joseph & Daniella,,Joseph & Daniella,Charleston,Safe
+31,4,2,Sam & Cheryl,,Sam & Cheryl,Paso doble,Eliminated
+31,4,3,Jordin & Brandon,,Jordin & Brandon,Jazz,Safe
+31,4,4,Wayne & Witney,,Wayne & Witney,Jazz,Safe
+31,4,5,Daniel & Britt,,Daniel & Britt,Quickstep,Safe
+31,4,6,Shangela & Gleb,,Shangela & Gleb,Charleston,Safe
+31,4,7,Heidi & Artem,,Heidi & Artem,Viennese waltz,Safe
+31,4,8,Gabby & Val,,Gabby & Val,Quickstep,Safe
+31,4,9,Trevor & Emma,,Trevor & Emma,Samba,Bottom Two
+31,4,10,Vinny & Koko,,Vinny & Koko,Samba,Safe
+31,4,11,Selma & Sasha,,Selma & Sasha,Quickstep,Safe
+31,4,12,Jessie & Alan,,Jessie & Alan,Jive,Safe
+31,4,13,Charli & Mark,,Charli & Mark,Jazz,Safe
+31,5,1,Trevor & Emma,,Trevor & Emma,Jazz,Safe
+31,5,2,Shangela & Gleb,,Shangela & Gleb,Foxtrot,Safe
+31,5,3,Jessie & Alan,,Jessie & Alan,Tango,Safe
+31,5,4,Gabby & Val,,Gabby & Val,Foxtrot,Safe
+31,5,5,Joseph & Daniella,,Joseph & Daniella,Rumba,Safe
+31,5,6,Daniel & Britt,,Daniel & Britt,Contemporary,Safe
+31,5,7,Jordin & Brandon,,Jordin & Brandon,Salsa,Safe
+31,5,8,Charli & Mark,,Charli & Mark,Contemporary,Safe
+31,5,9,Vinny & Koko,,Vinny & Koko,Jazz,Safe
+31,5,10,Heidi & Artem,,Heidi & Artem,Rumba,Safe
+31,5,11,Wayne & Witney,,Wayne & Witney,Foxtrot,Safe
+31,5,12,Selma & Sasha,,Selma & Sasha,Waltz,Withdrew
+31,5,1,Daniel & Britt,,Daniel & Britt,Cha-cha-cha,Safe
+31,5,2,Heidi & Artem,,Heidi & Artem,Jazz,Bottom Two
+31,5,3,Vinny & Koko,,Vinny & Koko,Viennese waltz,Safe
+31,5,4,Shangela & Gleb,,Shangela & Gleb,Cha-cha-cha,Safe
+31,5,5,Charli & Mark,,Charli & Mark,Jive,Safe
+31,5,6,Jessie & Alan,,Jessie & Alan,Viennese waltz,Safe
+31,5,7,Gabby & Val,,Gabby & Val,Tango,Safe
+31,5,8,Trevor & Emma,,Trevor & Emma,Jive,Safe
+31,5,9,Joseph & Daniella,,Joseph & Daniella,Cha-cha-cha,Eliminated
+31,5,10,Jordin & Brandon,,Jordin & Brandon,Contemporary,Safe
+31,5,11,Wayne & Witney,,Wayne & Witney,Samba,Safe
+31,5,12,Daniel & Britt,,Daniel & Britt,Hustle & Lindy Hop Marathon,Safe
+31,5,13,Vinny & Koko,,Vinny & Koko,,Safe
+31,5,14,Jordin & Brandon,,Jordin & Brandon,,Safe
+31,5,15,Joseph & Daniella,,Joseph & Daniella,,Safe
+31,5,16,Wayne & Witney,,Wayne & Witney,,Safe
+31,5,17,Gabby & Val,,Gabby & Val,,Safe
+31,5,18,Charli & Mark,,Charli & Mark,,Safe
+31,5,19,Trevor & Emma,,Trevor & Emma,,Safe
+31,5,20,Heidi & Artem,,Heidi & Artem,,Safe
+31,5,21,Shangela & Gleb,,Shangela & Gleb,,Safe
+31,5,22,Jessie & Alan,,Jessie & Alan,,Safe
+31,6,1,Shangela & Gleb,,Shangela & Gleb,Tango,Safe
+31,6,2,Trevor & Emma,,Trevor & Emma,Foxtrot,Bottom Two
+31,6,3,Gabby & Val,,Gabby & Val,Rumba,Safe
+31,6,4,Vinny & Koko,,Vinny & Koko,Cha-cha-cha,Safe
+31,6,5,Jordin & Brandon,,Jordin & Brandon,Foxtrot,Safe
+31,6,6,Charli & Mark,,Charli & Mark,Foxtrot,Safe
+31,6,7,Heidi & Artem,,Heidi & Artem,Samba,Safe
+31,6,8,Wayne & Witney,,Wayne & Witney,Quickstep,Safe
+31,6,9,Jessie & Alan,,Jessie & Alan,Salsa,Eliminated
+31,6,10,Daniel & Britt,,Daniel & Britt,Foxtrot,Safe
+31,7,1,Jordin & Brandon,,Jordin & Brandon,Tango,Eliminated
+31,7,2,Charli & Mark,,Charli & Mark,Argentine tango,Safe
+31,7,3,Daniel & Britt,,Daniel & Britt,Paso doble,Safe
+31,7,4,Shangela & Gleb,,Shangela & Gleb,Jazz,Safe
+31,7,5,Vinny & Koko,,Vinny & Koko,Paso doble,Safe
+31,7,6,Heidi & Artem,,Heidi & Artem,Tango,Bottom Two
+31,7,7,Gabby & Alan,,Gabby & Alan,Argentine tango,Safe
+31,7,8,Wayne & Witney,,Wayne & Witney,Contemporary,Safe
+31,7,9,Trevor & Emma,,Trevor & Emma,Contemporary,Safe
+31,7,10,Gabby & Alan,Heidi & Artem,Gabby & Alan / Heidi & Artem / Jordin & Brandon / Shangela & Gleb / Vinny & Koko,Freestyle (Team Wicked),Safe
+31,7,11,Charli & Mark,Daniel & Britt,Charli & Mark / Daniel & Britt / Trevor & Emma / Wayne & Witney,Freestyle (Team Scream),Safe
+31,8,1,Trevor & Emma,,Trevor & Emma,Salsa,Bottom Three
+31,8,2,Shangela & Gleb,,Shangela & Gleb,Samba,Safe
+31,8,3,Wayne & Witney,,Wayne & Witney,Salsa,Safe
+31,8,4,Daniel & Britt,,Daniel & Britt,Jazz,Safe
+31,8,5,Heidi & Artem,,Heidi & Artem,Contemporary,Eliminated
+31,8,6,Gabby & Val,,Gabby & Val,Samba,Safe
+31,8,7,Vinny & Koko,,Vinny & Koko,Tango,Eliminated
+31,8,8,Charli & Mark,,Charli & Mark,Tango,Safe
+31,8,9,Shangela & Gleb,,Shangela & Gleb,Cha-cha-cha Relay,Safe
+31,8,10,Daniel & Britt,,Daniel & Britt,,Safe
+31,8,11,Vinny & Koko,,Vinny & Koko,Samba Relay,Safe
+31,8,12,Trevor & Emma,,Trevor & Emma,,Safe
+31,8,13,Heidi & Artem,,Heidi & Artem,Samba Relay,Safe
+31,8,14,Wayne & Witney,,Wayne & Witney,,Safe
+31,8,15,Charli & Mark,,Charli & Mark,Salsa Relay,Safe
+31,8,16,Gabby & Val,,Gabby & Val,,Safe
+31,9,1,Wayne & Witney,,Wayne & Witney,Paso doble,Safe
+31,9,1,Wayne & Witney,,Wayne & Witney,,Safe
+31,9,2,Daniel & Britt,,Daniel & Britt,Viennese waltz,Eliminated
+31,9,2,Daniel & Britt,,Daniel & Britt,,Eliminated
+31,9,3,Shangela & Gleb,,Shangela & Gleb,Paso doble,Bottom Three
+31,9,3,Shangela & Gleb,,Shangela & Gleb,,Bottom Three
+31,9,4,Charli & Mark,,Charli & Mark,Viennese waltz,Safe
+31,9,4,Charli & Mark,,Charli & Mark,,Safe
+31,9,5,Trevor & Emma,,Trevor & Emma,Cha-cha-cha,Eliminated
+31,9,5,Trevor & Emma,,Trevor & Emma,,Eliminated
+31,9,6,Gabby & Val,,Gabby & Val,Waltz,Safe
+31,9,6,Gabby & Val,,Gabby & Val,,Safe
+31,10,1,Shangela & Gleb,,Shangela & Gleb,Quickstep,Fourth Place
+31,10,1,Shangela & Gleb,,Shangela & Gleb,,Fourth Place
+31,10,2,Wayne & Witney,,Wayne & Witney,Quickstep,Third Place
+31,10,2,Wayne & Witney,,Wayne & Witney,,Third Place
+31,10,3,Charli & Mark,,Charli & Mark,Jive,Winners
+31,10,3,Charli & Mark,,Charli & Mark,,Winners
+31,10,4,Gabby & Val,,Gabby & Val,Cha-cha-cha,Runners-Up
+31,10,4,Gabby & Val,,Gabby & Val,,Runners-Up
+32,1,1,Xochitl & Val,,Xochitl & Val,Cha-cha-cha,Safe
+32,1,2,Barry & Peta,,Barry & Peta,Foxtrot,Safe
+32,1,3,Tyson & Jenna,,Tyson & Jenna,Cha-cha-cha,Safe
+32,1,4,Alyson & Sasha,,Alyson & Sasha,Salsa,Safe
+32,1,5,Harry & Rylee,,Harry & Rylee,Cha-cha-cha,Safe
+32,1,6,Jason & Daniella,,Jason & Daniella,Cha-cha-cha,Safe
+32,1,7,Jamie Lynn & Alan,,Jamie Lynn & Alan,Tango,Safe
+32,1,8,Adrian & Britt,,Adrian & Britt,Salsa,Safe
+32,1,9,Lele & Brandon,,Lele & Brandon,Tango,Safe
+32,1,10,Mira & Gleb,,Mira & Gleb,Cha-cha-cha,Safe
+32,1,11,Mauricio & Emma,,Mauricio & Emma,Jive,Bottom Two
+32,1,12,Charity & Artem,,Charity & Artem,Tango,Safe
+32,1,13,Matt & Koko,,Matt & Koko,Cha-cha-cha,Eliminated
+32,1,14,Ariana & Pasha,,Ariana & Pasha,Tango,Safe
+32,2,1,Lele & Brandon,,Lele & Brandon,Samba,Safe
+32,2,2,Tyson & Jenna,,Tyson & Jenna,Salsa,Safe
+32,2,3,Barry & Peta,,Barry & Peta,Cha-cha-cha,Safe
+32,2,4,Adrian & Britt,,Adrian & Britt,Samba,Bottom Two
+32,2,5,Mira & Gleb,,Mira & Gleb,Salsa,Safe
+32,2,6,Xochitl & Val,,Xochitl & Val,Salsa,Safe
+32,2,7,Ariana & Pasha,,Ariana & Pasha,Samba,Safe
+32,2,8,Mauricio & Emma,,Mauricio & Emma,Salsa,Safe
+32,2,9,Alyson & Sasha,,Alyson & Sasha,Tango,Safe
+32,2,10,Charity & Ezra,,Charity & Ezra,Cha-cha-cha,Safe
+32,2,11,Harry & Rylee,,Harry & Rylee,Salsa,Safe
+32,2,12,Jamie Lynn & Alan,,Jamie Lynn & Alan,Cha-cha-cha,Eliminated
+32,2,13,Jason & Daniella,,Jason & Daniella,Rumba,Safe
+32,3,1,Barry & Peta,,Barry & Peta,Tango,Safe
+32,3,2,Lele & Brandon,,Lele & Brandon,Cha-cha-cha,Safe
+32,3,3,Mauricio & Emma,,Mauricio & Emma,Foxtrot,Safe
+32,3,4,Jason & Daniella,,Jason & Daniella,Jive,Safe
+32,3,5,Alyson & Sasha,,Alyson & Sasha,Foxtrot,Safe
+32,3,6,Tyson & Jenna,,Tyson & Jenna,Foxtrot,Eliminated
+32,3,7,Charity & Artem,,Charity & Artem,Foxtrot,Safe
+32,3,8,Mira & Gleb,,Mira & Gleb,Rumba,Safe
+32,3,9,Ariana & Pasha,,Ariana & Pasha,Quickstep,Safe
+32,3,10,Adrian & Britt,,Adrian & Britt,Quickstep,Safe
+32,3,11,Harry & Rylee,,Harry & Rylee,Foxtrot,Safe
+32,3,12,Xochitl & Val,,Xochitl & Val,Foxtrot,Safe
+32,4,1,Mauricio & Emma,,Mauricio & Emma,Paso doble,Safe
+32,4,2,Mira & Gleb,,Mira & Gleb,Waltz,Safe
+32,4,3,Barry & Peta,,Barry & Peta,Jazz,Safe
+32,4,4,Jason & Daniella,,Jason & Daniella,Foxtrot,Safe
+32,4,5,Lele & Brandon,,Lele & Brandon,Rumba,Safe
+32,4,6,Alyson & Sasha,,Alyson & Sasha,Jazz,Safe
+32,4,7,Harry & Rylee,,Harry & Rylee,Quickstep,Safe
+32,4,8,Xochitl & Val,,Xochitl & Val,Paso doble,Safe
+32,4,9,Adrian & Britt,,Adrian & Britt,Viennese waltz,Eliminated
+32,4,10,Ariana & Pasha,,Ariana & Pasha,Contemporary,Safe
+32,4,11,Charity & Artem,,Charity & Artem,Waltz,Safe
+32,5,1,Mira & Gleb,,Mira & Gleb,Contemporary,Eliminated
+32,5,2,Ariana & Pasha,,Ariana & Pasha,Viennese waltz,Safe
+32,5,3,Charity & Artem,,Charity & Artem,Contemporary,Safe
+32,5,4,Alyson & Sasha,,Alyson & Sasha,Viennese waltz,Safe
+32,5,5,Harry & Rylee,,Harry & Rylee,Contemporary,Safe
+32,5,6,Jason & Daniella,,Jason & Daniella,Quickstep,Safe
+32,5,7,Lele & Brandon,,Lele & Brandon,Contemporary,Safe
+32,5,8,Xochitl & Val,,Xochitl & Val,Viennese waltz,Safe
+32,5,9,Mauricio & Emma,,Mauricio & Emma,Contemporary,Safe
+32,5,10,Barry & Peta,,Barry & Peta,Paso doble,Safe
+32,6,1,Jason & Daniella,,Jason & Daniella,Contemporary,Safe
+32,6,2,Alyson & Sasha,,Alyson & Sasha,Paso doble,Safe
+32,6,3,Xochitl & Val,,Xochitl & Val,Contemporary,Safe
+32,6,4,Harry & Rylee,,Harry & Rylee,Argentine tango,Safe
+32,6,5,Barry & Peta,,Barry & Peta,Viennese waltz,Safe
+32,6,6,Ariana & Pasha,,Ariana & Pasha,Argentine tango,Safe
+32,6,7,Lele & Brandon,,Lele & Brandon,Paso doble,Safe
+32,6,8,Mauricio & Emma,,Mauricio & Emma,Argentine tango,Eliminated
+32,6,9,Charity & Artem,,Charity & Artem,Jive,Safe
+32,6,10,Barry & Peta,,Barry & Peta,Hustle & Charleston Marathon,Safe
+32,6,11,Harry & Rylee,,Harry & Rylee,,Safe
+32,6,12,Alyson & Sasha,,Alyson & Sasha,,Safe
+32,6,13,Mauricio & Emma,,Mauricio & Emma,,Safe
+32,6,14,Charity & Artem,,Charity & Artem,,Safe
+32,6,15,Jason & Daniella,,Jason & Daniella,,Safe
+32,6,16,Lele & Brandon,,Lele & Brandon,,Safe
+32,6,17,Ariana & Pasha,,Ariana & Pasha,,Safe
+32,6,18,Xochitl & Val,,Xochitl & Val,,Safe
+32,7,1,Lele & Brandon,,Lele & Brandon,Salsa,Eliminated
+32,7,2,Ariana & Pasha,,Ariana & Pasha,Cha-cha-cha,Safe
+32,7,3,Harry & Rylee,,Harry & Rylee,Jazz,Safe
+32,7,4,Jason & Daniella,,Jason & Daniella,Jazz,Safe
+32,7,5,Alyson & Sasha,,Alyson & Sasha,Quickstep,Safe
+32,7,6,Xochitl & Val,,Xochitl & Val,Jazz,Safe
+32,7,7,Charity & Artem,,Charity & Artem,Jazz,Safe
+32,7,8,Barry & Peta,,Barry & Peta,Quickstep,Safe
+32,7,9,Charity & Artem,Harry & Rylee,Charity & Artem / Harry & Rylee / Lele & Brandon / Xochitl & Val,Freestyle (Team Young'n Style),Safe
+32,7,10,Alyson & Sasha,Ariana & Pasha,Alyson & Sasha / Ariana & Pasha / Barry & Peta / Jason & Daniella,Freestyle (Team 4 Everybody),Safe
+32,8,1,Harry & Rylee,,Harry & Rylee,Viennese waltz,Safe
+32,8,2,Jason & Daniella,,Jason & Daniella,Samba,Safe
+32,8,3,Alyson & Sasha,,Alyson & Sasha,Contemporary,Safe
+32,8,4,Xochitl & Val,,Xochitl & Val,Tango,Safe
+32,8,5,Barry & Peta,,Barry & Peta,Rumba,Eliminated
+32,8,6,Charity & Artem,,Charity & Artem,Viennese waltz,Safe
+32,8,7,Ariana & Pasha,,Ariana & Pasha,Paso doble,Safe
+32,8,1,Alyson & Sasha,,Alyson & Sasha,Rumba,Winners
+32,8,2,Harry & Rylee,,Harry & Rylee,Losers,Winners
+32,8,3,Barry & Peta,,Barry & Peta,Salsa,Winners
+32,8,4,Jason & Daniella,,Jason & Daniella,Losers,Winners
+32,8,5,Charity & Artem,,Charity & Artem,Cha-cha-cha,Winners
+32,8,6,Xochitl & Val,,Xochitl & Val,Losers,Winners
+32,9,1,Alyson & Sasha,,Alyson & Sasha,Cha-cha-cha,Safe
+32,9,2,Ariana & Pasha,,Ariana & Pasha,Rumba,Safe
+32,9,3,Jason & Daniella,,Jason & Daniella,Argentine tango,Safe
+32,9,4,Harry & Rylee,,Harry & Rylee,Rumba,Eliminated
+32,9,5,Charity & Artem,,Charity & Artem,Argentine tango,Safe
+32,9,6,Xochitl & Val,,Xochitl & Val,Quickstep,Safe
+32,9,1,Xochitl & Val,,Xochitl & Val,Viennese waltz Relay,Winners
+32,9,2,Ariana & Pasha,,Ariana & Pasha,Losers,Winners
+32,9,3,Alyson & Sasha,,Alyson & Sasha,Jive Relay,Winners
+32,9,4,Harry & Rylee,,Harry & Rylee,Losers,Winners
+32,9,5,Jason & Daniella,,Jason & Daniella,Cha-cha-cha Relay,Winners
+32,9,6,Charity & Artem,,Charity & Artem,Losers,Winners
+32,10,1,Ariana & Pasha,,Ariana & Pasha,Jive,
+32,10,1,Ariana & Pasha,,Ariana & Pasha,,
+32,10,2,Jason & Daniella,,Jason & Daniella,Viennese waltz,
+32,10,2,Jason & Daniella,,Jason & Daniella,,
+32,10,3,Xochitl & Val,,Xochitl & Val,Samba,
+32,10,3,Xochitl & Val,,Xochitl & Val,,
+32,10,4,Charity & Artem,,Charity & Artem,Rumba,
+32,10,4,Charity & Artem,,Charity & Artem,,
+32,10,5,Alyson & Sasha,,Alyson & Sasha,Jive,
+32,10,5,Alyson & Sasha,,Alyson & Sasha,,
+32,11,1,Alyson & Sasha,,Alyson & Sasha,Salsa,Fifth Place
+32,11,1,Alyson & Sasha,,Alyson & Sasha,,Fifth Place
+32,11,2,Jason & Daniella,,Jason & Daniella,Foxtrot,Runners-Up
+32,11,2,Jason & Daniella,,Jason & Daniella,,Runners-Up
+32,11,3,Ariana & Pasha,,Ariana & Pasha,Samba,Third Place
+32,11,3,Ariana & Pasha,,Ariana & Pasha,,Third Place
+32,11,4,Charity & Artem,,Charity & Artem,Tango,Fourth Place
+32,11,4,Charity & Artem,,Charity & Artem,,Fourth Place
+32,11,5,Xochitl & Val,,Xochitl & Val,Foxtrot,Winners
+32,11,5,Xochitl & Val,,Xochitl & Val,,Winners
+33,1,1,Joey & Jenna,,Joey & Jenna,Cha-cha-cha,
+33,1,2,Brooks & Gleb,,Brooks & Gleb,Tango,
+33,1,3,Ilona & Alan,,Ilona & Alan,Cha-cha-cha,
+33,1,4,Reginald & Emma,,Reginald & Emma,Salsa,
+33,1,5,Danny & Witney,,Danny & Witney,Tango,
+33,1,6,Tori & Pasha,,Tori & Pasha,Foxtrot,
+33,1,7,Jenn & Sasha,,Jenn & Sasha,Cha-cha-cha,
+33,1,8,Chandler & Brandon,,Chandler & Brandon,Tango,
+33,1,9,Dwight & Daniella,,Dwight & Daniella,Salsa,
+33,1,10,Eric & Britt,,Eric & Britt,Cha-cha-cha,
+33,1,11,Phaedra & Val,,Phaedra & Val,Cha-cha-cha,
+33,1,12,Stephen & Rylee,,Stephen & Rylee,Jive,
+33,1,13,Anna & Ezra,,Anna & Ezra,Cha-cha-cha,
+33,2,1,Jenn & Sasha,,Jenn & Sasha,Tango,Safe
+33,2,2,Eric & Britt,,Eric & Britt,Waltz,Safe
+33,2,3,Danny & Witney,,Danny & Witney,Jive,Safe
+33,2,4,Anna & Ezra,,Anna & Ezra,Quickstep,Eliminated
+33,2,5,Chandler & Brandon,,Chandler & Brandon,Rumba,Safe
+33,2,6,Reginald & Emma,,Reginald & Emma,Paso doble,Safe
+33,2,7,Stephen & Rylee,,Stephen & Rylee,Paso doble,Safe
+33,2,8,Joey & Jenna,,Joey & Jenna,Rumba,Safe
+33,2,9,Phaedra & Val,,Phaedra & Val,Foxtrot,Safe
+33,2,10,Tori & Pasha,,Tori & Pasha,Rumba,Eliminated
+33,2,11,Dwight & Daniella,,Dwight & Daniella,Foxtrot,Safe
+33,2,12,Brooks & Gleb,,Brooks & Gleb,Quickstep,Safe
+33,2,13,Ilona & Alan,,Ilona & Alan,Salsa,Safe
+33,3,1,Phaedra & Val,,Phaedra & Val,Quickstep,
+33,3,2,Ilona & Alan,,Ilona & Alan,Foxtrot,
+33,3,3,Eric & Britt,,Eric & Britt,Foxtrot,
+33,3,4,Stephen & Rylee,,Stephen & Rylee,Quickstep,
+33,3,5,Brooks & Gleb,,Brooks & Gleb,Rumba,
+33,3,6,Joey & Jenna,,Joey & Jenna,Jive,
+33,3,7,Dwight & Daniella,,Dwight & Daniella,Cha-cha-cha,
+33,3,8,Danny & Witney,,Danny & Witney,Foxtrot,
+33,3,9,Reginald & Emma,,Reginald & Emma,Foxtrot,
+33,3,10,Jenn & Sasha,,Jenn & Sasha,Viennese waltz,
+33,3,11,Chandler & Brandon,,Chandler & Brandon,Cha-cha-cha,
+33,3,1,Danny & Witney,,Danny & Witney,Paso doble,Safe
+33,3,2,Reginald & Emma,,Reginald & Emma,Cha-cha-cha,Eliminated
+33,3,3,Chandler & Brandon,,Chandler & Brandon,Jive,Safe
+33,3,4,Brooks & Gleb,,Brooks & Gleb,Cha-cha-cha,Safe
+33,3,5,Stephen & Rylee,,Stephen & Rylee,Foxtrot,Safe
+33,3,6,Dwight & Daniella,,Dwight & Daniella,Paso doble,Safe
+33,3,7,Eric & Britt,,Eric & Britt,Paso doble,Eliminated
+33,3,8,Ilona & Alan,,Ilona & Alan,Jive,Safe
+33,3,9,Jenn & Sasha,,Jenn & Sasha,Paso doble,Safe
+33,3,10,Phaedra & Val,,Phaedra & Val,Paso doble,Safe
+33,3,11,Joey & Jenna,,Joey & Jenna,Tango,Safe
+33,4,1,Chandler & Brandon,[,Chandler & Brandon / [ / a / ],Contemporary,Safe
+33,4,2,Stephen & Rylee,[,Stephen & Rylee / [ / b / ],Argentine tango,Safe
+33,4,3,Danny & Witney,[,Danny & Witney / [ / c / ],Contemporary,Safe
+33,4,4,Dwight & Daniella,[,Dwight & Daniella / [ / d / ],Rumba,Safe
+33,4,5,Phaedra & Val,[,Phaedra & Val / [ / e / ],Rumba,Safe
+33,4,6,Brooks & Gleb,[,Brooks & Gleb / [ / f / ],Salsa,Eliminated
+33,4,7,Joey & Jenna,[,Joey & Jenna / [ / g / ],Viennese waltz,Safe
+33,4,8,Ilona & Alan,[,Ilona & Alan / [ / h / ],Rumba,Safe
+33,4,9,Jenn & Sasha,[,Jenn & Sasha / [ / i / ],Foxtrot,Safe
+33,5,1,Stephen & Rylee,,Stephen & Rylee,Charleston,Safe
+33,5,2,Jenn & Sasha,,Jenn & Sasha,Rumba,Safe
+33,5,3,Joey & Jenna,,Joey & Jenna,Samba,Safe
+33,5,4,Chandler & Brandon,,Chandler & Brandon,Paso doble,Safe
+33,5,5,Phaedra & Val,,Phaedra & Val,Jazz,Eliminated
+33,5,6,Danny & Witney,,Danny & Witney,Jazz,Safe
+33,5,7,Dwight & Daniella,,Dwight & Daniella,Tango,Safe
+33,5,8,Ilona & Alan,,Ilona & Alan,Jazz,Safe
+33,5,9,Danny & Witney,Dwight & Daniella,Danny & Witney / Dwight & Daniella / Phaedra & Val / Stephen & Rylee,Freestyle (Team Roar),Safe
+33,5,10,Chandler & Brandon,Ilona & Alan,Chandler & Brandon / Ilona & Alan / Jenn & Sasha / Joey & Jenna,Freestyle (Team Goofs),Safe
+33,6,1,Ilona & Alan,,Ilona & Alan,Tango,Safe
+33,6,2,Dwight & Daniella,,Dwight & Daniella,Contemporary,Safe
+33,6,3,Danny & Witney,,Danny & Witney,Argentine tango,Safe
+33,6,4,Jenn & Sasha,,Jenn & Sasha,Contemporary,Eliminated
+33,6,5,Joey & Jenna,,Joey & Jenna,Argentine tango,Safe
+33,6,6,Stephen & Rylee,,Stephen & Rylee,Contemporary,Safe
+33,6,7,Chandler & Brandon,,Chandler & Brandon,Viennese waltz,Safe
+33,6,1,Dwight & Daniella,,Dwight & Daniella,Cha-cha-cha,Winners
+33,6,2,Ilona & Alan,,Ilona & Alan,Losers,Winners
+33,6,3,Jenn & Sasha,,Jenn & Sasha,Salsa,Winners
+33,6,4,Stephen & Rylee,,Stephen & Rylee,Losers,Winners
+33,6,5,Joey & Jenna,,Joey & Jenna,Jive,Winners
+33,6,6,Danny & Witney,,Danny & Witney,Losers,Winners
+33,7,1,Joey & Jenna,,Joey & Jenna,Contemporary,Safe
+33,7,1,Joey & Jenna,,Joey & Jenna,–,Safe
+33,7,2,Danny & Witney,,Danny & Witney,Quickstep,Safe
+33,7,2,Danny & Witney,,Danny & Witney,–,Safe
+33,7,3,Dwight & Daniella,,Dwight & Daniella,Argentine tango,Eliminated
+33,7,3,Dwight & Daniella,,Dwight & Daniella,–,Eliminated
+33,7,4,Stephen & Rylee,,Stephen & Rylee,Viennese waltz,Safe
+33,7,4,Stephen & Rylee,,Stephen & Rylee,–,Safe
+33,7,5,Chandler & Brandon,,Chandler & Brandon,Argentine tango,Safe
+33,7,5,Chandler & Brandon,,Chandler & Brandon,–,Safe
+33,7,6,Ilona & Alan,,Ilona & Alan,Quickstep,Safe
+33,7,6,Ilona & Alan,,Ilona & Alan,–,Safe
+33,8,1,Chandler & Brandon,,Chandler & Brandon,Salsa,
+33,8,1,Chandler & Brandon,,Chandler & Brandon,,
+33,8,2,Joey & Jenna,,Joey & Jenna,Foxtrot,
+33,8,2,Joey & Jenna,,Joey & Jenna,,
+33,8,3,Ilona & Alan,,Ilona & Alan,Paso doble,
+33,8,3,Ilona & Alan,,Ilona & Alan,,
+33,8,4,Danny & Witney,,Danny & Witney,Viennese waltz,
+33,8,4,Danny & Witney,,Danny & Witney,,
+33,8,5,Stephen & Rylee,,Stephen & Rylee,Cha-cha-cha,
+33,8,5,Stephen & Rylee,,Stephen & Rylee,,
+33,9,1,Stephen & Rylee,,Stephen & Rylee,Quickstep,Fourth Place
+33,9,1,Stephen & Rylee,,Stephen & Rylee,,Fourth Place
+33,9,2,Joey & Jenna,,Joey & Jenna,Cha-cha-cha,Winners
+33,9,2,Joey & Jenna,,Joey & Jenna,,Winners
+33,9,3,Danny & Witney,,Danny & Witney,Tango,Fifth Place
+33,9,3,Danny & Witney,,Danny & Witney,,Fifth Place
+33,9,4,Ilona & Alan,,Ilona & Alan,Jive,Runners-Up
+33,9,4,Ilona & Alan,,Ilona & Alan,,Runners-Up
+33,9,5,Chandler & Brandon,,Chandler & Brandon,Jive,Third Place
+33,9,5,Chandler & Brandon,,Chandler & Brandon,,Third Place
+34,1,1,Jordan & Ezra,,Jordan & Ezra,Salsa,
+34,1,2,Dylan & Daniella,,Dylan & Daniella,Cha-cha-cha,
+34,1,3,Elaine & Alan,,Elaine & Alan,Cha-cha-cha,
+34,1,4,Whitney & Mark,,Whitney & Mark,Tango,
+34,1,5,Baron & Britt,,Baron & Britt,Cha-cha-cha,
+34,1,6,Alix & Val,,Alix & Val,Cha-cha-cha,
+34,1,7,Scott & Rylee,,Scott & Rylee,Tango,
+34,1,8,Danielle & Pasha,,Danielle & Pasha,Tango,
+34,1,9,Jen & Jan,,Jen & Jan,Salsa,
+34,1,10,Corey & Jenna,,Corey & Jenna,Tango,
+34,1,11,Lauren & Brandon,,Lauren & Brandon,Tango,
+34,1,12,Andy & Emma,,Andy & Emma,Cha-cha-cha,
+34,1,13,Hilaria & Gleb,,Hilaria & Gleb,Cha-cha-cha,
+34,1,14,Robert & Witney,,Robert & Witney,Jive,
+34,2,1,Alix & Val,,Alix & Val,Jive,Safe
+34,2,2,Danielle & Pasha,,Danielle & Pasha,Cha-cha-cha,Safe
+34,2,3,Andy & Emma,,Andy & Emma,Tango,Safe
+34,2,4,Lauren & Brandon,,Lauren & Brandon,Foxtrot,Safe
+34,2,5,Jordan & Ezra,,Jordan & Ezra,Jive,Safe
+34,2,6,Corey & Jenna,,Corey & Jenna,Cha-cha-cha,Eliminated
+34,2,7,Jen & Jan,,Jen & Jan,Quickstep,Safe
+34,2,8,Robert & Witney,,Robert & Witney,Tango,Safe
+34,2,9,Elaine & Alan,,Elaine & Alan,Jive,Safe
+34,2,10,Baron & Britt,,Baron & Britt,Samba,Eliminated
+34,2,11,Whitney & Mark,,Whitney & Mark,Cha-cha-cha,Safe
+34,2,12,Hilaria & Gleb,,Hilaria & Gleb,Tango,Safe
+34,2,13,Dylan & Daniella,,Dylan & Daniella,Samba,Safe
+34,2,14,Scott & Rylee,,Scott & Rylee,Cha-cha-cha,Safe
+34,3,1,Jen & Jan,,Jen & Jan,Cha-cha-cha,Safe
+34,3,2,Lauren & Brandon,,Lauren & Brandon,Cha-cha-cha,Eliminated
+34,3,3,Danielle & Pasha,,Danielle & Pasha,Foxtrot,Safe
+34,3,4,Jordan & Ezra,,Jordan & Ezra,Tango,Safe
+34,3,5,Dylan & Daniella,,Dylan & Daniella,Foxtrot,Safe
+34,3,6,Elaine & Alan,,Elaine & Alan,Tango,Safe
+34,3,7,Whitney & Mark,,Whitney & Mark,Samba,Safe
+34,3,8,Scott & Rylee,,Scott & Rylee,Jazz,Safe
+34,3,9,Hilaria & Gleb,,Hilaria & Gleb,Samba,Safe
+34,3,10,Andy & Emma,,Andy & Emma,Foxtrot,Safe
+34,3,11,Robert & Witney,,Robert & Witney,Salsa,Safe
+34,3,12,Alix & Val,,Alix & Val,Quickstep,Safe
+34,4,1,Dylan & Daniella,,Dylan & Daniella,Quickstep,Safe
+34,4,2,Danielle & Pasha,,Danielle & Pasha,Quickstep,Safe
+34,4,3,Scott & Rylee,,Scott & Rylee,Salsa,Safe
+34,4,4,Alix & Val,,Alix & Val,Viennese waltz,Safe
+34,4,5,Hilaria & Gleb,,Hilaria & Gleb,Quickstep,Eliminated
+34,4,6,Andy & Emma,,Andy & Emma,Viennese waltz,Safe
+34,4,7,Robert & Witney,,Robert & Witney,Cha-cha-cha,Safe
+34,4,8,Elaine & Alan,,Elaine & Alan,Quickstep,Safe
+34,4,9,Whitney & Mark,,Whitney & Mark,Foxtrot,Safe
+34,4,10,Jordan & Ezra,,Jordan & Ezra,Quickstep,Safe
+34,4,11,Jen & Jan,,Jen & Jan,Jazz,Safe
+34,5,1,Andy & Emma,,Andy & Emma,Salsa,
+34,5,2,Robert & Witney,,Robert & Witney,Contemporary,
+34,5,3,Elaine & Alan,,Elaine & Alan,Foxtrot,
+34,5,4,Whitney & Mark,,Whitney & Mark,Contemporary,
+34,5,5,Jen & Jan,,Jen & Jan,Viennese waltz,
+34,5,6,Dylan & Daniella,,Dylan & Daniella,Contemporary,
+34,5,7,Jordan & Ezra,,Jordan & Ezra,Viennese waltz,
+34,5,8,Scott & Rylee,,Scott & Rylee,Foxtrot,
+34,5,9,Danielle & Pasha,,Danielle & Pasha,Jive,
+34,5,10,Alix & Val,,Alix & Val,Contemporary,
+34,6,1,Scott & Rylee,,Scott & Rylee,Contemporary,Eliminated
+34,6,2,Alix & Val,,Alix & Val,Jazz,Safe
+34,6,3,Robert & Witney,,Robert & Witney,Jazz,Safe
+34,6,4,Whitney & Mark,,Whitney & Mark,Quickstep,Safe
+34,6,5,Dylan & Daniella,,Dylan & Daniella,Rumba,Safe
+34,6,6,Andy & Emma,,Andy & Emma,Jazz,Safe
+34,6,7,Elaine & Alan,,Elaine & Alan,Contemporary,Safe
+34,6,8,Jen & Jan,,Jen & Jan,Foxtrot,Safe
+34,6,9,Danielle & Pasha,,Danielle & Pasha,Argentine tango,Safe
+34,6,10,Jordan & Ezra,,Jordan & Ezra,Rumba,Safe
+34,7,1,Whitney & Mark,,Whitney & Mark,Jazz,Safe
+34,7,2,Jordan & Ezra,,Jordan & Ezra,Contemporary,Safe
+34,7,3,Andy & Emma,,Andy & Emma,Paso doble,Safe
+34,7,4,Elaine & Alan,,Elaine & Alan,Argentine tango,Safe
+34,7,5,Danielle & Pasha,,Danielle & Pasha,Viennese waltz,Safe
+34,7,6,Robert & Witney,,Robert & Witney,Argentine tango,Safe
+34,7,7,Jen & Jan,,Jen & Jan,Contemporary,Eliminated
+34,7,8,Alix & Val,,Alix & Val,Tango,Safe
+34,7,9,Dylan & Daniella,,Dylan & Daniella,Viennese waltz,Safe
+34,7,10,Elaine & Alan,,Elaine & Alan,Hustle & Lindy Hop Marathon,Safe
+34,7,11,Andy & Emma,,Andy & Emma,,Safe
+34,7,12,Jen & Jan,,Jen & Jan,,Safe
+34,7,13,Danielle & Pasha,,Danielle & Pasha,,Safe
+34,7,14,Dylan & Daniella,,Dylan & Daniella,,Safe
+34,7,15,Robert & Witney,,Robert & Witney,,Safe
+34,7,16,Jordan & Ezra,,Jordan & Ezra,,Safe
+34,7,17,Alix & Val,,Alix & Val,,Safe
+34,7,18,Whitney & Mark,,Whitney & Mark,,Safe
+34,8,1,Dylan & Daniella,,Dylan & Daniella,Jive,Safe
+34,8,2,Alix & Val,,Alix & Val,Paso doble,Safe
+34,8,3,Andy & Emma,,Andy & Emma,Contemporary,Safe
+34,8,4,Whitney & Mark,,Whitney & Mark,Paso doble,Safe
+34,8,5,Danielle & Pasha,,Danielle & Pasha,Contemporary,Eliminated
+34,8,6,Elaine & Alan,,Elaine & Alan,Viennese waltz,Safe
+34,8,7,Jordan & Ezra,,Jordan & Ezra,Jazz,Safe
+34,8,8,Robert & Witney,,Robert & Witney,Paso doble,Safe
+34,8,9,Alfonso Ribeiro,Danielle & Pasha,Alfonso Ribeiro / Danielle & Pasha / Whitney & Mark / Jordan & Ezra / Dylan & Daniella,Freestyle (Team Chicago),Safe
+34,8,10,Julianne Hough,Andy & Emma,Julianne Hough / Andy & Emma / Robert & Witney / Alix & Val / Elaine & Alan,Freestyle (Team Kool),Safe
+34,9,1,Elaine & Alan,,Elaine & Alan,Salsa,Safe
+34,9,2,Robert & Witney,,Robert & Witney,Foxtrot,Safe
+34,9,3,Andy & Emma,,Andy & Emma,Quickstep,Eliminated
+34,9,4,Dylan & Daniella,,Dylan & Daniella,Argentine tango,Safe
+34,9,5,Jordan & Ezra,,Jordan & Ezra,Cha-cha-cha,Safe
+34,9,6,Alix & Val,,Alix & Val,Foxtrot,Safe
+34,9,7,Whitney & Mark,,Whitney & Mark,Argentine tango,Safe
+34,9,1,Jordan &,Apolo Anton Ohno,Jordan & / Apolo Anton Ohno / ( / Season 4 winner / ),Quickstep Relay,Winners
+34,9,2,Elaine &,Rashad Jennings,Elaine & / Rashad Jennings / ( / Season 24 winner / ),Losers,Winners
+34,9,3,Dylan &,Rumer Willis,Dylan & / Rumer Willis / ( / Season 20 winner / ),Viennese waltz Relay,Winners
+34,9,4,Andy &,Kaitlyn Bristowe,Andy & / Kaitlyn Bristowe / ( / Season 29 winner / ),Losers,Winners
+34,9,5,Robert &,Xochitl Gomez,Robert & / Xochitl Gomez / ( / Season 32 winner / ),Jive Relay,Winners
+34,9,6,Alix &,Joey Graziadei,Alix & / Joey Graziadei / ( / Season 33 winner / ),Losers,Winners
+34,10,1,Elaine & Alan,,Elaine & Alan,Foxtrot,Safe
+34,10,1,Elaine & Alan,,Elaine & Alan,,Safe
+34,10,2,Alix & Val,,Alix & Val,Argentine tango,Safe
+34,10,2,Alix & Val,,Alix & Val,,Safe
+34,10,3,Whitney & Mark,,Whitney & Mark,Cha-cha-cha,Eliminated
+34,10,3,Whitney & Mark,,Whitney & Mark,,Eliminated
+34,10,4,Dylan & Daniella,,Dylan & Daniella,Tango,Safe
+34,10,4,Dylan & Daniella,,Dylan & Daniella,,Safe
+34,10,5,Jordan & Ezra,,Jordan & Ezra,Jive,Safe
+34,10,5,Jordan & Ezra,,Jordan & Ezra,,Safe
+34,10,6,Robert & Witney,,Robert & Witney,Jive,Safe
+34,10,6,Robert & Witney,,Robert & Witney,,Safe
+34,11,1,Alix & Val,,Alix & Val,Samba,Runners-Up
+34,11,1,Alix & Val,,Alix & Val,,Runners-Up
+34,11,1,Alix & Val,,Alix & Val,,Runners-Up
+34,11,2,Dylan & Daniella,,Dylan & Daniella,Paso doble,Fourth Place
+34,11,2,Dylan & Daniella,,Dylan & Daniella,,Fourth Place
+34,11,2,Dylan & Daniella,,Dylan & Daniella,,Fourth Place
+34,11,3,Elaine & Alan,,Elaine & Alan,Rumba,Fifth Place
+34,11,3,Elaine & Alan,,Elaine & Alan,,Fifth Place
+34,11,3,Elaine & Alan,,Elaine & Alan,,Fifth Place
+34,11,4,Robert & Witney,,Robert & Witney,Quickstep,Winners
+34,11,4,Robert & Witney,,Robert & Witney,,Winners
+34,11,4,Robert & Witney,,Robert & Witney,,Winners
+34,11,5,Jordan & Ezra,,Jordan & Ezra,Paso doble,Third Place
+34,11,5,Jordan & Ezra,,Jordan & Ezra,,Third Place
+34,11,5,Jordan & Ezra,,Jordan & Ezra,,Third Place
