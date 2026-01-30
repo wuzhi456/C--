@@ -44,6 +44,13 @@ def _parse_couple(cell):
     return "", "", ""
 
 
+def _looks_like_score(text):
+    if not text:
+        return False
+    cleaned = text.strip()
+    return bool(re.fullmatch(r'\d+(\.\d+)?\s*\([\d,\s.]+\)', cleaned))
+
+
 def _parse_bottom_two_status(cell, row):
     status_text = _clean_text(cell).lower() if cell else ""
     if status_text:
@@ -150,9 +157,16 @@ def scrape_dwts_weekly_details(season_num):
                     couple_cell = cols[couple_idx] if has_couple_cell else None
                     celebrity, partner, couple = _parse_couple(couple_cell) if has_couple_cell else ("", "", "")
                     if has_couple_cell and (celebrity or partner or couple):
-                        last_celebrity = celebrity
-                        last_partner = partner
-                        last_couple = couple
+                        if _looks_like_score(celebrity):
+                            if not last_couple:
+                                continue
+                            celebrity = ""
+                            partner = ""
+                            couple = ""
+                        else:
+                            last_celebrity = celebrity
+                            last_partner = partner
+                            last_couple = couple
 
                     order = ""
                     if order_idx != -1 and len(cols) > order_idx:
