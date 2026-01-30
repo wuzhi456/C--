@@ -3,40 +3,118 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import re
+from pathlib import Path
 
-def scrape_dwts_running_order(season_num):
+DEFAULT_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (MCM_Research_Bot; mailto:your_email@example.com)'
+}
+SEASON_URL_OVERRIDES = {
+    34: "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_34"
+}
+
+def _request_with_retry(url, headers=None, retries=3, timeout=30):
+    headers = headers or DEFAULT_HEADERS
+    response = None
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+        except requests.RequestException:
+            response = None
+        if response and response.status_code == 200:
+            return response
+        if response and response.status_code not in {429, 500, 502, 503, 504}:
+            return response
+        time.sleep(2 ** attempt)
+    return response
+
+def _clean_text(cell):
+    text = cell.get_text(" ", strip=True) if cell else ""
+    return re.sub(r'\[.*?\]', '', text).strip()
+
+
+def _parse_couple(cell):
+    if cell is None:
+        return "", "", ""
+    parts = [re.sub(r'\[.*?\]', '', text).strip() for text in cell.stripped_strings]
+    parts = [p for p in parts if p]
+    if len(parts) >= 2:
+        return parts[0], parts[1], " / ".join(parts)
+    if parts:
+        return parts[0], "", parts[0]
+    return "", "", ""
+
+
+def _looks_like_score(text):
+    if not text:
+        return False
+    cleaned = text.strip()
+    return bool(re.fullmatch(r'\d+(\.\d+)?\s*\([\d,\s.]+\)', cleaned))
+
+
+def _parse_bottom_two_status(cell, row):
+    status_text = _clean_text(cell).lower() if cell else ""
+    if status_text:
+        if "eliminated" in status_text or "elimination" in status_text:
+            return "Eliminated"
+        if "withdrew" in status_text or "withdrawn" in status_text or "quit" in status_text:
+            return "Withdrew"
+        if "disqualified" in status_text:
+            return "Disqualified"
+        if "bottom" in status_text or "btm" in status_text:
+            return "Bottom Three" if "three" in status_text or "3" in status_text else "Bottom Two"
+        if "low" in status_text or "danger" in status_text:
+            return "Bottom Two"
+        if "safe" in status_text or "saved" in status_text:
+            return "Safe"
+        return status_text.title()
+
+    classes = set((cell.get("class") or [])) if cell else set()
+    row_classes = set((row.get("class") or []))
+    combined = classes.union(row_classes)
+    if any("bottom2" in c or "btm2" in c for c in combined):
+        return "Bottom Two"
+    if any("bottom3" in c or "btm3" in c for c in combined):
+        return "Bottom Three"
+    if any("elim" in c or "eliminated" in c for c in combined):
+        return "Eliminated"
+    return ""
+
+
+def scrape_dwts_weekly_details(season_num):
     """
-    抓取指定赛季维基百科页面中的出场顺序数据
+    抓取指定赛季维基百科页面中的周次信息：
+    Running_Order, Celebrity, Ballroom_Partner, Couple, Dance_Style, Weekly_Bottom_Two_Status
     """
-    url = f"https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_{season_num})"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (MCM_Research_Bot; mailto:your_email@example.com)'
-    }
-    
+    url = SEASON_URL_OVERRIDES.get(
+        season_num,
+        f"https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_{season_num})"
+    )
+
     try:
-        response = requests.get(url, headers=headers)
-        if response.status_code != 200:
+        response = _request_with_retry(url)
+        if not response or response.status_code != 200:
             print(f"Season {season_num} 页面请求失败")
             return None
-        
+
         soup = BeautifulSoup(response.text, 'html.parser')
-        
+
         # 寻找“Weekly scores and songs”或类似的标题
         all_data = []
-        
+
         # 维基百科的周次数据通常存储在具有 'wikitable' 类的表格中
         # 我们寻找包含 "Order" 或 "Running order" 列头的表格
         tables = soup.find_all('table', {'class': 'wikitable'})
-        
+
         current_week = 0
         for table in tables:
             rows = table.find_all('tr')
-            header_text = table.find_previous(['h2', 'h3']).text.lower()
-            
+            heading = table.find_previous(['h2', 'h3'])
+            header_text = heading.text.lower() if heading else ""
+
             # 过滤掉非周次评分表的表格
             if 'week' not in header_text and 'scores' not in header_text:
                 continue
-            
+
             # 提取周次（例如从 "Week 1: Spring 2024" 中提取 1）
             week_match = re.search(r'week\s+(\d+)', header_text)
             if week_match:
@@ -45,50 +123,133 @@ def scrape_dwts_running_order(season_num):
                 # 如果 h3 没写，可能是连续的表格，累加周次
                 current_week += 1
 
-            headers = [th.text.strip() for th in rows[0].find_all(['th', 'td'])]
-            
-            # 寻找出场顺序（Order）和选手名（Couple/Contestant）所在的列索引
+            header_cells = rows[0].find_all(['th', 'td']) if rows else []
+            headers = [cell.get_text(strip=True) for cell in header_cells]
+
+            # 寻找出场顺序（Order）、选手名、舞蹈种类与结果列索引
             order_idx = -1
             couple_idx = -1
+            dance_idx = -1
+            result_idx = -1
             for idx, h in enumerate(headers):
-                if 'order' in h.lower(): order_idx = idx
-                if 'couple' in h.lower() or 'pair' in h.lower(): couple_idx = idx
-            
-            if order_idx != -1 and couple_idx != -1:
+                lower_h = h.lower()
+                if 'order' in lower_h:
+                    order_idx = idx
+                if 'couple' in lower_h or 'pair' in lower_h or 'contestant' in lower_h:
+                    couple_idx = idx
+                if 'dance' in lower_h or 'style' in lower_h:
+                    dance_idx = idx
+                if 'result' in lower_h or 'status' in lower_h:
+                    result_idx = idx
+
+            if couple_idx != -1:
+                running_order = 0
+                last_order = ""
+                last_celebrity = ""
+                last_partner = ""
+                last_couple = ""
+                last_status = ""
                 for row in rows[1:]:
+                    prev_couple = last_couple
                     cols = row.find_all(['td', 'th'])
-                    if len(cols) > max(order_idx, couple_idx):
-                        order = cols[order_idx].text.strip()
-                        couple = cols[couple_idx].text.strip()
-                        # 去除 Couple 名字中的引用标志如 [1] 或注释
-                        couple = re.sub(r'\[.*\]', '', couple).strip()
-                        
-                        all_data.append({
-                            'Season': season_num,
-                            'Week': current_week,
-                            'Running_Order': order,
-                            'Couple': couple
-                        })
-        
+                    if not cols:
+                        continue
+                    has_couple_cell = len(cols) > couple_idx
+                    couple_cell = cols[couple_idx] if has_couple_cell else None
+                    celebrity, partner, couple = _parse_couple(couple_cell) if has_couple_cell else ("", "", "")
+                    shifted = False
+                    if has_couple_cell and (celebrity or partner or couple):
+                        if _looks_like_score(celebrity):
+                            if not last_couple:
+                                continue
+                            shifted = True
+                            celebrity = ""
+                            partner = ""
+                            couple = ""
+                        else:
+                            last_celebrity = celebrity
+                            last_partner = partner
+                            last_couple = couple
+
+                    order = ""
+                    if order_idx != -1 and len(cols) > order_idx:
+                        order = _clean_text(cols[order_idx])
+                    if not order or order.lower() in {"order", "running order"}:
+                        if order_idx == -1:
+                            if has_couple_cell and (celebrity or partner or couple):
+                                if prev_couple and couple == prev_couple and last_order:
+                                    order = last_order
+                                else:
+                                    running_order += 1
+                                    order = str(running_order)
+                            else:
+                                order = last_order
+                        else:
+                            order = last_order
+                    if order:
+                        last_order = order
+
+                    if not (last_celebrity or last_couple) or not order:
+                        continue
+
+                    dance_idx_effective = dance_idx + 1 if shifted and dance_idx != -1 else dance_idx
+                    result_idx_effective = result_idx + 1 if shifted and result_idx != -1 else result_idx
+                    dance_style = _clean_text(cols[dance_idx_effective]) if dance_idx_effective != -1 and len(cols) > dance_idx_effective else ""
+                    if dance_style.lower() in {"group", "no scores received", "no score received"}:
+                        continue
+                    result_cell = cols[result_idx_effective] if result_idx_effective != -1 and len(cols) > result_idx_effective else None
+                    bottom_status = _parse_bottom_two_status(result_cell, row)
+                    if not bottom_status and last_status:
+                        bottom_status = last_status
+                    if bottom_status:
+                        last_status = bottom_status
+
+                    all_data.append({
+                        'Season': season_num,
+                        'Week': current_week,
+                        'Running_Order': order,
+                        'Celebrity': last_celebrity,
+                        'Ballroom_Partner': last_partner,
+                        'Couple': last_couple,
+                        'Dance_Style': dance_style,
+                        'Weekly_Bottom_Two_Status': bottom_status
+                    })
+
+        if not all_data:
+            print(f"Season {season_num} 未找到包含出场顺序的周次表格。")
         return all_data
 
     except Exception as e:
         print(f"解析 Season {season_num} 时出错: {e}")
         return None
 
-# --- 执行批量抓取 ---
-all_seasons_order = []
-# 建议先跑一个赛季测试，比如题目重点提到的 Season 27
-target_seasons = [2, 4, 11, 27, 28, 31, 32, 33, 34] 
+def _load_target_seasons(data_path):
+    if not data_path.exists():
+        return [2, 4, 11, 27, 28, 31, 32, 33, 34]
+    try:
+        df = pd.read_csv(data_path)
+        seasons = pd.to_numeric(df['season'], errors='coerce').dropna().astype(int).unique()
+        return sorted(seasons.tolist())
+    except Exception as exc:
+        print(f"读取赛季列表失败，使用默认赛季：{exc}")
+        return [2, 4, 11, 27, 28, 31, 32, 33, 34]
 
-for s in target_seasons:
-    print(f"正在抓取 Season {s} 的出场顺序...")
-    data = scrape_dwts_running_order(s)
-    if data:
-        all_seasons_order.extend(data)
-    time.sleep(2) # 礼貌抓取
 
-# 转换为 DataFrame 并导出
-df_order = pd.DataFrame(all_seasons_order)
-df_order.to_csv("dwts_running_order.csv", index=False)
-print("✅ 数据已保存至 dwts_running_order.csv")
+if __name__ == "__main__":
+    # --- 执行批量抓取 ---
+    repo_root = Path(__file__).resolve().parent
+    data_path = repo_root / "2026_MCM_Problem_C_Data.csv"
+    all_seasons_order = []
+    target_seasons = _load_target_seasons(data_path)
+
+    for s in target_seasons:
+        print(f"正在抓取 Season {s} 的周次明细...")
+        data = scrape_dwts_weekly_details(s)
+        if data:
+            all_seasons_order.extend(data)
+        time.sleep(2)  # 礼貌抓取
+
+    # 转换为 DataFrame 并导出
+    df_order = pd.DataFrame(all_seasons_order)
+    df_order.to_csv("dwts_weekly_details.csv", index=False)
+    print("✅ 数据已保存至 dwts_weekly_details.csv")
