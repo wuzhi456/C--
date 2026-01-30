@@ -425,6 +425,16 @@ if __name__ == "__main__":
         default="dwts_weekly_details_enriched.csv",
         help="清洗后的周次明细输出路径",
     )
+    parser.add_argument(
+        "--trends-file",
+        default="dwts_historical_trends.csv",
+        help="Google Trends 输出路径",
+    )
+    parser.add_argument(
+        "--heat-output",
+        default="dwts_heat_adjusted.csv",
+        help="热度拆分输出路径",
+    )
     args = parser.parse_args()
 
     if args.mode in {"trends", "all"}:
@@ -432,6 +442,6 @@ if __name__ == "__main__":
     if args.mode in {"social", "all"}:
         fetch_social_followers(ALL_STARS)
     if args.mode in {"heat", "all"}:
-        adjust_heat_with_negative_news()
+        adjust_heat_with_negative_news(args.trends_file, args.heat_output)
     if args.mode in {"order", "all"}:
         add_running_order_and_dance_style(args.order_file, args.order_output)
