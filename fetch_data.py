@@ -234,6 +234,14 @@ def _fetch_wikipedia_html(title):
     return data.get("parse", {}).get("text", {}).get("*", "")
 
 
+def _match_domain(url, domain):
+    parsed = urlparse(url)
+    host = parsed.netloc.lower()
+    if not host:
+        return False
+    return host == domain or host.endswith(f".{domain}")
+
+
 def _extract_social_links(html):
     soup = BeautifulSoup(html, "html.parser")
     infobox = soup.find("table", class_=lambda x: x and "infobox" in x)
@@ -242,15 +250,15 @@ def _extract_social_links(html):
     links = {}
     for link in infobox.find_all("a", href=True):
         href = link["href"]
-        if "instagram.com" in href:
+        if _match_domain(href, "instagram.com"):
             links.setdefault("instagram", href)
-        elif "twitter.com" in href or "x.com" in href:
+        elif _match_domain(href, "twitter.com") or _match_domain(href, "x.com"):
             links.setdefault("twitter", href)
-        elif "tiktok.com" in href:
+        elif _match_domain(href, "tiktok.com"):
             links.setdefault("tiktok", href)
-        elif "youtube.com" in href or "youtu.be" in href:
+        elif _match_domain(href, "youtube.com") or _match_domain(href, "youtu.be"):
             links.setdefault("youtube", href)
-        elif "facebook.com" in href:
+        elif _match_domain(href, "facebook.com"):
             links.setdefault("facebook", href)
     return links
 
