@@ -11,6 +11,8 @@ def _clean_text(cell):
 
 
 def _parse_couple(cell):
+    if cell is None:
+        return "", "", ""
     parts = [re.sub(r'\[.*?\]', '', text).strip() for text in cell.stripped_strings]
     parts = [p for p in parts if p]
     if len(parts) >= 2:
@@ -51,7 +53,8 @@ def _parse_bottom_two_status(cell, row):
 
 def scrape_dwts_weekly_details(season_num):
     """
-    抓取指定赛季维基百科页面中的出场顺序、舞蹈种类与濒死状态
+    抓取指定赛季维基百科页面中的周次信息：
+    Running_Order, Celebrity, Ballroom_Partner, Couple, Dance_Style, Weekly_Bottom_Two_Status
     """
     url = f"https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_{season_num})"
     headers = {
@@ -134,6 +137,8 @@ def scrape_dwts_weekly_details(season_num):
                         'Weekly_Bottom_Two_Status': bottom_status
                     })
 
+        if not all_data:
+            print(f"Season {season_num} 未找到包含出场顺序的周次表格。")
         return all_data
 
     except Exception as e:
@@ -143,9 +148,13 @@ def scrape_dwts_weekly_details(season_num):
 def _load_target_seasons(data_path):
     if not data_path.exists():
         return [2, 4, 11, 27, 28, 31, 32, 33, 34]
-    df = pd.read_csv(data_path)
-    seasons = pd.to_numeric(df['season'], errors='coerce').dropna().astype(int).unique()
-    return sorted(seasons.tolist())
+    try:
+        df = pd.read_csv(data_path)
+        seasons = pd.to_numeric(df['season'], errors='coerce').dropna().astype(int).unique()
+        return sorted(seasons.tolist())
+    except Exception as exc:
+        print(f"读取赛季列表失败，使用默认赛季：{exc}")
+        return [2, 4, 11, 27, 28, 31, 32, 33, 34]
 
 
 if __name__ == "__main__":

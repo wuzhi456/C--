@@ -10,6 +10,12 @@ from bs4 import BeautifulSoup
 import re
 from pytrends.request import TrendReq
 
+# 请求头，避免被服务屏蔽
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (MCM_Research_Bot; mailto:your_email@example.com)"
+}
+RETRY_STATUS_CODES = {429, 500, 502, 503, 504}
+
 # 1. 完整明星名单整理 (去重处理)
 raw_list = [
     "John O'Hurley", "Kelly Monaco", "Evander Holyfield", "Rachel Hunter", "Joey McIntyre", "Trista Sutter", 
@@ -84,11 +90,16 @@ raw_list = [
 # 明星去重
 def load_all_stars(data_path: Path):
     if data_path.exists():
-        df = pd.read_csv(data_path)
-        names = df.get("celebrity_name", pd.Series(dtype=str)).dropna().astype(str)
-        unique_names = sorted(set(name.strip() for name in names if name.strip()))
-        if unique_names:
-            return unique_names
+        try:
+            df = pd.read_csv(data_path)
+            names = df.get("celebrity_name", pd.Series(dtype=str)).dropna().astype(str)
+            unique_names = sorted(set(name.strip() for name in names if name.strip()))
+            if unique_names:
+                return unique_names
+        except Exception as exc:
+            print(f"读取 {data_path} 失败，使用默认名单：{exc}")
+    else:
+        print(f"未找到 {data_path}，使用默认名单。")
     return sorted(list(set(raw_list)))
 
 
@@ -144,6 +155,22 @@ def fetch_all_trends(star_list, output_file="dwts_historical_trends.csv"):
     print(f"✅ 完成！数据已保存至 {output_file}")
 
 
+def _request_with_retry(url, params=None, headers=None, retries=3, timeout=20):
+    headers = headers or DEFAULT_HEADERS
+    response = None
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=timeout)
+        except requests.RequestException:
+            response = None
+        if response and response.status_code == 200:
+            return response
+        if response and response.status_code not in RETRY_STATUS_CODES:
+            return response
+        time.sleep(2 ** attempt)
+    return response
+
+
 def _parse_abbrev_number(value):
     if value is None:
         return None
@@ -183,8 +210,9 @@ def _find_wikipedia_title(name):
         "srsearch": name,
         "format": "json",
     }
-    response = requests.get("https://en.wikipedia.org/w/api.php", params=params, timeout=20)
-    response.raise_for_status()
+    response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
+    if not response or response.status_code != 200:
+        return ""
     data = response.json()
     results = data.get("query", {}).get("search", [])
     if not results:
@@ -199,8 +227,9 @@ def _fetch_wikipedia_html(title):
         "prop": "text",
         "format": "json",
     }
-    response = requests.get("https://en.wikipedia.org/w/api.php", params=params, timeout=20)
-    response.raise_for_status()
+    response = _request_with_retry("https://en.wikipedia.org/w/api.php", params=params)
+    if not response or response.status_code != 200:
+        return ""
     data = response.json()
     return data.get("parse", {}).get("text", {}).get("*", "")
 
@@ -230,10 +259,13 @@ def _fetch_instagram_followers(handle):
     if not handle:
         return None
     url = f"https://www.instagram.com/{handle}/?__a=1&__d=dis"
-    response = requests.get(url, timeout=20)
-    if response.status_code != 200:
+    response = _request_with_retry(url)
+    if not response or response.status_code != 200:
         return None
-    data = response.json()
+    try:
+        data = response.json()
+    except ValueError:
+        return None
     count = (
         data.get("graphql", {})
         .get("user", {})
@@ -247,8 +279,8 @@ def _fetch_twitter_followers(handle):
     if not handle:
         return None
     url = "https://cdn.syndication.twimg.com/widgets/followbutton/info.json"
-    response = requests.get(url, params={"screen_names": handle}, timeout=20)
-    if response.status_code != 200:
+    response = _request_with_retry(url, params={"screen_names": handle})
+    if not response or response.status_code != 200:
         return None
     data = response.json()
     if not data:
@@ -260,8 +292,8 @@ def _fetch_tiktok_followers(handle):
     if not handle:
         return None
     url = f"https://www.tiktok.com/@{handle}"
-    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
-    if response.status_code != 200:
+    response = _request_with_retry(url)
+    if not response or response.status_code != 200:
         return None
     match = re.search(r'"followerCount":(\d+)', response.text)
     if not match:
@@ -272,8 +304,8 @@ def _fetch_tiktok_followers(handle):
 def _fetch_youtube_followers(url):
     if not url:
         return None
-    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
-    if response.status_code != 200:
+    response = _request_with_retry(url)
+    if not response or response.status_code != 200:
         return None
     match = re.search(
         r'"subscriberCountText":\{"simpleText":"([^"]+)"', response.text
@@ -295,6 +327,11 @@ def _parse_dance_style(raw_text):
 def fetch_social_followers(star_list, output_file="dwts_social_followers.csv"):
     """
     抓取维基百科外链中的社交媒体账号，并提取粉丝量。
+    输出字段包含：
+    - celebrity_name, wikipedia_title
+    - instagram_handle, twitter_handle, tiktok_handle, youtube_url, facebook_url
+    - instagram_followers, twitter_followers, tiktok_followers, youtube_subscribers
+    注意：社交媒体粉丝量为公开页面抓取结果，接口可能限制或失效，返回空值不代表为零。
     """
     results = []
     for name in star_list:
@@ -340,7 +377,15 @@ def add_running_order_and_dance_style(
     """
     补充舞蹈种类字段清洗，统一输出列名。
     """
-    df = pd.read_csv(order_file)
+    order_path = Path(order_file)
+    if not order_path.exists():
+        print(f"未找到周次明细文件：{order_file}")
+        return
+    try:
+        df = pd.read_csv(order_path)
+    except Exception as exc:
+        print(f"读取周次明细失败：{exc}")
+        return
     if "Dance_Style" in df.columns:
         df["Dance_Style"] = df["Dance_Style"].apply(_parse_dance_style)
     df.to_csv(output_file, index=False)
@@ -348,30 +393,52 @@ def add_running_order_and_dance_style(
 
 
 def _format_gdelt_datetime(dt_value):
+    if not hasattr(dt_value, "strftime"):
+        raise ValueError("start_dt/end_dt must be datetime-like values")
     return dt_value.strftime("%Y%m%d%H%M%S")
 
 
 def fetch_negative_news_ratio(name, start_dt, end_dt, max_records=250):
     """
-    使用 GDELT 2.1 获取指定时间段负面新闻占比，用于衡量“黑红”热度。
+    使用 GDELT 2.1 获取指定时间段负面新闻占比，返回 tone < 0 的文章比例。
     """
-    params = {
-        "query": f'"{name}"',
-        "format": "json",
-        "mode": "ArtList",
-        "maxrecords": max_records,
-        "sort": "DateDesc",
-        "startdatetime": _format_gdelt_datetime(start_dt),
-        "enddatetime": _format_gdelt_datetime(end_dt),
-    }
-    response = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=params, timeout=20)
-    response.raise_for_status()
-    data = response.json()
-    articles = data.get("articles", [])
+    try:
+        params = {
+            "query": f'"{name}"',
+            "format": "json",
+            "mode": "ArtList",
+            "maxrecords": max_records,
+            "sort": "DateDesc",
+            "startdatetime": _format_gdelt_datetime(start_dt),
+            "enddatetime": _format_gdelt_datetime(end_dt),
+        }
+    except ValueError as exc:
+        print(f"GDELT 时间格式错误：{exc}")
+        return 0.0
+    response = _request_with_retry("https://api.gdeltproject.org/api/v2/doc/doc", params=params)
+    if not response or response.status_code != 200:
+        return 0.0
+    try:
+        data = response.json()
+    except ValueError:
+        return 0.0
+    articles = data.get("articles") or []
     if not articles:
         return 0.0
-    negative = sum(1 for article in articles if float(article.get("tone", 0)) < 0)
-    return negative / len(articles)
+    negative = 0
+    total = 0
+    for article in articles:
+        tone_value = article.get("tone")
+        try:
+            tone = float(tone_value)
+        except (TypeError, ValueError):
+            continue
+        total += 1
+        if tone < 0:
+            negative += 1
+    if total == 0:
+        return 0.0
+    return negative / total
 
 
 def adjust_heat_with_negative_news(
@@ -381,8 +448,16 @@ def adjust_heat_with_negative_news(
 ):
     """
     结合 Google Trends 与 GDELT 负面新闻比例拆分热度。
+    performance_heat = search_index * (1 - negative_news_ratio)
+    black_red_heat = search_index * negative_news_ratio
     """
-    df = pd.read_csv(trends_path, parse_dates=["date"])
+    df = pd.read_csv(trends_path)
+    required_columns = {"date", "search_index", "celebrity_name"}
+    missing = required_columns - set(df.columns)
+    if missing:
+        raise ValueError(f"趋势数据缺少列：{', '.join(sorted(missing))}")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df = df.dropna(subset=["date"])
     df["search_index"] = pd.to_numeric(df["search_index"], errors="coerce")
     df = df.dropna(subset=["search_index"])
     df["period_key"] = df["date"].dt.to_period(granularity).astype(str)
