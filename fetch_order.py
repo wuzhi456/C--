@@ -5,6 +5,28 @@ import time
 import re
 from pathlib import Path
 
+DEFAULT_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (MCM_Research_Bot; mailto:your_email@example.com)'
+}
+SEASON_URL_OVERRIDES = {
+    34: "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_34"
+}
+
+def _request_with_retry(url, headers=None, retries=3, timeout=30):
+    headers = headers or DEFAULT_HEADERS
+    response = None
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+        except requests.RequestException:
+            response = None
+        if response and response.status_code == 200:
+            return response
+        if response and response.status_code not in {429, 500, 502, 503, 504}:
+            return response
+        time.sleep(2 ** attempt)
+    return response
+
 def _clean_text(cell):
     text = cell.get_text(" ", strip=True) if cell else ""
     return re.sub(r'\[.*?\]', '', text).strip()
@@ -56,14 +78,14 @@ def scrape_dwts_weekly_details(season_num):
     抓取指定赛季维基百科页面中的周次信息：
     Running_Order, Celebrity, Ballroom_Partner, Couple, Dance_Style, Weekly_Bottom_Two_Status
     """
-    url = f"https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_{season_num})"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (MCM_Research_Bot; mailto:your_email@example.com)'
-    }
+    url = SEASON_URL_OVERRIDES.get(
+        season_num,
+        f"https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_season_{season_num})"
+    )
 
     try:
-        response = requests.get(url, headers=headers, timeout=20)
-        if response.status_code != 200:
+        response = _request_with_retry(url)
+        if not response or response.status_code != 200:
             print(f"Season {season_num} 页面请求失败")
             return None
 
