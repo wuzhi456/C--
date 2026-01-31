@@ -534,14 +534,15 @@ def fetch_negative_news_ratio(name, start_dt, end_dt, max_records=250):
 
 def adjust_heat_with_negative_news(
     trends_path="dwts_historical_trends.csv",
-    output_file="dwts_heat_adjusted.csv",
+    output_file="dwts_historical_trends_adjusted.csv",
     granularity="M",
     cache_path="dwts_heat_cache.json",
     max_pairs=None,
     sleep_range=(1.0, 2.0),
 ):
     """
-    结合 Google Trends 与 GDELT 负面新闻比例拆分热度。
+    结合 Google Trends 与 GDELT 负面新闻比例修正趋势热度。
+    search_index_adjusted = search_index * (1 - negative_news_ratio)
     performance_heat = search_index * (1 - negative_news_ratio)
     black_red_heat = search_index * negative_news_ratio
     """
@@ -603,13 +604,15 @@ def adjust_heat_with_negative_news(
     missing_ratios = df["negative_news_ratio"].isna().sum()
     if missing_ratios:
         print(f"⚠️ 仍有 {missing_ratios} 条记录缺少负面新闻比例，可继续运行补全。")
-    df["performance_heat"] = df["search_index"] * (1 - df["negative_news_ratio"])
-    df["black_red_heat"] = df["search_index"] * df["negative_news_ratio"]
+    df["search_index_raw"] = df["search_index"]
+    df["search_index"] = df["search_index_raw"] * (1 - df["negative_news_ratio"])
+    df["performance_heat"] = df["search_index_raw"] * (1 - df["negative_news_ratio"])
+    df["black_red_heat"] = df["search_index_raw"] * df["negative_news_ratio"]
     df.to_csv(output_file, index=False)
     if interrupted:
         print(f"⚠️ 中断保存缓存与部分结果至 {output_file}")
         return
-    print(f"✅ 热度拆分结果已保存至 {output_file}")
+    print(f"✅ 修正后的趋势热度已保存至 {output_file}")
 
 # 3. 运行抓取
 if __name__ == "__main__":
@@ -637,8 +640,8 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--heat-output",
-        default="dwts_heat_adjusted.csv",
-        help="热度拆分输出路径",
+        default="dwts_historical_trends_adjusted.csv",
+        help="负面新闻修正后的趋势热度输出路径",
     )
     parser.add_argument(
         "--heat-cache",
